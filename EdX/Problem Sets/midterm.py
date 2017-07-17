@@ -4,15 +4,14 @@ Created on Sat Jul 15 17:51:26 2017
 
 @author: traghuram
 """
-
+#hi
 def is_triangular(k):
-    '''
-    s: the string to convert
-    Finds a version of s without vowels and whose characters appear in the 
-    same order they appear in s. Prints this version of s.
-    Does not return anything
-    '''
+    """
+    k, a positive integer
+    returns True if k is triangular and False if not
+    """
     
+    ''' - recursive form (doesn't work above k = 1000, exceeds recursion depth)
     triangleList = [1]
     
     def triangles(s = k):
@@ -23,11 +22,18 @@ def is_triangular(k):
     
     for i in range(k):
         triangleList.append(triangles(i+1))
+    '''
+    
+    triangleList = [] # closed form
+    
+    for i in range(k):
+        triangleList.append((i+1)*(i+2)/2)
 
     if k in triangleList:
         return True
     
     return False
+
 
 
 def print_without_vowels(s):
@@ -111,10 +117,50 @@ def general_poly(L):
             
         return summing
     
+    # optional lambda version
+    # return lambda x: sum(e*x**n for n, e in enumerate(reversed(L)))
+    
     return inner
 
 
 def is_list_permutation(L1,L2):
     
+    '''
+    L1 and L2: lists containing integers and strings
+    Returns False if L1 and L2 are not permutations of each other. 
+            If they are permutations of each other, returns a 
+            tuple of 3 items in this order: 
+            the element occurring most, how many times it occurs, and its type
+    '''
     
+    # Your code here
+    if len(L1) != len(L2):
+        return False
+    
+    if L1 == [] and L2 == []:
+        return (None, None, None)
+    
+    modeElement = ()
+    
+    while L1 != [] and L2 != []:
+        if L1[0] in L2:
+            tupleElement = (L1[0],)
+            modeElement = modeElement + tupleElement
+            L2.remove(L1[0])
+            del L1[0]
+            
+        else:
+            return False
+    
+    largestElement = ()
 
+    for n in modeElement:
+        if largestElement == ():
+            largestElement = (n, modeElement.count(n), type(n))
+        else:
+            if modeElement.count(n) > largestElement[1]:
+                largestElement = (n, modeElement.count(n), type(n)) # no longer points to old tuple, that gets garbage collected
+    
+    return largestElement
+    
+    

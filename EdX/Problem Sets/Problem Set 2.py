@@ -35,15 +35,12 @@ def fixed_monthly_payment(balance = 0.0, annualInterestRate = 0.0):
     for i in range(int(balance/10)):
         fixedPayment += 10
         monthlyBalance = balance
-        print(fixedPayment)
             
         for m in range(int(months)):
             
             unpaidBalance = monthlyBalance - fixedPayment
             monthlyBalance = unpaidBalance*(1 + monthlyInterestRate)
-            
-            print(monthlyBalance)
-          
+                      
         if monthlyBalance <= 0:
             return fixedPayment
     

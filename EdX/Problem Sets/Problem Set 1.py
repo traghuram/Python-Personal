@@ -51,4 +51,4 @@ def problem_3_long_substring_alph(s = 'default'):
             if len(substring) > len(longestSubstring):    # is current stored substring stricly longer than stored one?
                 longestSubstring = substring
     
-    print(longestSubstring)
+    print("Longest substring in alphabetical order is: " + longestSubstring)

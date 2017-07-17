@@ -95,7 +95,8 @@ def getAvailableLetters(lettersGuessed):
     
     return availableLetters
             
-    
+            
+
 
 def hangman(secretWord):
     '''
@@ -117,15 +118,16 @@ def hangman(secretWord):
 
     Follows the other limitations detailed in the problem write-up.
     '''
-    
+    # FILL IN YOUR CODE HERE...
+
     print("The secret word has " + str(len(secretWord)) + " letters. Good luck!")
     
     lettersGuessed = []
-    
-    numGuesses = int(input("How brave are you? State your handicap: "))
-    
-    while numGuesses > 0:
-        print ("You have " + str(numGuesses) + " guesses left")
+    numGuesses = 8
+    mistakesMade = 0
+        
+    while numGuesses - mistakesMade > 0:
+        print ("You have " + str(numGuesses - mistakesMade) + " guesses left")
         print("Here are the remaining letters: " + getAvailableLetters(lettersGuessed))
         guess = input("Guess a letter: ")
         
@@ -136,22 +138,20 @@ def hangman(secretWord):
         
         else:
             print("Nice try, but no dice.")
+            mistakesMade += 1
         
         if isWordGuessed(secretWord, lettersGuessed):
             print ("YOU GOT IT - " + secretWord)
-            return 'NICE BOIIIIII'
+            print('NICE BOIIIIII')
+            break
         
         else:
             print ("So close yet so far... " + getGuessedWord(secretWord, lettersGuessed))
             print ("-----------------------")
         
-        numGuesses -= 1
-    
-    print("Sorry you suck - the word was " + secretWord)
-            
-
-
-
+        
+    if mistakesMade >= numGuesses:
+        print("Sorry you suck - the word was " + secretWord)
 
 
 
