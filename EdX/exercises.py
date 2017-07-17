@@ -101,3 +101,122 @@ while True:
         break
     
 print("Game over. The secret number was: " + str(guess))
+
+
+
+
+
+def gcdIter(a, b):
+    '''
+    a, b: positive integers
+    
+    returns: a positive integer, the greatest common divisor of a & b.
+    '''
+    # Your code here
+    
+    test = min(a,b)
+    gcd = 1
+    
+    while test > 1:
+        if a % test == 0 and b % test == 0 and test > gcd:
+            gcd = test
+        test -= 1
+    
+    return gcd
+
+
+
+
+def gcdRecur(a, b):
+    '''
+    a, b: positive integers
+    
+    returns: a positive integer, the greatest common divisor of a & b.
+    '''
+    # Your code here
+    
+    if b == 0:
+        gcd = a
+        return gcd
+    
+    return gcdRecur(b, a%b)
+
+
+def oddTuples(aTup):
+    '''
+    aTup: a tuple
+    
+    returns: tuple, every other element of aTup. 
+    '''
+    # Your Code Here
+    
+    return aTup[0:len(aTup)+1:2]
+
+
+def how_many_TR(aDict):
+    '''
+    aDict: A dictionary, where all the values are lists.
+
+    returns: int, how many values are in the dictionary.
+    '''
+    # Your Code Here
+    counter = 0
+    for n in aDict.values():
+        if len(n) == 1:
+            counter += 1
+        else:
+            for i in n:
+                counter += 1
+    
+    return counter
+
+
+def how_many(aDict):
+    '''
+    Another way to solve the problem.
+
+    aDict: A dictionary, where all the values are lists.
+
+    returns: int, how many individual values are in the dictionary.
+    '''
+    result = 0
+    for key in aDict.keys():
+        result += len(aDict[key])
+    return result
+
+
+
+
+
+def biggestTR(aDict):
+    '''
+    aDict: A dictionary, where all the values are lists.
+
+    returns: The key with the largest number of values associated with it
+    '''
+    # Your Code Here
+
+    bDict = []
+    cDict = []
+    
+    for n in aDict:
+        bDict.append(n)
+        cDict.append(len(aDict[n]))
+
+    return bDict[cDict.index(max(cDict))]
+
+
+
+def biggest(aDict):
+    '''
+    aDict: A dictionary, where all the values are lists.
+
+    returns: The key with the largest number of values associated with it
+    '''
+    result = None
+    biggestValue = 0
+    for key in aDict.keys():
+        if len(aDict[key]) >= biggestValue:
+            result = key
+            biggestValue = len(aDict[key])
+    return result
