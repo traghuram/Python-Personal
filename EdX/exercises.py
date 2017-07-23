@@ -220,3 +220,57 @@ def biggest(aDict):
             result = key
             biggestValue = len(aDict[key])
     return result
+
+
+
+
+# Lecture 9
+
+    def __eq__(self, coordinate):
+        if self.x == coordinate.x and self.y == coordinate.y:
+            return True
+        return False
+        
+    def __repr__(self):
+        return 'Coordinate(' + str(self.x) + ',' + str(self.y) + ')'
+    
+
+
+    def intersect(self, s2):
+        intersection = []
+        for i in self.vals:
+            if i in s2 and i not in intersection:
+                intersection.append(i)
+        
+        return intersection
+    
+    
+    def intersect(self, s2):
+        intersection = intSet()
+        for i in self.vals:
+            if i in s2.vals and i not in intersection.vals:
+                intersection.vals.append(i)
+        
+        return intersection
+    
+
+
+# Lecture 10
+
+def genPrimes():
+    x = 2
+    primes = [2]
+    while True:
+        counter = 0
+        for p in primes:
+            if x % p != 0:
+                continue
+            counter += 1
+     
+        if counter == 0:
+            primes.append(x)
+            yield x
+        if primes == [2]:
+            yield x
+        
+        x += 1
