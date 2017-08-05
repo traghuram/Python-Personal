@@ -1,0 +1,892 @@
+
+    <html
+        xmlns:x="urn:schemas-microsoft-com:office:excel"
+        xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+    >
+    <head>
+    <title>Teacher Data</title>
+    <style>
+    <!--table
+    .excelText
+        {mso-style-parent:style0;
+        mso-number-format:"\@";}
+    -->
+    </style>
+    </head>
+    <body>
+
+
+<span id="lblPrintHeader">
+<div id='headerprint'><h1>Massachusetts School and District Profiles</h1></div>
+</span>
+
+<span id="lblDebugText"></span>
+
+<div id="onecolumn">
+    
+
+	<div id="whitebox">
+
+        
+
+        <style>
+            #wrapper  {width: 1200px;}
+            #header  {width: 1200px;}
+            #submenu  {width: 1200px;}
+        </style>
+
+        <div id="whiteboxRight">
+            <span id="lblUtilBarHtml"></span>
+            <form name="teacherdataForm" method="post" action="teacherdata.aspx?fycode=2015&amp;export_excel=yes&amp;subjectCode=42&amp;reportType=DISTRICT" id="teacherdataForm">
+<div>
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwULLTE5NDY2NTk2MDZkGAIFHl9fQ29udHJvbHNSZXF1aXJlUG9zdEJhY2tLZXlfXxYBBQhDb250aW51ZQUTdGVhY2hlckRhdGFHcmlkVmlldw88KwAMAQgCAWRZuQ6UJh4nWDYt1bdvyfF/apEYRvD6UXhZKDSGriZosA==" />
+</div>
+
+<div>
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="A269A047" />
+</div>
+                <!--Start Page Content-->
+                <span id="TitleString"><h2>2014-15 Teacher Data Report (DISTRICT) </h2></span>
+
+                
+
+                <p></p>
+                <table border="0" width="900" class="nav"  >
+                <tr><td colspan="10">
+                    <div>
+	<table class="nav center" cellspacing="0" rules="all" border="1" id="teacherDataGridView" style="border-style:Solid;border-collapse:collapse;">
+		<tr>
+			<th align="left" valign="middle" scope="col" style="width:300px;">DISTRICT</th><th align="center" valign="middle" scope="col" style="width:100px;">Org Code</th><th align="center" valign="middle" scope="col" style="width:100px;">Total # of Teachers</th><th align="center" valign="middle" scope="col" style="width:100px;">% of Teachers Licensed in Teaching Assignment</th><th align="center" valign="middle" scope="col" style="width:100px;">Total # of Classes in Core Academic Areas</th><th align="center" valign="middle" scope="col" style="width:100px;">% of Core Academic Classes Taught by Teachers Who are Highly Qualified</th><th align="center" valign="middle" scope="col" style="width:100px;">Student/Teacher Ratio</th>
+		</tr><tr>
+			<td align="left">Abby Kelley Foster Charter Public (District)</td><td class="excelText" align="right">04450000</td><td align="right">117.0</td><td align="right">95.3</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  12.2 to 1</td>
+		</tr><tr class="eee">
+			<td align="left">Abington</td><td class="excelText" align="right">00010000</td><td align="right">127.1</td><td align="right">99.0</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  15.4 to 1</td>
+		</tr><tr>
+			<td align="left">Academy Of the Pacific Rim Charter Public</td><td class="excelText" align="right">04120000</td><td align="right">42.5</td><td align="right">66.8</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  12.2 to 1</td>
+		</tr><tr class="eee">
+			<td align="left">Acton-Boxborough</td><td class="excelText" align="right">06000000</td><td align="right">362.0</td><td align="right">100.0</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  15.6 to 1</td>
+		</tr><tr>
+			<td align="left">Acushnet</td><td class="excelText" align="right">00030000</td><td align="right">70.0</td><td align="right">100.0</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  13.9 to 1</td>
+		</tr><tr class="eee">
+			<td align="left">Adams-Cheshire</td><td class="excelText" align="right">06030000</td><td align="right">100.6</td><td align="right">96.7</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  13.4 to 1</td>
+		</tr><tr>
+			<td align="left">Advanced Math and Science Academy Charter (District)</td><td class="excelText" align="right">04300000</td><td align="right">81.4</td><td align="right">91.8</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  12.3 to 1</td>
+		</tr><tr class="eee">
+			<td align="left">Agawam</td><td class="excelText" align="right">00050000</td><td align="right">310.9</td><td align="right">100.0</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  13.2 to 1</td>
+		</tr><tr>
+			<td align="left">Alma del Mar Charter School</td><td class="excelText" align="right">04090000</td><td align="right">22.4</td><td align="right">35.7</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  10.7 to 1</td>
+		</tr><tr class="eee">
+			<td align="left">Amesbury</td><td class="excelText" align="right">00070000</td><td align="right">155.6</td><td align="right">100.0</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  14.7 to 1</td>
+		</tr><tr>
+			<td align="left">Amesbury Academy Charter Public (District)</td><td class="excelText" align="right">04150000</td><td align="right">5.3</td><td align="right">90.6</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">   8.7 to 1</td>
+		</tr><tr class="eee">
+			<td align="left">Amherst</td><td class="excelText" align="right">00080000</td><td align="right">112.2</td><td align="right">99.1</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  10.7 to 1</td>
+		</tr><tr>
+			<td align="left">Amherst-Pelham</td><td class="excelText" align="right">06050000</td><td align="right">121.7</td><td align="right">99.2</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  11.8 to 1</td>
+		</tr><tr class="eee">
+			<td align="left">Andover</td><td class="excelText" align="right">00090000</td><td align="right">456.9</td><td align="right">100.0</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  13.3 to 1</td>
+		</tr><tr>
+			<td align="left">Argosy Collegiate Charter School (District)</td><td class="excelText" align="right">35090000</td><td align="right">7.6</td><td align="right">84.2</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  13.6 to 1</td>
+		</tr><tr class="eee">
+			<td align="left">Arlington</td><td class="excelText" align="right">00100000</td><td align="right">359.7</td><td align="right">98.7</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  14.5 to 1</td>
+		</tr><tr>
+			<td align="left">Ashburnham-Westminster</td><td class="excelText" align="right">06100000</td><td align="right">155.9</td><td align="right">98.1</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  15.1 to 1</td>
+		</tr><tr class="eee">
+			<td align="left">Ashland</td><td class="excelText" align="right">00140000</td><td align="right">183.0</td><td align="right">100.0</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  14.2 to 1</td>
+		</tr><tr>
+			<td align="left">Assabet Valley Regional Vocational Technical</td><td class="excelText" align="right">08010000</td><td align="right">101.5</td><td align="right">98.0</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  10.4 to 1</td>
+		</tr><tr class="eee">
+			<td align="left">Athol-Royalston</td><td class="excelText" align="right">06150000</td><td align="right">102.6</td><td align="right">99.0</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  13.8 to 1</td>
+		</tr><tr>
+			<td align="left">Atlantis Charter</td><td class="excelText" align="right">04910000</td><td align="right">60.3</td><td align="right">85.1</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  14.7 to 1</td>
+		</tr><tr class="eee">
+			<td align="left">Attleboro</td><td class="excelText" align="right">00160000</td><td align="right">390.1</td><td align="right">99.4</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  15.2 to 1</td>
+		</tr><tr>
+			<td align="left">Auburn</td><td class="excelText" align="right">00170000</td><td align="right">172.3</td><td align="right">100.0</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  13.7 to 1</td>
+		</tr><tr class="eee">
+			<td align="left">Avon</td><td class="excelText" align="right">00180000</td><td align="right">62.7</td><td align="right">100.0</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  11.8 to 1</td>
+		</tr><tr>
+			<td align="left">Ayer Shirley School District</td><td class="excelText" align="right">06160000</td><td align="right">136.6</td><td align="right">100.0</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  12.1 to 1</td>
+		</tr><tr class="eee">
+			<td align="left">Barnstable</td><td class="excelText" align="right">00200000</td><td align="right">370.1</td><td align="right">99.5</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  13.3 to 1</td>
+		</tr><tr>
+			<td align="left">Barnstable Community Horace Mann Charter Public</td><td class="excelText" align="right">04270000</td><td align="right">23.6</td><td align="right">100.0</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  12.3 to 1</td>
+		</tr><tr class="eee">
+			<td align="left">Baystate Academy Charter Public School (District)</td><td class="excelText" align="right">35020000</td><td align="right">22.1</td><td align="right">72.7</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">   9.9 to 1</td>
+		</tr><tr>
+			<td align="left">Bedford</td><td class="excelText" align="right">00230000</td><td align="right">219.5</td><td align="right">98.7</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  11.5 to 1</td>
+		</tr><tr class="eee">
+			<td align="left">Belchertown</td><td class="excelText" align="right">00240000</td><td align="right">167.7</td><td align="right">99.4</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  14.1 to 1</td>
+		</tr><tr>
+			<td align="left">Bellingham</td><td class="excelText" align="right">00250000</td><td align="right">162.8</td><td align="right">100.0</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  14.6 to 1</td>
+		</tr><tr class="eee">
+			<td align="left">Belmont</td><td class="excelText" align="right">00260000</td><td align="right">248.6</td><td align="right">99.6</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  17.2 to 1</td>
+		</tr><tr>
+			<td align="left">Benjamin Banneker Charter Public (District)</td><td class="excelText" align="right">04200000</td><td align="right">20.0</td><td align="right">95.0</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  17.4 to 1</td>
+		</tr><tr class="eee">
+			<td align="left">Benjamin Franklin Classical Charter Public</td><td class="excelText" align="right">04470000</td><td align="right">25.1</td><td align="right">68.3</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  17.9 to 1</td>
+		</tr><tr>
+			<td align="left">Berkley</td><td class="excelText" align="right">00270000</td><td align="right">60.8</td><td align="right">100.0</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  14.1 to 1</td>
+		</tr><tr class="eee">
+			<td align="left">Berkshire Arts and Technology Charter Public</td><td class="excelText" align="right">04140000</td><td align="right">29.6</td><td align="right">51.0</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  11.3 to 1</td>
+		</tr><tr>
+			<td align="left">Berkshire Hills</td><td class="excelText" align="right">06180000</td><td align="right">113.1</td><td align="right">99.1</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  11.8 to 1</td>
+		</tr><tr class="eee">
+			<td align="left">Berlin</td><td class="excelText" align="right">00280000</td><td align="right">17.0</td><td align="right">100.0</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  11.0 to 1</td>
+		</tr><tr>
+			<td align="left">Berlin-Boylston</td><td class="excelText" align="right">06200000</td><td align="right">45.8</td><td align="right">100.0</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  12.0 to 1</td>
+		</tr><tr class="eee">
+			<td align="left">Beverly</td><td class="excelText" align="right">00300000</td><td align="right">303.5</td><td align="right">98.8</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  14.8 to 1</td>
+		</tr><tr>
+			<td align="left">Billerica</td><td class="excelText" align="right">00310000</td><td align="right">379.0</td><td align="right">100.0</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  13.6 to 1</td>
+		</tr><tr class="eee">
+			<td align="left">Blackstone Valley Regional Vocational Technical</td><td class="excelText" align="right">08050000</td><td align="right">93.3</td><td align="right">97.2</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  12.7 to 1</td>
+		</tr><tr>
+			<td align="left">Blackstone-Millville</td><td class="excelText" align="right">06220000</td><td align="right">136.1</td><td align="right">97.8</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  13.0 to 1</td>
+		</tr><tr class="eee">
+			<td align="left">Blue Hills Regional Vocational Technical</td><td class="excelText" align="right">08060000</td><td align="right">75.0</td><td align="right">100.0</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  11.4 to 1</td>
+		</tr><tr>
+			<td align="left">Boston</td><td class="excelText" align="right">00350000</td><td align="right">4,228.9</td><td align="right">94.9</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  12.8 to 1</td>
+		</tr><tr class="eee">
+			<td align="left">Boston Collegiate Charter</td><td class="excelText" align="right">04490000</td><td align="right">58.7</td><td align="right">62.5</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  11.7 to 1</td>
+		</tr><tr>
+			<td align="left">Boston Day and Evening Academy Charter</td><td class="excelText" align="right">04240000</td><td align="right">22.6</td><td align="right">100.0</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  16.8 to 1</td>
+		</tr><tr class="eee">
+			<td align="left">Boston Green Academy Horace Mann Charter School</td><td class="excelText" align="right">04110000</td><td align="right">35.0</td><td align="right">85.0</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  11.2 to 1</td>
+		</tr><tr>
+			<td align="left">Boston Preparatory Charter Public</td><td class="excelText" align="right">04160000</td><td align="right">33.1</td><td align="right">71.6</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  11.8 to 1</td>
+		</tr><tr class="eee">
+			<td align="left">Boston Renaissance Charter Public</td><td class="excelText" align="right">04810000</td><td align="right">76.0</td><td align="right">75.0</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  12.4 to 1</td>
+		</tr><tr>
+			<td align="left">Bourne</td><td class="excelText" align="right">00360000</td><td align="right">148.5</td><td align="right">98.0</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  13.6 to 1</td>
+		</tr><tr class="eee">
+			<td align="left">Boxford</td><td class="excelText" align="right">00380000</td><td align="right">62.5</td><td align="right">100.0</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  11.9 to 1</td>
+		</tr><tr>
+			<td align="left">Boylston</td><td class="excelText" align="right">00390000</td><td align="right">21.2</td><td align="right">100.0</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  14.0 to 1</td>
+		</tr><tr class="eee">
+			<td align="left">Braintree</td><td class="excelText" align="right">00400000</td><td align="right">409.4</td><td align="right">99.4</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  13.9 to 1</td>
+		</tr><tr>
+			<td align="left">Brewster</td><td class="excelText" align="right">00410000</td><td align="right">41.4</td><td align="right">100.0</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  11.6 to 1</td>
+		</tr><tr class="eee">
+			<td align="left">Bridge Boston Charter School</td><td class="excelText" align="right">04170000</td><td align="right">14.0</td><td align="right">71.4</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  13.5 to 1</td>
+		</tr><tr>
+			<td align="left">Bridgewater-Raynham</td><td class="excelText" align="right">06250000</td><td align="right">327.7</td><td align="right">100.0</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  16.2 to 1</td>
+		</tr><tr class="eee">
+			<td align="left">Brimfield</td><td class="excelText" align="right">00430000</td><td align="right">26.9</td><td align="right">100.0</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  10.8 to 1</td>
+		</tr><tr>
+			<td align="left">Bristol County Agricultural</td><td class="excelText" align="right">09100000</td><td align="right">32.2</td><td align="right">100.0</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  13.9 to 1</td>
+		</tr><tr class="eee">
+			<td align="left">Bristol-Plymouth Regional Vocational Technical</td><td class="excelText" align="right">08100000</td><td align="right">97.9</td><td align="right">100.0</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  13.5 to 1</td>
+		</tr><tr>
+			<td align="left">Brockton</td><td class="excelText" align="right">00440000</td><td align="right">1,144.8</td><td align="right">99.4</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  15.0 to 1</td>
+		</tr><tr class="eee">
+			<td align="left">Brooke Charter School East Boston</td><td class="excelText" align="right">04570000</td><td align="right">33.0</td><td align="right">63.6</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  11.9 to 1</td>
+		</tr><tr>
+			<td align="left">Brooke Charter School Mattapan</td><td class="excelText" align="right">04430000</td><td align="right">41.9</td><td align="right">47.5</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  11.0 to 1</td>
+		</tr><tr class="eee">
+			<td align="left">Brooke Charter School Roslindale</td><td class="excelText" align="right">04280000</td><td align="right">41.0</td><td align="right">58.5</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  12.3 to 1</td>
+		</tr><tr>
+			<td align="left">Brookfield</td><td class="excelText" align="right">00450000</td><td align="right">25.1</td><td align="right">100.0</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  13.3 to 1</td>
+		</tr><tr class="eee">
+			<td align="left">Brookline</td><td class="excelText" align="right">00460000</td><td align="right">579.1</td><td align="right">99.5</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  13.0 to 1</td>
+		</tr><tr>
+			<td align="left">Burlington</td><td class="excelText" align="right">00480000</td><td align="right">299.0</td><td align="right">100.0</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  11.7 to 1</td>
+		</tr><tr class="eee">
+			<td align="left">Cambridge</td><td class="excelText" align="right">00490000</td><td align="right">636.7</td><td align="right">97.6</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  10.3 to 1</td>
+		</tr><tr>
+			<td align="left">Canton</td><td class="excelText" align="right">00500000</td><td align="right">235.7</td><td align="right">100.0</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  14.1 to 1</td>
+		</tr><tr class="eee">
+			<td align="left">Cape Cod Lighthouse Charter</td><td class="excelText" align="right">04320000</td><td align="right">21.8</td><td align="right">83.5</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  11.0 to 1</td>
+		</tr><tr>
+			<td align="left">Cape Cod Regional Vocational Technical</td><td class="excelText" align="right">08150000</td><td align="right">72.2</td><td align="right">92.5</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">   9.0 to 1</td>
+		</tr><tr class="eee">
+			<td align="left">Carlisle</td><td class="excelText" align="right">00510000</td><td align="right">58.1</td><td align="right">100.0</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  11.0 to 1</td>
+		</tr><tr>
+			<td align="left">Carver</td><td class="excelText" align="right">00520000</td><td align="right">122.1</td><td align="right">98.4</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  13.4 to 1</td>
+		</tr><tr class="eee">
+			<td align="left">Central Berkshire</td><td class="excelText" align="right">06350000</td><td align="right">140.6</td><td align="right">99.3</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  12.3 to 1</td>
+		</tr><tr>
+			<td align="left">Chelmsford</td><td class="excelText" align="right">00560000</td><td align="right">359.5</td><td align="right">99.7</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  14.1 to 1</td>
+		</tr><tr class="eee">
+			<td align="left">Chelsea</td><td class="excelText" align="right">00570000</td><td align="right">417.4</td><td align="right">98.8</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  15.2 to 1</td>
+		</tr><tr>
+			<td align="left">Chesterfield-Goshen</td><td class="excelText" align="right">06320000</td><td align="right">15.6</td><td align="right">100.0</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">   9.8 to 1</td>
+		</tr><tr class="eee">
+			<td align="left">Chicopee</td><td class="excelText" align="right">00610000</td><td align="right">609.9</td><td align="right">99.5</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  12.9 to 1</td>
+		</tr><tr>
+			<td align="left">Christa McAuliffe Charter Public (District)</td><td class="excelText" align="right">04180000</td><td align="right">38.1</td><td align="right">73.8</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  10.6 to 1</td>
+		</tr><tr class="eee">
+			<td align="left">City on a Hill Charter Public School Circuit Street (District)</td><td class="excelText" align="right">04370000</td><td align="right">26.0</td><td align="right">76.9</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  11.0 to 1</td>
+		</tr><tr>
+			<td align="left">City on a Hill Charter Public School Dudley Square (District)</td><td class="excelText" align="right">35040000</td><td align="right">13.8</td><td align="right">81.2</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  13.9 to 1</td>
+		</tr><tr class="eee">
+			<td align="left">City on a Hill Charter Public School New Bedford (District)</td><td class="excelText" align="right">35070000</td><td align="right">8.1</td><td align="right">80.2</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  10.9 to 1</td>
+		</tr><tr>
+			<td align="left">Clarksburg</td><td class="excelText" align="right">00630000</td><td align="right">15.1</td><td align="right">97.4</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  11.1 to 1</td>
+		</tr><tr class="eee">
+			<td align="left">Clinton</td><td class="excelText" align="right">00640000</td><td align="right">137.6</td><td align="right">100.0</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  13.6 to 1</td>
+		</tr><tr>
+			<td align="left">Codman Academy Charter Public (District)</td><td class="excelText" align="right">04380000</td><td align="right">25.9</td><td align="right">53.5</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  10.4 to 1</td>
+		</tr><tr class="eee">
+			<td align="left">Cohasset</td><td class="excelText" align="right">00650000</td><td align="right">115.9</td><td align="right">100.0</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  13.9 to 1</td>
+		</tr><tr>
+			<td align="left">Community Charter School of Cambridge</td><td class="excelText" align="right">04360000</td><td align="right">30.9</td><td align="right">74.7</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  12.9 to 1</td>
+		</tr><tr class="eee">
+			<td align="left">Community Day Charter Public School - Gateway</td><td class="excelText" align="right">04260000</td><td align="right">22.6</td><td align="right">66.9</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">   8.8 to 1</td>
+		</tr><tr>
+			<td align="left">Community Day Charter Public School - Prospect</td><td class="excelText" align="right">04400000</td><td align="right">43.8</td><td align="right">75.4</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">   9.1 to 1</td>
+		</tr><tr class="eee">
+			<td align="left">Community Day Charter Public School - R. Kingman Webster</td><td class="excelText" align="right">04310000</td><td align="right">22.6</td><td align="right">75.8</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">   8.8 to 1</td>
+		</tr><tr>
+			<td align="left">Concord</td><td class="excelText" align="right">00670000</td><td align="right">161.5</td><td align="right">100.0</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  13.1 to 1</td>
+		</tr><tr class="eee">
+			<td align="left">Concord-Carlisle</td><td class="excelText" align="right">06400000</td><td align="right">94.0</td><td align="right">100.0</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  13.4 to 1</td>
+		</tr><tr>
+			<td align="left">Conservatory Lab Charter (District)</td><td class="excelText" align="right">04390000</td><td align="right">18.0</td><td align="right">66.7</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  21.8 to 1</td>
+		</tr><tr class="eee">
+			<td align="left">Conway</td><td class="excelText" align="right">00680000</td><td align="right">8.1</td><td align="right">100.0</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  20.7 to 1</td>
+		</tr><tr>
+			<td align="left">Danvers</td><td class="excelText" align="right">00710000</td><td align="right">268.9</td><td align="right">98.9</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  13.3 to 1</td>
+		</tr><tr class="eee">
+			<td align="left">Dartmouth</td><td class="excelText" align="right">00720000</td><td align="right">270.9</td><td align="right">100.0</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  13.7 to 1</td>
+		</tr><tr>
+			<td align="left">Dedham</td><td class="excelText" align="right">00730000</td><td align="right">232.1</td><td align="right">100.0</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  12.0 to 1</td>
+		</tr><tr class="eee">
+			<td align="left">Deerfield</td><td class="excelText" align="right">00740000</td><td align="right">34.6</td><td align="right">100.0</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  12.6 to 1</td>
+		</tr><tr>
+			<td align="left">Dennis-Yarmouth</td><td class="excelText" align="right">06450000</td><td align="right">296.8</td><td align="right">99.0</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  10.2 to 1</td>
+		</tr><tr class="eee">
+			<td align="left">Dighton-Rehoboth</td><td class="excelText" align="right">06500000</td><td align="right">221.0</td><td align="right">100.0</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  13.1 to 1</td>
+		</tr><tr>
+			<td align="left">Dorchester Collegiate Academy Charter</td><td class="excelText" align="right">04750000</td><td align="right">16.0</td><td align="right">56.3</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  11.6 to 1</td>
+		</tr><tr class="eee">
+			<td align="left">Douglas</td><td class="excelText" align="right">00770000</td><td align="right">100.5</td><td align="right">100.0</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  15.4 to 1</td>
+		</tr><tr>
+			<td align="left">Dover</td><td class="excelText" align="right">00780000</td><td align="right">38.8</td><td align="right">97.4</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  12.1 to 1</td>
+		</tr><tr class="eee">
+			<td align="left">Dover-Sherborn</td><td class="excelText" align="right">06550000</td><td align="right">102.1</td><td align="right">100.0</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  11.5 to 1</td>
+		</tr><tr>
+			<td align="left">Dracut</td><td class="excelText" align="right">00790000</td><td align="right">214.7</td><td align="right">99.0</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  17.2 to 1</td>
+		</tr><tr class="eee">
+			<td align="left">Dudley Street Neighborhood Charter School (District)</td><td class="excelText" align="right">04070000</td><td align="right">15.0</td><td align="right">80.1</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  14.7 to 1</td>
+		</tr><tr>
+			<td align="left">Dudley-Charlton Reg</td><td class="excelText" align="right">06580000</td><td align="right">273.2</td><td align="right">100.0</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  14.6 to 1</td>
+		</tr><tr class="eee">
+			<td align="left">Duxbury</td><td class="excelText" align="right">00820000</td><td align="right">233.9</td><td align="right">98.2</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  13.9 to 1</td>
+		</tr><tr>
+			<td align="left">East Bridgewater</td><td class="excelText" align="right">00830000</td><td align="right">135.3</td><td align="right">100.0</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  16.9 to 1</td>
+		</tr><tr class="eee">
+			<td align="left">East Longmeadow</td><td class="excelText" align="right">00870000</td><td align="right">198.0</td><td align="right">99.5</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  13.5 to 1</td>
+		</tr><tr>
+			<td align="left">Eastham</td><td class="excelText" align="right">00850000</td><td align="right">22.9</td><td align="right">100.0</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">   7.9 to 1</td>
+		</tr><tr class="eee">
+			<td align="left">Easthampton</td><td class="excelText" align="right">00860000</td><td align="right">110.4</td><td align="right">99.5</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  13.9 to 1</td>
+		</tr><tr>
+			<td align="left">Easton</td><td class="excelText" align="right">00880000</td><td align="right">265.4</td><td align="right">100.0</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  14.3 to 1</td>
+		</tr><tr class="eee">
+			<td align="left">Edgartown</td><td class="excelText" align="right">00890000</td><td align="right">39.0</td><td align="right">99.3</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">   9.2 to 1</td>
+		</tr><tr>
+			<td align="left">Edward M. Kennedy Academy for Health Careers</td><td class="excelText" align="right">04520000</td><td align="right">28.3</td><td align="right">93.5</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  12.7 to 1</td>
+		</tr><tr class="eee">
+			<td align="left">Erving</td><td class="excelText" align="right">00910000</td><td align="right">17.1</td><td align="right">97.1</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">   8.2 to 1</td>
+		</tr><tr>
+			<td align="left">Essex North Shore Agricultural and Technical School District</td><td class="excelText" align="right">08170000</td><td align="right">108.3</td><td align="right">97.2</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  10.4 to 1</td>
+		</tr><tr class="eee">
+			<td align="left">Everett</td><td class="excelText" align="right">00930000</td><td align="right">512.0</td><td align="right">99.8</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  13.8 to 1</td>
+		</tr><tr>
+			<td align="left">Excel Academy Charter</td><td class="excelText" align="right">04100000</td><td align="right">56.6</td><td align="right">37.2</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  10.7 to 1</td>
+		</tr><tr class="eee">
+			<td align="left">Fairhaven</td><td class="excelText" align="right">00940000</td><td align="right">144.3</td><td align="right">99.3</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  13.9 to 1</td>
+		</tr><tr>
+			<td align="left">Fall River</td><td class="excelText" align="right">00950000</td><td align="right">711.0</td><td align="right">93.8</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  14.4 to 1</td>
+		</tr><tr class="eee">
+			<td align="left">Falmouth</td><td class="excelText" align="right">00960000</td><td align="right">288.0</td><td align="right">99.1</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  12.3 to 1</td>
+		</tr><tr>
+			<td align="left">Farmington River Reg</td><td class="excelText" align="right">06620000</td><td align="right">14.9</td><td align="right">100.0</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">   8.7 to 1</td>
+		</tr><tr class="eee">
+			<td align="left">Fitchburg</td><td class="excelText" align="right">00970000</td><td align="right">354.2</td><td align="right">99.7</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  14.2 to 1</td>
+		</tr><tr>
+			<td align="left">Florida</td><td class="excelText" align="right">00980000</td><td align="right">12.5</td><td align="right">88.8</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">   7.1 to 1</td>
+		</tr><tr class="eee">
+			<td align="left">Four Rivers Charter Public</td><td class="excelText" align="right">04130000</td><td align="right">21.1</td><td align="right">60.1</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  10.3 to 1</td>
+		</tr><tr>
+			<td align="left">Foxborough</td><td class="excelText" align="right">00990000</td><td align="right">208.3</td><td align="right">100.0</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  13.0 to 1</td>
+		</tr><tr class="eee">
+			<td align="left">Foxborough Regional Charter</td><td class="excelText" align="right">04460000</td><td align="right">86.0</td><td align="right">79.5</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  14.7 to 1</td>
+		</tr><tr>
+			<td align="left">Framingham</td><td class="excelText" align="right">01000000</td><td align="right">695.3</td><td align="right">99.0</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  11.7 to 1</td>
+		</tr><tr class="eee">
+			<td align="left">Francis W. Parker Charter Essential</td><td class="excelText" align="right">04780000</td><td align="right">45.8</td><td align="right">66.7</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">   8.6 to 1</td>
+		</tr><tr>
+			<td align="left">Franklin</td><td class="excelText" align="right">01010000</td><td align="right">406.5</td><td align="right">99.3</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  13.9 to 1</td>
+		</tr><tr class="eee">
+			<td align="left">Franklin County Regional Vocational Technical</td><td class="excelText" align="right">08180000</td><td align="right">57.3</td><td align="right">89.5</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">   9.1 to 1</td>
+		</tr><tr>
+			<td align="left">Freetown-Lakeville</td><td class="excelText" align="right">06650000</td><td align="right">188.4</td><td align="right">99.9</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  15.1 to 1</td>
+		</tr><tr class="eee">
+			<td align="left">Frontier</td><td class="excelText" align="right">06700000</td><td align="right">53.1</td><td align="right">100.0</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  11.3 to 1</td>
+		</tr><tr>
+			<td align="left">Gardner</td><td class="excelText" align="right">01030000</td><td align="right">178.2</td><td align="right">100.0</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  13.9 to 1</td>
+		</tr><tr class="eee">
+			<td align="left">Gateway</td><td class="excelText" align="right">06720000</td><td align="right">85.8</td><td align="right">98.8</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  11.1 to 1</td>
+		</tr><tr>
+			<td align="left">Georgetown</td><td class="excelText" align="right">01050000</td><td align="right">109.5</td><td align="right">99.1</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  13.4 to 1</td>
+		</tr><tr class="eee">
+			<td align="left">Gill-Montague</td><td class="excelText" align="right">06740000</td><td align="right">92.5</td><td align="right">99.5</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  10.8 to 1</td>
+		</tr><tr>
+			<td align="left">Global Learning Charter Public (District)</td><td class="excelText" align="right">04960000</td><td align="right">42.8</td><td align="right">89.5</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  11.9 to 1</td>
+		</tr><tr class="eee">
+			<td align="left">Gloucester</td><td class="excelText" align="right">01070000</td><td align="right">264.1</td><td align="right">98.9</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  11.2 to 1</td>
+		</tr><tr>
+			<td align="left">Gosnold</td><td class="excelText" align="right">01090000</td><td align="right">1.6</td><td align="right">77.1</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">   1.3 to 1</td>
+		</tr><tr class="eee">
+			<td align="left">Grafton</td><td class="excelText" align="right">01100000</td><td align="right">224.0</td><td align="right">100.0</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  14.1 to 1</td>
+		</tr><tr>
+			<td align="left">Granby</td><td class="excelText" align="right">01110000</td><td align="right">67.7</td><td align="right">100.0</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  13.0 to 1</td>
+		</tr><tr class="eee">
+			<td align="left">Greater Fall River Regional Vocational Technical</td><td class="excelText" align="right">08210000</td><td align="right">129.5</td><td align="right">100.0</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  10.9 to 1</td>
+		</tr><tr>
+			<td align="left">Greater Lawrence Regional Vocational Technical</td><td class="excelText" align="right">08230000</td><td align="right">133.3</td><td align="right">97.0</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  10.1 to 1</td>
+		</tr><tr class="eee">
+			<td align="left">Greater Lowell Regional Vocational Technical</td><td class="excelText" align="right">08280000</td><td align="right">176.1</td><td align="right">98.9</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  12.1 to 1</td>
+		</tr><tr>
+			<td align="left">Greater New Bedford Regional Vocational Technical</td><td class="excelText" align="right">08250000</td><td align="right">195.8</td><td align="right">97.3</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  10.9 to 1</td>
+		</tr><tr class="eee">
+			<td align="left">Greenfield</td><td class="excelText" align="right">01140000</td><td align="right">146.0</td><td align="right">97.3</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  12.0 to 1</td>
+		</tr><tr>
+			<td align="left">Groton-Dunstable</td><td class="excelText" align="right">06730000</td><td align="right">164.1</td><td align="right">99.8</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  15.7 to 1</td>
+		</tr><tr class="eee">
+			<td align="left">Hadley</td><td class="excelText" align="right">01170000</td><td align="right">48.5</td><td align="right">100.0</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  12.8 to 1</td>
+		</tr><tr>
+			<td align="left">Halifax</td><td class="excelText" align="right">01180000</td><td align="right">38.7</td><td align="right">100.0</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  14.6 to 1</td>
+		</tr><tr class="eee">
+			<td align="left">Hamilton-Wenham</td><td class="excelText" align="right">06750000</td><td align="right">146.9</td><td align="right">100.0</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  12.7 to 1</td>
+		</tr><tr>
+			<td align="left">Hampden Charter School of Science</td><td class="excelText" align="right">04990000</td><td align="right">31.5</td><td align="right">79.9</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  11.5 to 1</td>
+		</tr><tr class="eee">
+			<td align="left">Hampden-Wilbraham</td><td class="excelText" align="right">06800000</td><td align="right">222.7</td><td align="right">99.6</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  14.5 to 1</td>
+		</tr><tr>
+			<td align="left">Hampshire</td><td class="excelText" align="right">06830000</td><td align="right">65.5</td><td align="right">96.9</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  11.4 to 1</td>
+		</tr><tr class="eee">
+			<td align="left">Hancock</td><td class="excelText" align="right">01210000</td><td align="right">6.7</td><td align="right">100.0</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">   6.5 to 1</td>
+		</tr><tr>
+			<td align="left">Hanover</td><td class="excelText" align="right">01220000</td><td align="right">200.6</td><td align="right">99.5</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  13.2 to 1</td>
+		</tr><tr class="eee">
+			<td align="left">Harvard</td><td class="excelText" align="right">01250000</td><td align="right">88.4</td><td align="right">100.0</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  12.9 to 1</td>
+		</tr><tr>
+			<td align="left">Hatfield</td><td class="excelText" align="right">01270000</td><td align="right">41.6</td><td align="right">100.0</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  11.1 to 1</td>
+		</tr><tr class="eee">
+			<td align="left">Haverhill</td><td class="excelText" align="right">01280000</td><td align="right">490.6</td><td align="right">95.8</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  14.8 to 1</td>
+		</tr><tr>
+			<td align="left">Hawlemont</td><td class="excelText" align="right">06850000</td><td align="right">10.4</td><td align="right">100.0</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  10.5 to 1</td>
+		</tr><tr class="eee">
+			<td align="left">Helen Y. Davis Leadership Academy Charter Public (District)</td><td class="excelText" align="right">04190000</td><td align="right">18.0</td><td align="right">61.1</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  12.4 to 1</td>
+		</tr><tr>
+			<td align="left">Hill View Montessori Charter Public</td><td class="excelText" align="right">04550000</td><td align="right">22.7</td><td align="right">71.8</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  13.5 to 1</td>
+		</tr><tr class="eee">
+			<td align="left">Hilltown Cooperative Charter Public (District)</td><td class="excelText" align="right">04500000</td><td align="right">17.0</td><td align="right">91.5</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  11.4 to 1</td>
+		</tr><tr>
+			<td align="left">Hingham</td><td class="excelText" align="right">01310000</td><td align="right">285.1</td><td align="right">99.6</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  15.1 to 1</td>
+		</tr><tr class="eee">
+			<td align="left">Holbrook</td><td class="excelText" align="right">01330000</td><td align="right">85.1</td><td align="right">98.8</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  14.1 to 1</td>
+		</tr><tr>
+			<td align="left">Holland</td><td class="excelText" align="right">01350000</td><td align="right">19.3</td><td align="right">100.0</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  12.3 to 1</td>
+		</tr><tr class="eee">
+			<td align="left">Holliston</td><td class="excelText" align="right">01360000</td><td align="right">207.2</td><td align="right">99.2</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  13.6 to 1</td>
+		</tr><tr>
+			<td align="left">Holyoke</td><td class="excelText" align="right">01370000</td><td align="right">439.2</td><td align="right">95.6</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  12.7 to 1</td>
+		</tr><tr class="eee">
+			<td align="left">Holyoke Community Charter</td><td class="excelText" align="right">04530000</td><td align="right">50.9</td><td align="right">84.5</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  13.8 to 1</td>
+		</tr><tr>
+			<td align="left">Hopedale</td><td class="excelText" align="right">01380000</td><td align="right">86.0</td><td align="right">99.5</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  14.2 to 1</td>
+		</tr><tr class="eee">
+			<td align="left">Hopkinton</td><td class="excelText" align="right">01390000</td><td align="right">252.2</td><td align="right">100.0</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  13.7 to 1</td>
+		</tr><tr>
+			<td align="left">Hudson</td><td class="excelText" align="right">01410000</td><td align="right">240.2</td><td align="right">97.9</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  12.0 to 1</td>
+		</tr><tr class="eee">
+			<td align="left">Hull</td><td class="excelText" align="right">01420000</td><td align="right">86.8</td><td align="right">98.8</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  11.9 to 1</td>
+		</tr><tr>
+			<td align="left">Innovation Academy Charter</td><td class="excelText" align="right">04350000</td><td align="right">67.1</td><td align="right">85.5</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  11.4 to 1</td>
+		</tr><tr class="eee">
+			<td align="left">Ipswich</td><td class="excelText" align="right">01440000</td><td align="right">140.8</td><td align="right">100.0</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  13.6 to 1</td>
+		</tr><tr>
+			<td align="left">KIPP Academy Boston Charter School (District)</td><td class="excelText" align="right">04630000</td><td align="right">29.0</td><td align="right">44.8</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">   9.9 to 1</td>
+		</tr><tr class="eee">
+			<td align="left">KIPP Academy Lynn Charter</td><td class="excelText" align="right">04290000</td><td align="right">76.7</td><td align="right">57.5</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  11.1 to 1</td>
+		</tr><tr>
+			<td align="left">King Philip</td><td class="excelText" align="right">06900000</td><td align="right">127.1</td><td align="right">100.0</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  16.5 to 1</td>
+		</tr><tr class="eee">
+			<td align="left">Kingston</td><td class="excelText" align="right">01450000</td><td align="right">67.3</td><td align="right">98.5</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  15.7 to 1</td>
+		</tr><tr>
+			<td align="left">Lanesborough</td><td class="excelText" align="right">01480000</td><td align="right">21.7</td><td align="right">100.0</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  10.0 to 1</td>
+		</tr><tr class="eee">
+			<td align="left">Lawrence</td><td class="excelText" align="right">01490000</td><td align="right">1,020.2</td><td align="right">92.0</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  13.6 to 1</td>
+		</tr><tr>
+			<td align="left">Lawrence Family Development Charter</td><td class="excelText" align="right">04540000</td><td align="right">56.0</td><td align="right">91.1</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  12.1 to 1</td>
+		</tr><tr class="eee">
+			<td align="left">Lee</td><td class="excelText" align="right">01500000</td><td align="right">69.8</td><td align="right">97.1</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">   9.8 to 1</td>
+		</tr><tr>
+			<td align="left">Leicester</td><td class="excelText" align="right">01510000</td><td align="right">105.6</td><td align="right">100.0</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  15.2 to 1</td>
+		</tr><tr class="eee">
+			<td align="left">Lenox</td><td class="excelText" align="right">01520000</td><td align="right">78.3</td><td align="right">99.3</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">   9.3 to 1</td>
+		</tr><tr>
+			<td align="left">Leominster</td><td class="excelText" align="right">01530000</td><td align="right">441.1</td><td align="right">98.6</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  13.8 to 1</td>
+		</tr><tr class="eee">
+			<td align="left">Leverett</td><td class="excelText" align="right">01540000</td><td align="right">14.7</td><td align="right">99.5</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">   9.0 to 1</td>
+		</tr><tr>
+			<td align="left">Lexington</td><td class="excelText" align="right">01550000</td><td align="right">548.7</td><td align="right">99.8</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  12.4 to 1</td>
+		</tr><tr class="eee">
+			<td align="left">Lincoln</td><td class="excelText" align="right">01570000</td><td align="right">121.4</td><td align="right">99.2</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  10.2 to 1</td>
+		</tr><tr>
+			<td align="left">Lincoln-Sudbury</td><td class="excelText" align="right">06950000</td><td align="right">123.6</td><td align="right">99.3</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  13.1 to 1</td>
+		</tr><tr class="eee">
+			<td align="left">Littleton</td><td class="excelText" align="right">01580000</td><td align="right">106.6</td><td align="right">98.9</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  15.0 to 1</td>
+		</tr><tr>
+			<td align="left">Longmeadow</td><td class="excelText" align="right">01590000</td><td align="right">238.5</td><td align="right">100.0</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  12.2 to 1</td>
+		</tr><tr class="eee">
+			<td align="left">Lowell</td><td class="excelText" align="right">01600000</td><td align="right">1,005.4</td><td align="right">99.1</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  14.0 to 1</td>
+		</tr><tr>
+			<td align="left">Lowell Collegiate Charter School (District)</td><td class="excelText" align="right">35030000</td><td align="right">21.5</td><td align="right">81.4</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  15.8 to 1</td>
+		</tr><tr class="eee">
+			<td align="left">Lowell Community Charter Public</td><td class="excelText" align="right">04560000</td><td align="right">55.9</td><td align="right">98.2</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  13.7 to 1</td>
+		</tr><tr>
+			<td align="left">Lowell Middlesex Academy Charter</td><td class="excelText" align="right">04580000</td><td align="right">11.9</td><td align="right">58.8</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">   9.2 to 1</td>
+		</tr><tr class="eee">
+			<td align="left">Ludlow</td><td class="excelText" align="right">01610000</td><td align="right">231.6</td><td align="right">98.9</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  11.7 to 1</td>
+		</tr><tr>
+			<td align="left">Lunenburg</td><td class="excelText" align="right">01620000</td><td align="right">101.6</td><td align="right">100.0</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  15.3 to 1</td>
+		</tr><tr class="eee">
+			<td align="left">Lynn</td><td class="excelText" align="right">01630000</td><td align="right">1,046.7</td><td align="right">97.1</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  14.2 to 1</td>
+		</tr><tr>
+			<td align="left">Lynnfield</td><td class="excelText" align="right">01640000</td><td align="right">166.7</td><td align="right">100.0</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  13.2 to 1</td>
+		</tr><tr class="eee">
+			<td align="left">MATCH Charter Public School (District)</td><td class="excelText" align="right">04690000</td><td align="right">57.3</td><td align="right">53.1</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  15.6 to 1</td>
+		</tr><tr>
+			<td align="left">Ma Academy for Math and Science</td><td class="excelText" align="right">04680000</td><td align="right">7.4</td><td align="right">100.0</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  13.1 to 1</td>
+		</tr><tr class="eee">
+			<td align="left">Malden</td><td class="excelText" align="right">01650000</td><td align="right">451.5</td><td align="right">99.8</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  14.5 to 1</td>
+		</tr><tr>
+			<td align="left">Manchester Essex Regional</td><td class="excelText" align="right">06980000</td><td align="right">125.7</td><td align="right">98.9</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  12.0 to 1</td>
+		</tr><tr class="eee">
+			<td align="left">Mansfield</td><td class="excelText" align="right">01670000</td><td align="right">305.0</td><td align="right">99.7</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  13.6 to 1</td>
+		</tr><tr>
+			<td align="left">Marblehead</td><td class="excelText" align="right">01680000</td><td align="right">256.8</td><td align="right">99.2</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  12.6 to 1</td>
+		</tr><tr class="eee">
+			<td align="left">Marblehead Community Charter Public</td><td class="excelText" align="right">04640000</td><td align="right">20.4</td><td align="right">91.2</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  11.3 to 1</td>
+		</tr><tr>
+			<td align="left">Marion</td><td class="excelText" align="right">01690000</td><td align="right">32.1</td><td align="right">100.0</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  13.8 to 1</td>
+		</tr><tr class="eee">
+			<td align="left">Marlborough</td><td class="excelText" align="right">01700000</td><td align="right">368.5</td><td align="right">100.0</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  12.3 to 1</td>
+		</tr><tr>
+			<td align="left">Marshfield</td><td class="excelText" align="right">01710000</td><td align="right">329.9</td><td align="right">100.0</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  12.9 to 1</td>
+		</tr><tr class="eee">
+			<td align="left">Martha&#39;s Vineyard</td><td class="excelText" align="right">07000000</td><td align="right">75.9</td><td align="right">95.4</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">   9.1 to 1</td>
+		</tr><tr>
+			<td align="left">Martha&#39;s Vineyard Charter</td><td class="excelText" align="right">04660000</td><td align="right">18.0</td><td align="right">92.5</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">   9.8 to 1</td>
+		</tr><tr class="eee">
+			<td align="left">Martin Luther King Jr. Charter School of Excellence</td><td class="excelText" align="right">04920000</td><td align="right">37.7</td><td align="right">53.2</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">   9.7 to 1</td>
+		</tr><tr>
+			<td align="left">Masconomet</td><td class="excelText" align="right">07050000</td><td align="right">126.8</td><td align="right">100.0</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  15.5 to 1</td>
+		</tr><tr class="eee">
+			<td align="left">Mashpee</td><td class="excelText" align="right">01720000</td><td align="right">135.9</td><td align="right">99.3</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  12.3 to 1</td>
+		</tr><tr>
+			<td align="left">Massachusetts Virtual Academy at Greenfield Commonwealth Virtual District</td><td class="excelText" align="right">39010000</td><td align="right">14.7</td><td align="right">100.0</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  47.2 to 1</td>
+		</tr><tr class="eee">
+			<td align="left">Mattapoisett</td><td class="excelText" align="right">01730000</td><td align="right">40.0</td><td align="right">100.0</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  12.5 to 1</td>
+		</tr><tr>
+			<td align="left">Maynard</td><td class="excelText" align="right">01740000</td><td align="right">105.9</td><td align="right">99.1</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  13.4 to 1</td>
+		</tr><tr class="eee">
+			<td align="left">Medfield</td><td class="excelText" align="right">01750000</td><td align="right">198.3</td><td align="right">98.7</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  13.3 to 1</td>
+		</tr><tr>
+			<td align="left">Medford</td><td class="excelText" align="right">01760000</td><td align="right">393.9</td><td align="right">99.7</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  11.5 to 1</td>
+		</tr><tr class="eee">
+			<td align="left">Medway</td><td class="excelText" align="right">01770000</td><td align="right">147.0</td><td align="right">99.3</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  16.3 to 1</td>
+		</tr><tr>
+			<td align="left">Melrose</td><td class="excelText" align="right">01780000</td><td align="right">256.6</td><td align="right">100.0</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  14.5 to 1</td>
+		</tr><tr class="eee">
+			<td align="left">Mendon-Upton</td><td class="excelText" align="right">07100000</td><td align="right">161.5</td><td align="right">97.5</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  14.5 to 1</td>
+		</tr><tr>
+			<td align="left">Methuen</td><td class="excelText" align="right">01810000</td><td align="right">471.7</td><td align="right">99.4</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  14.7 to 1</td>
+		</tr><tr class="eee">
+			<td align="left">Middleborough</td><td class="excelText" align="right">01820000</td><td align="right">227.3</td><td align="right">99.6</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  13.7 to 1</td>
+		</tr><tr>
+			<td align="left">Middleton</td><td class="excelText" align="right">01840000</td><td align="right">63.3</td><td align="right">100.0</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  12.0 to 1</td>
+		</tr><tr class="eee">
+			<td align="left">Milford</td><td class="excelText" align="right">01850000</td><td align="right">319.4</td><td align="right">98.7</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  13.1 to 1</td>
+		</tr><tr>
+			<td align="left">Millbury</td><td class="excelText" align="right">01860000</td><td align="right">129.0</td><td align="right">100.0</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  13.5 to 1</td>
+		</tr><tr class="eee">
+			<td align="left">Millis</td><td class="excelText" align="right">01870000</td><td align="right">95.7</td><td align="right">99.3</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  14.7 to 1</td>
+		</tr><tr>
+			<td align="left">Milton</td><td class="excelText" align="right">01890000</td><td align="right">285.8</td><td align="right">100.0</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  14.0 to 1</td>
+		</tr><tr class="eee">
+			<td align="left">Minuteman Regional Vocational Technical</td><td class="excelText" align="right">08300000</td><td align="right">79.6</td><td align="right">98.7</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">   8.5 to 1</td>
+		</tr><tr>
+			<td align="left">Mohawk Trail</td><td class="excelText" align="right">07170000</td><td align="right">70.9</td><td align="right">98.2</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  13.6 to 1</td>
+		</tr><tr class="eee">
+			<td align="left">Monomoy Regional School District</td><td class="excelText" align="right">07120000</td><td align="right">177.0</td><td align="right">99.5</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  10.9 to 1</td>
+		</tr><tr>
+			<td align="left">Monson</td><td class="excelText" align="right">01910000</td><td align="right">84.1</td><td align="right">100.0</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  13.0 to 1</td>
+		</tr><tr class="eee">
+			<td align="left">Montachusett Regional Vocational Technical</td><td class="excelText" align="right">08320000</td><td align="right">107.0</td><td align="right">99.1</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  13.4 to 1</td>
+		</tr><tr>
+			<td align="left">Mount Greylock</td><td class="excelText" align="right">07150000</td><td align="right">48.5</td><td align="right">99.6</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  11.3 to 1</td>
+		</tr><tr class="eee">
+			<td align="left">Mystic Valley Regional Charter</td><td class="excelText" align="right">04700000</td><td align="right">106.9</td><td align="right">68.1</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  14.1 to 1</td>
+		</tr><tr>
+			<td align="left">Nahant</td><td class="excelText" align="right">01960000</td><td align="right">10.5</td><td align="right">100.0</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  16.4 to 1</td>
+		</tr><tr class="eee">
+			<td align="left">Nantucket</td><td class="excelText" align="right">01970000</td><td align="right">131.3</td><td align="right">93.8</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  11.8 to 1</td>
+		</tr><tr>
+			<td align="left">Narragansett</td><td class="excelText" align="right">07200000</td><td align="right">105.1</td><td align="right">99.0</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  12.8 to 1</td>
+		</tr><tr class="eee">
+			<td align="left">Nashoba</td><td class="excelText" align="right">07250000</td><td align="right">248.0</td><td align="right">99.2</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  14.0 to 1</td>
+		</tr><tr>
+			<td align="left">Nashoba Valley Regional Vocational Technical</td><td class="excelText" align="right">08520000</td><td align="right">58.5</td><td align="right">96.6</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  12.6 to 1</td>
+		</tr><tr class="eee">
+			<td align="left">Natick</td><td class="excelText" align="right">01980000</td><td align="right">368.7</td><td align="right">99.8</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  14.6 to 1</td>
+		</tr><tr>
+			<td align="left">Nauset</td><td class="excelText" align="right">06600000</td><td align="right">135.7</td><td align="right">98.6</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  11.2 to 1</td>
+		</tr><tr class="eee">
+			<td align="left">Needham</td><td class="excelText" align="right">01990000</td><td align="right">381.1</td><td align="right">99.3</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  14.5 to 1</td>
+		</tr><tr>
+			<td align="left">Neighborhood House Charter</td><td class="excelText" align="right">04440000</td><td align="right">34.3</td><td align="right">59.1</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  11.6 to 1</td>
+		</tr><tr class="eee">
+			<td align="left">New Bedford</td><td class="excelText" align="right">02010000</td><td align="right">848.9</td><td align="right">96.4</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  14.8 to 1</td>
+		</tr><tr>
+			<td align="left">New Liberty Charter School of Salem (District)</td><td class="excelText" align="right">04670000</td><td align="right">5.4</td><td align="right">92.1</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">   8.5 to 1</td>
+		</tr><tr class="eee">
+			<td align="left">New Salem-Wendell</td><td class="excelText" align="right">07280000</td><td align="right">12.6</td><td align="right">100.0</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  12.0 to 1</td>
+		</tr><tr>
+			<td align="left">Newburyport</td><td class="excelText" align="right">02040000</td><td align="right">181.0</td><td align="right">100.0</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  13.0 to 1</td>
+		</tr><tr class="eee">
+			<td align="left">Newton</td><td class="excelText" align="right">02070000</td><td align="right">1,060.5</td><td align="right">99.7</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  12.0 to 1</td>
+		</tr><tr>
+			<td align="left">Norfolk</td><td class="excelText" align="right">02080000</td><td align="right">67.3</td><td align="right">100.0</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  13.2 to 1</td>
+		</tr><tr class="eee">
+			<td align="left">Norfolk County Agricultural</td><td class="excelText" align="right">09150000</td><td align="right">43.7</td><td align="right">100.0</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  11.4 to 1</td>
+		</tr><tr>
+			<td align="left">North Adams</td><td class="excelText" align="right">02090000</td><td align="right">126.6</td><td align="right">99.1</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  11.8 to 1</td>
+		</tr><tr class="eee">
+			<td align="left">North Andover</td><td class="excelText" align="right">02110000</td><td align="right">293.0</td><td align="right">99.5</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  16.4 to 1</td>
+		</tr><tr>
+			<td align="left">North Attleborough</td><td class="excelText" align="right">02120000</td><td align="right">288.3</td><td align="right">100.0</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  16.0 to 1</td>
+		</tr><tr class="eee">
+			<td align="left">North Brookfield</td><td class="excelText" align="right">02150000</td><td align="right">43.4</td><td align="right">100.0</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  13.2 to 1</td>
+		</tr><tr>
+			<td align="left">North Middlesex</td><td class="excelText" align="right">07350000</td><td align="right">255.3</td><td align="right">99.5</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  13.0 to 1</td>
+		</tr><tr class="eee">
+			<td align="left">North Reading</td><td class="excelText" align="right">02170000</td><td align="right">193.8</td><td align="right">99.6</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  13.2 to 1</td>
+		</tr><tr>
+			<td align="left">Northampton</td><td class="excelText" align="right">02100000</td><td align="right">221.4</td><td align="right">99.3</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  12.2 to 1</td>
+		</tr><tr class="eee">
+			<td align="left">Northampton-Smith Vocational Agricultural</td><td class="excelText" align="right">04060000</td><td align="right">47.2</td><td align="right">87.3</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">   9.1 to 1</td>
+		</tr><tr>
+			<td align="left">Northboro-Southboro</td><td class="excelText" align="right">07300000</td><td align="right">106.1</td><td align="right">100.0</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  13.7 to 1</td>
+		</tr><tr class="eee">
+			<td align="left">Northborough</td><td class="excelText" align="right">02130000</td><td align="right">138.8</td><td align="right">100.0</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  13.1 to 1</td>
+		</tr><tr>
+			<td align="left">Northbridge</td><td class="excelText" align="right">02140000</td><td align="right">163.8</td><td align="right">100.0</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  15.2 to 1</td>
+		</tr><tr class="eee">
+			<td align="left">Northeast Metropolitan Regional Vocational Technical</td><td class="excelText" align="right">08530000</td><td align="right">113.5</td><td align="right">99.1</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  11.2 to 1</td>
+		</tr><tr>
+			<td align="left">Northern Berkshire Regional Vocational Technical</td><td class="excelText" align="right">08510000</td><td align="right">43.0</td><td align="right">92.8</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  11.6 to 1</td>
+		</tr><tr class="eee">
+			<td align="left">Norton</td><td class="excelText" align="right">02180000</td><td align="right">187.7</td><td align="right">100.0</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  13.5 to 1</td>
+		</tr><tr>
+			<td align="left">Norwell</td><td class="excelText" align="right">02190000</td><td align="right">161.3</td><td align="right">100.0</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  14.0 to 1</td>
+		</tr><tr class="eee">
+			<td align="left">Norwood</td><td class="excelText" align="right">02200000</td><td align="right">271.1</td><td align="right">100.0</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  12.8 to 1</td>
+		</tr><tr>
+			<td align="left">Oak Bluffs</td><td class="excelText" align="right">02210000</td><td align="right">43.8</td><td align="right">99.4</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">   9.4 to 1</td>
+		</tr><tr class="eee">
+			<td align="left">Old Colony Regional Vocational Technical</td><td class="excelText" align="right">08550000</td><td align="right">54.9</td><td align="right">98.2</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  10.4 to 1</td>
+		</tr><tr>
+			<td align="left">Old Rochester</td><td class="excelText" align="right">07400000</td><td align="right">86.5</td><td align="right">100.0</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  14.5 to 1</td>
+		</tr><tr class="eee">
+			<td align="left">Orange</td><td class="excelText" align="right">02230000</td><td align="right">45.5</td><td align="right">100.0</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  14.0 to 1</td>
+		</tr><tr>
+			<td align="left">Orleans</td><td class="excelText" align="right">02240000</td><td align="right">24.9</td><td align="right">100.0</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">   8.7 to 1</td>
+		</tr><tr class="eee">
+			<td align="left">Oxford</td><td class="excelText" align="right">02260000</td><td align="right">135.0</td><td align="right">99.3</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  14.0 to 1</td>
+		</tr><tr>
+			<td align="left">Palmer</td><td class="excelText" align="right">02270000</td><td align="right">113.5</td><td align="right">100.0</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  12.6 to 1</td>
+		</tr><tr class="eee">
+			<td align="left">Pathfinder Regional Vocational Technical</td><td class="excelText" align="right">08600000</td><td align="right">77.0</td><td align="right">100.0</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">   8.1 to 1</td>
+		</tr><tr>
+			<td align="left">Paulo Freire Social Justice Charter School (District)</td><td class="excelText" align="right">35010000</td><td align="right">29.5</td><td align="right">53.5</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">   8.2 to 1</td>
+		</tr><tr class="eee">
+			<td align="left">Peabody</td><td class="excelText" align="right">02290000</td><td align="right">436.1</td><td align="right">99.3</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  13.7 to 1</td>
+		</tr><tr>
+			<td align="left">Pelham</td><td class="excelText" align="right">02300000</td><td align="right">11.3</td><td align="right">100.0</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  10.6 to 1</td>
+		</tr><tr class="eee">
+			<td align="left">Pembroke</td><td class="excelText" align="right">02310000</td><td align="right">194.8</td><td align="right">99.5</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  16.6 to 1</td>
+		</tr><tr>
+			<td align="left">Pentucket</td><td class="excelText" align="right">07450000</td><td align="right">217.4</td><td align="right">100.0</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  12.5 to 1</td>
+		</tr><tr class="eee">
+			<td align="left">Petersham</td><td class="excelText" align="right">02340000</td><td align="right">9.8</td><td align="right">95.9</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  11.5 to 1</td>
+		</tr><tr>
+			<td align="left">Phoenix Academy Public Charter High School Springfield (District)</td><td class="excelText" align="right">35080000</td><td align="right">8.5</td><td align="right">49.4</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  14.4 to 1</td>
+		</tr><tr class="eee">
+			<td align="left">Phoenix Charter Academy</td><td class="excelText" align="right">04930000</td><td align="right">17.9</td><td align="right">42.1</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  10.9 to 1</td>
+		</tr><tr>
+			<td align="left">Pioneer Charter School of Science</td><td class="excelText" align="right">04940000</td><td align="right">32.1</td><td align="right">67.6</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  11.2 to 1</td>
+		</tr><tr class="eee">
+			<td align="left">Pioneer Charter School of Science II (PCSS-II) (District)</td><td class="excelText" align="right">35060000</td><td align="right">21.4</td><td align="right">76.0</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  10.7 to 1</td>
+		</tr><tr>
+			<td align="left">Pioneer Valley</td><td class="excelText" align="right">07500000</td><td align="right">87.7</td><td align="right">96.5</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  10.6 to 1</td>
+		</tr><tr class="eee">
+			<td align="left">Pioneer Valley Chinese Immersion Charter (District)</td><td class="excelText" align="right">04970000</td><td align="right">44.9</td><td align="right">54.5</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">   8.7 to 1</td>
+		</tr><tr>
+			<td align="left">Pioneer Valley Performing Arts Charter Public</td><td class="excelText" align="right">04790000</td><td align="right">39.5</td><td align="right">62.8</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  10.2 to 1</td>
+		</tr><tr class="eee">
+			<td align="left">Pittsfield</td><td class="excelText" align="right">02360000</td><td align="right">483.6</td><td align="right">95.9</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  11.9 to 1</td>
+		</tr><tr>
+			<td align="left">Plainville</td><td class="excelText" align="right">02380000</td><td align="right">51.4</td><td align="right">100.0</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  14.4 to 1</td>
+		</tr><tr class="eee">
+			<td align="left">Plymouth</td><td class="excelText" align="right">02390000</td><td align="right">617.5</td><td align="right">99.2</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  12.5 to 1</td>
+		</tr><tr>
+			<td align="left">Plympton</td><td class="excelText" align="right">02400000</td><td align="right">18.2</td><td align="right">100.0</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  11.9 to 1</td>
+		</tr><tr class="eee">
+			<td align="left">Prospect Hill Academy Charter</td><td class="excelText" align="right">04870000</td><td align="right">87.4</td><td align="right">73.3</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  13.1 to 1</td>
+		</tr><tr>
+			<td align="left">Provincetown</td><td class="excelText" align="right">02420000</td><td align="right">19.0</td><td align="right">97.1</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">   5.8 to 1</td>
+		</tr><tr class="eee">
+			<td align="left">Quabbin</td><td class="excelText" align="right">07530000</td><td align="right">166.9</td><td align="right">98.8</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  14.7 to 1</td>
+		</tr><tr>
+			<td align="left">Quaboag Regional</td><td class="excelText" align="right">07780000</td><td align="right">92.3</td><td align="right">95.1</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  15.0 to 1</td>
+		</tr><tr class="eee">
+			<td align="left">Quincy</td><td class="excelText" align="right">02430000</td><td align="right">693.1</td><td align="right">99.5</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  13.3 to 1</td>
+		</tr><tr>
+			<td align="left">Ralph C Mahar</td><td class="excelText" align="right">07550000</td><td align="right">0.0</td><td align="right">0.0</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">N/A</td>
+		</tr><tr class="eee">
+			<td align="left">Randolph</td><td class="excelText" align="right">02440000</td><td align="right">255.2</td><td align="right">99.0</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  11.4 to 1</td>
+		</tr><tr>
+			<td align="left">Reading</td><td class="excelText" align="right">02460000</td><td align="right">313.2</td><td align="right">100.0</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  14.1 to 1</td>
+		</tr><tr class="eee">
+			<td align="left">Revere</td><td class="excelText" align="right">02480000</td><td align="right">513.1</td><td align="right">99.0</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  13.7 to 1</td>
+		</tr><tr>
+			<td align="left">Richmond</td><td class="excelText" align="right">02490000</td><td align="right">16.5</td><td align="right">99.4</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">   9.6 to 1</td>
+		</tr><tr class="eee">
+			<td align="left">Rising Tide Charter Public</td><td class="excelText" align="right">04830000</td><td align="right">46.7</td><td align="right">65.2</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  12.9 to 1</td>
+		</tr><tr>
+			<td align="left">River Valley Charter</td><td class="excelText" align="right">04820000</td><td align="right">18.4</td><td align="right">91.9</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  15.6 to 1</td>
+		</tr><tr class="eee">
+			<td align="left">Rochester</td><td class="excelText" align="right">02500000</td><td align="right">33.7</td><td align="right">100.0</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  14.1 to 1</td>
+		</tr><tr>
+			<td align="left">Rockland</td><td class="excelText" align="right">02510000</td><td align="right">143.4</td><td align="right">99.3</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  15.8 to 1</td>
+		</tr><tr class="eee">
+			<td align="left">Rockport</td><td class="excelText" align="right">02520000</td><td align="right">84.1</td><td align="right">100.0</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  11.4 to 1</td>
+		</tr><tr>
+			<td align="left">Rowe</td><td class="excelText" align="right">02530000</td><td align="right">8.1</td><td align="right">100.0</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">   7.9 to 1</td>
+		</tr><tr class="eee">
+			<td align="left">Roxbury Preparatory Charter</td><td class="excelText" align="right">04840000</td><td align="right">77.6</td><td align="right">51.1</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  11.4 to 1</td>
+		</tr><tr>
+			<td align="left">Sabis International Charter</td><td class="excelText" align="right">04410000</td><td align="right">64.6</td><td align="right">88.2</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  24.4 to 1</td>
+		</tr><tr class="eee">
+			<td align="left">Salem</td><td class="excelText" align="right">02580000</td><td align="right">419.1</td><td align="right">99.5</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  10.0 to 1</td>
+		</tr><tr>
+			<td align="left">Salem Academy Charter</td><td class="excelText" align="right">04850000</td><td align="right">42.8</td><td align="right">69.6</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">   8.7 to 1</td>
+		</tr><tr class="eee">
+			<td align="left">Sandwich</td><td class="excelText" align="right">02610000</td><td align="right">186.3</td><td align="right">99.2</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  15.4 to 1</td>
+		</tr><tr>
+			<td align="left">Saugus</td><td class="excelText" align="right">02620000</td><td align="right">208.5</td><td align="right">97.4</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  13.1 to 1</td>
+		</tr><tr class="eee">
+			<td align="left">Savoy</td><td class="excelText" align="right">02630000</td><td align="right">4.1</td><td align="right">100.0</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  10.0 to 1</td>
+		</tr><tr>
+			<td align="left">Scituate</td><td class="excelText" align="right">02640000</td><td align="right">245.7</td><td align="right">99.6</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  12.6 to 1</td>
+		</tr><tr class="eee">
+			<td align="left">Seekonk</td><td class="excelText" align="right">02650000</td><td align="right">144.1</td><td align="right">100.0</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  13.6 to 1</td>
+		</tr><tr>
+			<td align="left">Seven Hills Charter Public</td><td class="excelText" align="right">04860000</td><td align="right">56.3</td><td align="right">100.0</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  11.8 to 1</td>
+		</tr><tr class="eee">
+			<td align="left">Sharon</td><td class="excelText" align="right">02660000</td><td align="right">255.8</td><td align="right">99.6</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  13.6 to 1</td>
+		</tr><tr>
+			<td align="left">Shawsheen Valley Regional Vocational Technical</td><td class="excelText" align="right">08710000</td><td align="right">129.2</td><td align="right">100.0</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  10.6 to 1</td>
+		</tr><tr class="eee">
+			<td align="left">Sherborn</td><td class="excelText" align="right">02690000</td><td align="right">30.4</td><td align="right">100.0</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  12.9 to 1</td>
+		</tr><tr>
+			<td align="left">Shrewsbury</td><td class="excelText" align="right">02710000</td><td align="right">396.1</td><td align="right">98.2</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  15.2 to 1</td>
+		</tr><tr class="eee">
+			<td align="left">Shutesbury</td><td class="excelText" align="right">02720000</td><td align="right">14.1</td><td align="right">100.0</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  11.0 to 1</td>
+		</tr><tr>
+			<td align="left">Silver Hill Horace Mann Charter</td><td class="excelText" align="right">04770000</td><td align="right">37.0</td><td align="right">100.0</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  16.0 to 1</td>
+		</tr><tr class="eee">
+			<td align="left">Silver Lake</td><td class="excelText" align="right">07600000</td><td align="right">134.5</td><td align="right">98.5</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  14.2 to 1</td>
+		</tr><tr>
+			<td align="left">Sizer School: A North Central Charter Essential (District)</td><td class="excelText" align="right">04740000</td><td align="right">39.0</td><td align="right">92.3</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">   9.4 to 1</td>
+		</tr><tr class="eee">
+			<td align="left">Somerset</td><td class="excelText" align="right">02730000</td><td align="right">117.3</td><td align="right">100.0</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  15.6 to 1</td>
+		</tr><tr>
+			<td align="left">Somerset Berkley Regional School District</td><td class="excelText" align="right">07630000</td><td align="right">82.5</td><td align="right">100.0</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  11.2 to 1</td>
+		</tr><tr class="eee">
+			<td align="left">Somerville</td><td class="excelText" align="right">02740000</td><td align="right">421.4</td><td align="right">98.6</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  11.8 to 1</td>
+		</tr><tr>
+			<td align="left">South Hadley</td><td class="excelText" align="right">02780000</td><td align="right">140.8</td><td align="right">100.0</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  13.3 to 1</td>
+		</tr><tr class="eee">
+			<td align="left">South Middlesex Regional Vocational Technical</td><td class="excelText" align="right">08290000</td><td align="right">77.1</td><td align="right">96.1</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">   9.0 to 1</td>
+		</tr><tr>
+			<td align="left">South Shore Charter Public</td><td class="excelText" align="right">04880000</td><td align="right">56.6</td><td align="right">85.2</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  10.4 to 1</td>
+		</tr><tr class="eee">
+			<td align="left">South Shore Regional Vocational Technical</td><td class="excelText" align="right">08730000</td><td align="right">53.8</td><td align="right">98.1</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  11.1 to 1</td>
+		</tr><tr>
+			<td align="left">Southampton</td><td class="excelText" align="right">02750000</td><td align="right">33.7</td><td align="right">100.0</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  16.0 to 1</td>
+		</tr><tr class="eee">
+			<td align="left">Southborough</td><td class="excelText" align="right">02760000</td><td align="right">109.4</td><td align="right">100.0</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  12.2 to 1</td>
+		</tr><tr>
+			<td align="left">Southbridge</td><td class="excelText" align="right">02770000</td><td align="right">165.5</td><td align="right">97.9</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  13.5 to 1</td>
+		</tr><tr class="eee">
+			<td align="left">Southeastern Regional Vocational Technical</td><td class="excelText" align="right">08720000</td><td align="right">112.0</td><td align="right">96.4</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  11.8 to 1</td>
+		</tr><tr>
+			<td align="left">Southern Berkshire</td><td class="excelText" align="right">07650000</td><td align="right">79.9</td><td align="right">99.9</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">   9.5 to 1</td>
+		</tr><tr class="eee">
+			<td align="left">Southern Worcester County Regional Vocational Technical</td><td class="excelText" align="right">08760000</td><td align="right">107.7</td><td align="right">100.0</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  10.4 to 1</td>
+		</tr><tr>
+			<td align="left">Southwick-Tolland-Granville Regional School District</td><td class="excelText" align="right">07660000</td><td align="right">141.0</td><td align="right">100.0</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  11.6 to 1</td>
+		</tr><tr class="eee">
+			<td align="left">Spencer-E Brookfield</td><td class="excelText" align="right">07670000</td><td align="right">114.8</td><td align="right">100.0</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  14.8 to 1</td>
+		</tr><tr>
+			<td align="left">Springfield</td><td class="excelText" align="right">02810000</td><td align="right">1,985.4</td><td align="right">94.4</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  12.9 to 1</td>
+		</tr><tr class="eee">
+			<td align="left">Stoneham</td><td class="excelText" align="right">02840000</td><td align="right">186.5</td><td align="right">99.5</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  12.4 to 1</td>
+		</tr><tr>
+			<td align="left">Stoughton</td><td class="excelText" align="right">02850000</td><td align="right">292.0</td><td align="right">100.0</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  12.5 to 1</td>
+		</tr><tr class="eee">
+			<td align="left">Sturbridge</td><td class="excelText" align="right">02870000</td><td align="right">67.8</td><td align="right">100.0</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  14.5 to 1</td>
+		</tr><tr>
+			<td align="left">Sturgis Charter Public</td><td class="excelText" align="right">04890000</td><td align="right">85.3</td><td align="right">47.7</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">   9.5 to 1</td>
+		</tr><tr class="eee">
+			<td align="left">Sudbury</td><td class="excelText" align="right">02880000</td><td align="right">210.9</td><td align="right">100.0</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  13.6 to 1</td>
+		</tr><tr>
+			<td align="left">Sunderland</td><td class="excelText" align="right">02890000</td><td align="right">14.2</td><td align="right">92.9</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  14.5 to 1</td>
+		</tr><tr class="eee">
+			<td align="left">Sutton</td><td class="excelText" align="right">02900000</td><td align="right">98.9</td><td align="right">96.9</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  15.4 to 1</td>
+		</tr><tr>
+			<td align="left">Swampscott</td><td class="excelText" align="right">02910000</td><td align="right">182.9</td><td align="right">98.4</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  12.3 to 1</td>
+		</tr><tr class="eee">
+			<td align="left">Swansea</td><td class="excelText" align="right">02920000</td><td align="right">162.7</td><td align="right">100.0</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  12.9 to 1</td>
+		</tr><tr>
+			<td align="left">TEC Connections Academy Commonwealth Virtual School District</td><td class="excelText" align="right">39020000</td><td align="right">12.9</td><td align="right">92.2</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  30.7 to 1</td>
+		</tr><tr class="eee">
+			<td align="left">Tantasqua</td><td class="excelText" align="right">07700000</td><td align="right">144.7</td><td align="right">98.4</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  12.4 to 1</td>
+		</tr><tr>
+			<td align="left">Taunton</td><td class="excelText" align="right">02930000</td><td align="right">519.2</td><td align="right">99.6</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  15.2 to 1</td>
+		</tr><tr class="eee">
+			<td align="left">Tewksbury</td><td class="excelText" align="right">02950000</td><td align="right">248.8</td><td align="right">100.0</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  14.7 to 1</td>
+		</tr><tr>
+			<td align="left">Tisbury</td><td class="excelText" align="right">02960000</td><td align="right">36.4</td><td align="right">96.6</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">   9.1 to 1</td>
+		</tr><tr class="eee">
+			<td align="left">Topsfield</td><td class="excelText" align="right">02980000</td><td align="right">48.5</td><td align="right">100.0</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  12.6 to 1</td>
+		</tr><tr>
+			<td align="left">Tri County Regional Vocational Technical</td><td class="excelText" align="right">08780000</td><td align="right">90.2</td><td align="right">96.2</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  11.3 to 1</td>
+		</tr><tr class="eee">
+			<td align="left">Triton</td><td class="excelText" align="right">07730000</td><td align="right">219.8</td><td align="right">99.5</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  12.5 to 1</td>
+		</tr><tr>
+			<td align="left">Truro</td><td class="excelText" align="right">03000000</td><td align="right">15.8</td><td align="right">100.0</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">   8.1 to 1</td>
+		</tr><tr class="eee">
+			<td align="left">Tyngsborough</td><td class="excelText" align="right">03010000</td><td align="right">130.6</td><td align="right">99.2</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  13.5 to 1</td>
+		</tr><tr>
+			<td align="left">UP Academy Charter School of Boston</td><td class="excelText" align="right">04800000</td><td align="right">45.5</td><td align="right">81.1</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  10.3 to 1</td>
+		</tr><tr class="eee">
+			<td align="left">UP Academy Charter School of Dorchester (District)</td><td class="excelText" align="right">35050000</td><td align="right">58.0</td><td align="right">75.9</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  10.8 to 1</td>
+		</tr><tr>
+			<td align="left">Up-Island Regional</td><td class="excelText" align="right">07740000</td><td align="right">42.9</td><td align="right">98.3</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">   8.4 to 1</td>
+		</tr><tr class="eee">
+			<td align="left">Upper Cape Cod Regional Vocational Technical</td><td class="excelText" align="right">08790000</td><td align="right">51.6</td><td align="right">96.2</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  13.5 to 1</td>
+		</tr><tr>
+			<td align="left">Uxbridge</td><td class="excelText" align="right">03040000</td><td align="right">124.6</td><td align="right">100.0</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  15.1 to 1</td>
+		</tr><tr class="eee">
+			<td align="left">Veritas Preparatory Charter School</td><td class="excelText" align="right">04980000</td><td align="right">19.0</td><td align="right">63.2</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  12.9 to 1</td>
+		</tr><tr>
+			<td align="left">Wachusett</td><td class="excelText" align="right">07750000</td><td align="right">457.0</td><td align="right">100.0</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  16.1 to 1</td>
+		</tr><tr class="eee">
+			<td align="left">Wakefield</td><td class="excelText" align="right">03050000</td><td align="right">253.9</td><td align="right">100.0</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  13.5 to 1</td>
+		</tr><tr>
+			<td align="left">Wales</td><td class="excelText" align="right">03060000</td><td align="right">11.5</td><td align="right">91.1</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  14.4 to 1</td>
+		</tr><tr class="eee">
+			<td align="left">Walpole</td><td class="excelText" align="right">03070000</td><td align="right">289.5</td><td align="right">100.0</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  13.6 to 1</td>
+		</tr><tr>
+			<td align="left">Waltham</td><td class="excelText" align="right">03080000</td><td align="right">473.1</td><td align="right">100.0</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  11.1 to 1</td>
+		</tr><tr class="eee">
+			<td align="left">Ware</td><td class="excelText" align="right">03090000</td><td align="right">88.8</td><td align="right">98.9</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  14.0 to 1</td>
+		</tr><tr>
+			<td align="left">Wareham</td><td class="excelText" align="right">03100000</td><td align="right">202.3</td><td align="right">99.1</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  13.0 to 1</td>
+		</tr><tr class="eee">
+			<td align="left">Watertown</td><td class="excelText" align="right">03140000</td><td align="right">230.6</td><td align="right">99.0</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  10.8 to 1</td>
+		</tr><tr>
+			<td align="left">Wayland</td><td class="excelText" align="right">03150000</td><td align="right">205.0</td><td align="right">99.0</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  13.0 to 1</td>
+		</tr><tr class="eee">
+			<td align="left">Webster</td><td class="excelText" align="right">03160000</td><td align="right">131.8</td><td align="right">97.7</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  14.2 to 1</td>
+		</tr><tr>
+			<td align="left">Wellesley</td><td class="excelText" align="right">03170000</td><td align="right">377.9</td><td align="right">98.9</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  13.4 to 1</td>
+		</tr><tr class="eee">
+			<td align="left">Wellfleet</td><td class="excelText" align="right">03180000</td><td align="right">14.4</td><td align="right">100.0</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">   8.2 to 1</td>
+		</tr><tr>
+			<td align="left">West Boylston</td><td class="excelText" align="right">03220000</td><td align="right">79.0</td><td align="right">99.7</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  11.8 to 1</td>
+		</tr><tr class="eee">
+			<td align="left">West Bridgewater</td><td class="excelText" align="right">03230000</td><td align="right">91.2</td><td align="right">100.0</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  14.3 to 1</td>
+		</tr><tr>
+			<td align="left">West Springfield</td><td class="excelText" align="right">03320000</td><td align="right">293.9</td><td align="right">99.7</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  13.5 to 1</td>
+		</tr><tr class="eee">
+			<td align="left">Westborough</td><td class="excelText" align="right">03210000</td><td align="right">270.8</td><td align="right">99.2</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  13.4 to 1</td>
+		</tr><tr>
+			<td align="left">Westfield</td><td class="excelText" align="right">03250000</td><td align="right">438.7</td><td align="right">98.8</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  13.0 to 1</td>
+		</tr><tr class="eee">
+			<td align="left">Westford</td><td class="excelText" align="right">03260000</td><td align="right">358.5</td><td align="right">100.0</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  14.3 to 1</td>
+		</tr><tr>
+			<td align="left">Westhampton</td><td class="excelText" align="right">03270000</td><td align="right">11.9</td><td align="right">91.6</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  12.5 to 1</td>
+		</tr><tr class="eee">
+			<td align="left">Weston</td><td class="excelText" align="right">03300000</td><td align="right">196.7</td><td align="right">99.6</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  11.5 to 1</td>
+		</tr><tr>
+			<td align="left">Westport</td><td class="excelText" align="right">03310000</td><td align="right">108.7</td><td align="right">99.5</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  14.4 to 1</td>
+		</tr><tr class="eee">
+			<td align="left">Westwood</td><td class="excelText" align="right">03350000</td><td align="right">232.3</td><td align="right">99.1</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  13.8 to 1</td>
+		</tr><tr>
+			<td align="left">Weymouth</td><td class="excelText" align="right">03360000</td><td align="right">415.3</td><td align="right">99.5</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  16.2 to 1</td>
+		</tr><tr class="eee">
+			<td align="left">Whately</td><td class="excelText" align="right">03370000</td><td align="right">6.6</td><td align="right">100.0</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  20.5 to 1</td>
+		</tr><tr>
+			<td align="left">Whitman-Hanson</td><td class="excelText" align="right">07800000</td><td align="right">240.3</td><td align="right">100.0</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  16.9 to 1</td>
+		</tr><tr class="eee">
+			<td align="left">Whittier Regional Vocational Technical</td><td class="excelText" align="right">08850000</td><td align="right">109.2</td><td align="right">100.0</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  12.0 to 1</td>
+		</tr><tr>
+			<td align="left">Williamsburg</td><td class="excelText" align="right">03400000</td><td align="right">0.0</td><td align="right">0.0</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">N/A</td>
+		</tr><tr class="eee">
+			<td align="left">Williamstown</td><td class="excelText" align="right">03410000</td><td align="right">36.6</td><td align="right">100.0</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  12.5 to 1</td>
+		</tr><tr>
+			<td align="left">Wilmington</td><td class="excelText" align="right">03420000</td><td align="right">271.1</td><td align="right">99.8</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  12.7 to 1</td>
+		</tr><tr class="eee">
+			<td align="left">Winchendon</td><td class="excelText" align="right">03430000</td><td align="right">100.0</td><td align="right">99.0</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  13.4 to 1</td>
+		</tr><tr>
+			<td align="left">Winchester</td><td class="excelText" align="right">03440000</td><td align="right">332.8</td><td align="right">100.0</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  13.5 to 1</td>
+		</tr><tr class="eee">
+			<td align="left">Winthrop</td><td class="excelText" align="right">03460000</td><td align="right">150.5</td><td align="right">96.0</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  12.9 to 1</td>
+		</tr><tr>
+			<td align="left">Woburn</td><td class="excelText" align="right">03470000</td><td align="right">363.9</td><td align="right">99.5</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  13.1 to 1</td>
+		</tr><tr class="eee">
+			<td align="left">Worcester</td><td class="excelText" align="right">03480000</td><td align="right">1,809.7</td><td align="right">96.6</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  14.0 to 1</td>
+		</tr><tr>
+			<td align="left">Wrentham</td><td class="excelText" align="right">03500000</td><td align="right">76.8</td><td align="right">100.0</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  13.9 to 1</td>
+		</tr><tr class="eee">
+			<td align="left">State Totals</td><td class="excelText" align="right">00000000</td><td align="right">71,806.4</td><td align="right">97.4</td><td align="right">&nbsp;</td><td align="right">&nbsp;</td><td align="right">  13.3 to 1</td>
+		</tr>
+	</table>
+</div>
+
+                    
+                </td></tr>
+                </table>
+
+            </form>
+
+        <div class="clear"></div>
+    </div><!--close whitebox-->
+</div><!--close onecolumn-->
+
+
+
+
+
+</body>
+</html>
