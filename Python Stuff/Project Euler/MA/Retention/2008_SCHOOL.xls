@@ -1,0 +1,74 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="ctl00_Head1"><meta name="search" content="Massachusetts Department of Elementary and Secondary Education" />
+    <style>
+.excelText { 
+mso-number-format:\@;
+ }
+    </style>
+<title>
+	2008 Staffing Retention Rates Statewide Report
+</title></head>
+<!--Start Page Content-->
+
+
+<body>
+
+        
+    <span id="ctl00_ContentPlaceHolder1_lblDebugText"></span>
+
+<span id="lblPrintHeader">
+<div id='headerprint'><h1>Massachusetts School and District Profiles</h1><h1>Staffing Retention Rates</h1></div>
+</span>
+
+<div id="onecolumn">
+    
+	<div id="whitebox">
+        
+
+        <style>
+            #wrapper  {width: 1250px;}
+            #header  {width: 1250px;}
+            #submenu  {width: 1250px;}
+        </style>
+
+        <div id="whiteboxRight">
+            <form name="aspnetForm" method="post" action="staffingRetentionRates.aspx?ctl00%24ContentPlaceHolder1%24fycode=2008&amp;export_excel=yes&amp;ctl00%24ContentPlaceHolder1%24reportType=SCHOOL" id="aspnetForm">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKLTk5NTg3NDQ3MmQYAgUeX19Db250cm9sc1JlcXVpcmVQb3N0QmFja0tleV9fFgEFImN0bDAwJENvbnRlbnRQbGFjZUhvbGRlcjEkQ29udGludWUFMWN0bDAwJENvbnRlbnRQbGFjZUhvbGRlcjEkZ3ZTdGFmZmluZ1JldGVudGlvblJhdGUPPCsADAEIZmRf4elICmc2SqxDuLkOv6tPkMQftKBuIokczzMt4LG2Sg==" />
+
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="D1719415" />
+                <!--Start Page Content-->
+                <span id="ctl00_ContentPlaceHolder1_TitleString"><h2>2008 Staffing Retention Rates for schools</h2></span>
+                <span id="ctl00_ContentPlaceHolder1_lblUtilBarHtml"></span>
+                <p></p>
+
+                
+
+                <p></p>
+                <table border="0" width="950" class="nav"  >
+                <tr><td colspan="11">
+                    <div>
+	<table class="nav center" cellspacing="0" rules="all" border="1" id="ctl00_ContentPlaceHolder1_gvStaffingRetentionRate">
+		<tr>
+			<td colspan="11">No Data Exists for this search criteria. Please try again.</td>
+		</tr>
+	</table>
+</div>
+                    
+                </td></tr>
+                </table>
+            </form>
+
+            <!--End Page Content-->
+        </div><!--close whiteboxright-->
+        <div class="clear"></div>
+    </div><!--close whitebox-->
+
+</div><!--close onecolumn-->
+
+
+</body>
+</html>

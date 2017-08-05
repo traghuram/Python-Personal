@@ -1,0 +1,729 @@
+
+
+    <html
+        xmlns:x="urn:schemas-microsoft-com:office:excel"
+        xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+    >
+        <head>
+        <link title="Doe Main Style Sheet" rel=stylesheet href="http://www.doe.mass.edu/css/vision.css" type="text/css">
+        <title>Per Pupil Expenditures</title>
+    </head>
+    <body>
+
+
+<span id="lblPrintHeader">
+<div id='headerprint'><h1>Massachusetts School and District Profiles</h1></div>
+</span>
+
+<div id="onecolumn">
+    
+	<div id="whitebox">
+        
+        <!-- The following block was added by A.Muhameti on 06/15/09 to extend wrappers to right for extra wide grids -->
+	    <style>
+		    #wrapper  {width: 1100px;}
+		    #header  {width: 1100px;}
+		    #submenu  {width: 1100px;}
+	    </style>
+        <!-- The above block was added by A.Muhameti on 06/15/09 -->
+        <div id="whiteboxRight">
+            <span id="lblUtilBarHtml"></span>
+            <!--Start Page Content-->
+            <form name="ppxForm" method="post" action="ppx.aspx?export_excel=yes&amp;finFunction=12&amp;year=2008" id="ppxForm">
+<input type="hidden" name="ScriptManager1_HiddenField" id="ScriptManager1_HiddenField" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUJMjY1MzEyMDE5ZBgCBR5fX0NvbnRyb2xzUmVxdWlyZVBvc3RCYWNrS2V5X18WAQUIQ29udGludWUFC3BweEdyaWRWaWV3DzwrAAwBCAIBZKpxsTznzyMepSyqJRtj9r4/piWJulj1CiGa7O0HSFrM" />
+
+
+<script src="/ScriptResource.axd?d=nCK2SYk-X0CYJoL4xLgxiM4V08oyvfEV_RasfE9BDTyhIQAuRu6eqGdjuFQ1xrGmI1P2KuxoWJZrA8dG06z3w9HQqWlEIlOEkWqBZDl5fV1zAtWmWhrjub4SvIBLyJDcxEevRxekH0l-s94-2rkPCssRnsJODZCgKSwHkNzj8qeZ21zSymK-u5IzW-ZpGYJo0&amp;t=ffffffff805766b3" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side framework failed to load.');
+//]]>
+</script>
+
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="78A22D4D" />
+<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdAAJ+qZ3+7BXQwqt/8LNnI5BYq7Fz005Gs9zCmpN9QTsPAMU5KLQXzu75varx609B3p8RtkxT09YWW3bWlXwbVO4p" />
+                
+                <span id="debugText"></span>
+                <span id="TitleString"><h2>2007-08 Per Pupil Expenditures Report<br /><span class='em'>Operations and Maintenance Function</span></h2></span>
+                
+
+                <table border="0" width="800" class="nav"  >
+                <tr><td colspan="10">
+                    <div>
+	<table class="nav center" cellspacing="0" rules="all" border="1" id="ppxGridView">
+		<tr>
+			<th align="left" valign="middle" scope="col" width="250">District</th><th align="center" valign="middle" scope="col" width="110">Org Code</th><th align="center" valign="middle" scope="col" width="110">Total FTE Memb</th><th align="center" valign="middle" scope="col" width="110">General Fund Appropriations</th><th align="center" valign="middle" scope="col" width="110">Grants, Revolving & Other Funds</th><th align="center" valign="middle" scope="col" width="110">Total Expenditures</th><th align="center" valign="middle" scope="col" width="110">Expenditure Per Pupil</th>
+		</tr><tr>
+			<td align="left">ABINGTON                     </td><td class="excelText" align="right">00010000</td><td align="right">2,437.2</td><td align="right">$1,644,922</td><td align="right">$53,367</td><td align="right">$1,698,289</td><td align="right">$717</td>
+		</tr><tr class="eee">
+			<td align="left">ACTON                        </td><td class="excelText" align="right">00020000</td><td align="right">2,623.8</td><td align="right">$2,192,255</td><td align="right">$0</td><td align="right">$2,192,255</td><td align="right">$846</td>
+		</tr><tr>
+			<td align="left">ACTON BOXBOROUGH             </td><td class="excelText" align="right">06000000</td><td align="right">3,022.7</td><td align="right">$3,205,572</td><td align="right">$31,423</td><td align="right">$3,236,995</td><td align="right">$1,108</td>
+		</tr><tr class="eee">
+			<td align="left">ACUSHNET                     </td><td class="excelText" align="right">00030000</td><td align="right">1,449.0</td><td align="right">$820,691</td><td align="right">$0</td><td align="right">$820,691</td><td align="right">$761</td>
+		</tr><tr>
+			<td align="left">ADAMS CHESHIRE               </td><td class="excelText" align="right">06030000</td><td align="right">1,739.1</td><td align="right">$1,864,380</td><td align="right">$13,897</td><td align="right">$1,878,277</td><td align="right">$1,152</td>
+		</tr><tr class="eee">
+			<td align="left">AGAWAM                       </td><td class="excelText" align="right">00050000</td><td align="right">4,498.4</td><td align="right">$3,725,052</td><td align="right">$1,123,749</td><td align="right">$4,848,801</td><td align="right">$1,115</td>
+		</tr><tr>
+			<td align="left">AMESBURY                     </td><td class="excelText" align="right">00070000</td><td align="right">2,621.0</td><td align="right">$2,543,892</td><td align="right">$97,642</td><td align="right">$2,641,534</td><td align="right">$1,120</td>
+		</tr><tr class="eee">
+			<td align="left">AMHERST                      </td><td class="excelText" align="right">00080000</td><td align="right">1,453.3</td><td align="right">$1,706,651</td><td align="right">$1,575</td><td align="right">$1,708,226</td><td align="right">$1,210</td>
+		</tr><tr>
+			<td align="left">AMHERST PELHAM               </td><td class="excelText" align="right">06050000</td><td align="right">1,892.2</td><td align="right">$2,931,765</td><td align="right">$60,482</td><td align="right">$2,992,247</td><td align="right">$1,678</td>
+		</tr><tr class="eee">
+			<td align="left">ANDOVER                      </td><td class="excelText" align="right">00090000</td><td align="right">6,291.5</td><td align="right">$6,593,256</td><td align="right">$242,213</td><td align="right">$6,835,469</td><td align="right">$1,106</td>
+		</tr><tr>
+			<td align="left">ARLINGTON                    </td><td class="excelText" align="right">00100000</td><td align="right">4,757.7</td><td align="right">$4,991,671</td><td align="right">$350,811</td><td align="right">$5,342,482</td><td align="right">$1,154</td>
+		</tr><tr class="eee">
+			<td align="left">ASHBURNHAM WESTMINSTER       </td><td class="excelText" align="right">06100000</td><td align="right">2,484.2</td><td align="right">$2,287,475</td><td align="right">$37,821</td><td align="right">$2,325,296</td><td align="right">$970</td>
+		</tr><tr>
+			<td align="left">ASHLAND                      </td><td class="excelText" align="right">00140000</td><td align="right">2,751.7</td><td align="right">$2,483,938</td><td align="right">$257,630</td><td align="right">$2,741,568</td><td align="right">$1,029</td>
+		</tr><tr class="eee">
+			<td align="left">ASSABET VALLEY               </td><td class="excelText" align="right">08010000</td><td align="right">955.4</td><td align="right">$1,735,459</td><td align="right">$20,927</td><td align="right">$1,756,386</td><td align="right">$1,852</td>
+		</tr><tr>
+			<td align="left">ATHOL ROYALSTON              </td><td class="excelText" align="right">06150000</td><td align="right">2,141.7</td><td align="right">$1,612,966</td><td align="right">$100,311</td><td align="right">$1,713,277</td><td align="right">$934</td>
+		</tr><tr class="eee">
+			<td align="left">ATTLEBORO                    </td><td class="excelText" align="right">00160000</td><td align="right">6,235.0</td><td align="right">$6,985,621</td><td align="right">$163,840</td><td align="right">$7,149,461</td><td align="right">$1,206</td>
+		</tr><tr>
+			<td align="left">AUBURN                       </td><td class="excelText" align="right">00170000</td><td align="right">2,424.5</td><td align="right">$2,235,016</td><td align="right">$9,533</td><td align="right">$2,244,549</td><td align="right">$954</td>
+		</tr><tr class="eee">
+			<td align="left">AVON                         </td><td class="excelText" align="right">00180000</td><td align="right">775.5</td><td align="right">$1,262,029</td><td align="right">$0</td><td align="right">$1,262,029</td><td align="right">$1,666</td>
+		</tr><tr>
+			<td align="left">AYER                         </td><td class="excelText" align="right">00190000</td><td align="right">1,375.5</td><td align="right">$907,762</td><td align="right">$59,045</td><td align="right">$966,807</td><td align="right">$775</td>
+		</tr><tr class="eee">
+			<td align="left">BARNSTABLE                   </td><td class="excelText" align="right">00200000</td><td align="right">6,034.4</td><td align="right">$5,776,089</td><td align="right">$184,983</td><td align="right">$5,961,072</td><td align="right">$1,331</td>
+		</tr><tr>
+			<td align="left">BEDFORD                      </td><td class="excelText" align="right">00230000</td><td align="right">2,452.9</td><td align="right">$3,016,720</td><td align="right">$47,194</td><td align="right">$3,063,914</td><td align="right">$1,310</td>
+		</tr><tr class="eee">
+			<td align="left">BELCHERTOWN                  </td><td class="excelText" align="right">00240000</td><td align="right">2,788.8</td><td align="right">$2,581,874</td><td align="right">$45,852</td><td align="right">$2,627,726</td><td align="right">$983</td>
+		</tr><tr>
+			<td align="left">BELLINGHAM                   </td><td class="excelText" align="right">00250000</td><td align="right">2,786.0</td><td align="right">$3,146,052</td><td align="right">$132,579</td><td align="right">$3,278,631</td><td align="right">$1,235</td>
+		</tr><tr class="eee">
+			<td align="left">BELMONT                      </td><td class="excelText" align="right">00260000</td><td align="right">3,860.1</td><td align="right">$3,355,975</td><td align="right">$412,800</td><td align="right">$3,768,775</td><td align="right">$999</td>
+		</tr><tr>
+			<td align="left">BERKLEY                      </td><td class="excelText" align="right">00270000</td><td align="right">1,228.8</td><td align="right">$708,296</td><td align="right">$117,398</td><td align="right">$825,694</td><td align="right">$849</td>
+		</tr><tr class="eee">
+			<td align="left">BERKSHIRE HILLS              </td><td class="excelText" align="right">06180000</td><td align="right">1,519.8</td><td align="right">$1,752,956</td><td align="right">$0</td><td align="right">$1,752,956</td><td align="right">$1,246</td>
+		</tr><tr>
+			<td align="left">BERLIN                       </td><td class="excelText" align="right">00280000</td><td align="right">231.5</td><td align="right">$271,755</td><td align="right">$57,724</td><td align="right">$329,479</td><td align="right">$1,501</td>
+		</tr><tr class="eee">
+			<td align="left">BERLIN BOYLSTON              </td><td class="excelText" align="right">06200000</td><td align="right">524.5</td><td align="right">$395,720</td><td align="right">$6,862</td><td align="right">$402,582</td><td align="right">$850</td>
+		</tr><tr>
+			<td align="left">BEVERLY                      </td><td class="excelText" align="right">00300000</td><td align="right">4,718.8</td><td align="right">$3,653,230</td><td align="right">$18,600</td><td align="right">$3,671,830</td><td align="right">$823</td>
+		</tr><tr class="eee">
+			<td align="left">BILLERICA                    </td><td class="excelText" align="right">00310000</td><td align="right">6,465.3</td><td align="right">$5,290,726</td><td align="right">$645,988</td><td align="right">$5,936,714</td><td align="right">$952</td>
+		</tr><tr>
+			<td align="left">BLACKSTONE MILLVILLE         </td><td class="excelText" align="right">06220000</td><td align="right">2,198.5</td><td align="right">$1,752,396</td><td align="right">$0</td><td align="right">$1,752,396</td><td align="right">$826</td>
+		</tr><tr class="eee">
+			<td align="left">BLACKSTONE VALLEY            </td><td class="excelText" align="right">08050000</td><td align="right">1,029.4</td><td align="right">$1,446,891</td><td align="right">$25,005</td><td align="right">$1,471,896</td><td align="right">$1,433</td>
+		</tr><tr>
+			<td align="left">BLUE HILLS                   </td><td class="excelText" align="right">08060000</td><td align="right">830.7</td><td align="right">$1,947,375</td><td align="right">$2,575</td><td align="right">$1,949,950</td><td align="right">$2,347</td>
+		</tr><tr class="eee">
+			<td align="left">BOSTON                       </td><td class="excelText" align="right">00350000</td><td align="right">64,779.1</td><td align="right">$70,670,104</td><td align="right">$1,303,416</td><td align="right">$71,973,520</td><td align="right">$1,278</td>
+		</tr><tr>
+			<td align="left">BOURNE                       </td><td class="excelText" align="right">00360000</td><td align="right">2,568.9</td><td align="right">$2,226,016</td><td align="right">$209,452</td><td align="right">$2,435,468</td><td align="right">$965</td>
+		</tr><tr class="eee">
+			<td align="left">BOXBOROUGH                   </td><td class="excelText" align="right">00370000</td><td align="right">564.9</td><td align="right">$643,431</td><td align="right">$0</td><td align="right">$643,431</td><td align="right">$1,165</td>
+		</tr><tr>
+			<td align="left">BOXFORD                      </td><td class="excelText" align="right">00380000</td><td align="right">993.5</td><td align="right">$915,207</td><td align="right">$56,067</td><td align="right">$971,274</td><td align="right">$989</td>
+		</tr><tr class="eee">
+			<td align="left">BOYLSTON                     </td><td class="excelText" align="right">00390000</td><td align="right">407.5</td><td align="right">$261,163</td><td align="right">$1,411</td><td align="right">$262,574</td><td align="right">$699</td>
+		</tr><tr>
+			<td align="left">BRAINTREE                    </td><td class="excelText" align="right">00400000</td><td align="right">5,446.6</td><td align="right">$5,399,775</td><td align="right">$356,735</td><td align="right">$5,756,510</td><td align="right">$1,078</td>
+		</tr><tr class="eee">
+			<td align="left">BREWSTER                     </td><td class="excelText" align="right">00410000</td><td align="right">548.4</td><td align="right">$598,762</td><td align="right">$0</td><td align="right">$598,762</td><td align="right">$1,134</td>
+		</tr><tr>
+			<td align="left">BRIDGEWATER RAYNHAM          </td><td class="excelText" align="right">06250000</td><td align="right">5,765.8</td><td align="right">$4,120,466</td><td align="right">$332,754</td><td align="right">$4,453,220</td><td align="right">$790</td>
+		</tr><tr class="eee">
+			<td align="left">BRIMFIELD                    </td><td class="excelText" align="right">00430000</td><td align="right">354.0</td><td align="right">$267,311</td><td align="right">$0</td><td align="right">$267,311</td><td align="right">$766</td>
+		</tr><tr>
+			<td align="left">BRISTOL COUNTY               </td><td class="excelText" align="right">09100000</td><td align="right">419.4</td><td align="right">$1,127,268</td><td align="right">$0</td><td align="right">$1,127,268</td><td align="right">$2,688</td>
+		</tr><tr class="eee">
+			<td align="left">BRISTOL PLYMOUTH             </td><td class="excelText" align="right">08100000</td><td align="right">1,169.5</td><td align="right">$1,664,445</td><td align="right">$100,261</td><td align="right">$1,764,706</td><td align="right">$1,509</td>
+		</tr><tr>
+			<td align="left">BROCKTON                     </td><td class="excelText" align="right">00440000</td><td align="right">15,785.4</td><td align="right">$17,444,797</td><td align="right">$188,066</td><td align="right">$17,632,863</td><td align="right">$1,157</td>
+		</tr><tr class="eee">
+			<td align="left">BROOKFIELD                   </td><td class="excelText" align="right">00450000</td><td align="right">296.0</td><td align="right">$255,932</td><td align="right">$36,094</td><td align="right">$292,026</td><td align="right">$1,065</td>
+		</tr><tr>
+			<td align="left">BROOKLINE                    </td><td class="excelText" align="right">00460000</td><td align="right">6,306.0</td><td align="right">$9,111,346</td><td align="right">$64,825</td><td align="right">$9,176,171</td><td align="right">$1,471</td>
+		</tr><tr class="eee">
+			<td align="left">BURLINGTON                   </td><td class="excelText" align="right">00480000</td><td align="right">3,771.1</td><td align="right">$3,787,635</td><td align="right">$187,461</td><td align="right">$3,975,096</td><td align="right">$1,084</td>
+		</tr><tr>
+			<td align="left">CAMBRIDGE                    </td><td class="excelText" align="right">00490000</td><td align="right">6,129.3</td><td align="right">$13,279,399</td><td align="right">$537,089</td><td align="right">$13,816,488</td><td align="right">$2,444</td>
+		</tr><tr class="eee">
+			<td align="left">CANTON                       </td><td class="excelText" align="right">00500000</td><td align="right">3,128.3</td><td align="right">$3,163,584</td><td align="right">$110,772</td><td align="right">$3,274,356</td><td align="right">$1,068</td>
+		</tr><tr>
+			<td align="left">CAPE COD                     </td><td class="excelText" align="right">08150000</td><td align="right">724.2</td><td align="right">$1,578,276</td><td align="right">$0</td><td align="right">$1,578,276</td><td align="right">$2,179</td>
+		</tr><tr class="eee">
+			<td align="left">CARLISLE                     </td><td class="excelText" align="right">00510000</td><td align="right">780.3</td><td align="right">$897,683</td><td align="right">$12,653</td><td align="right">$910,336</td><td align="right">$1,182</td>
+		</tr><tr>
+			<td align="left">CARVER                       </td><td class="excelText" align="right">00520000</td><td align="right">1,997.2</td><td align="right">$1,742,672</td><td align="right">$0</td><td align="right">$1,742,672</td><td align="right">$892</td>
+		</tr><tr class="eee">
+			<td align="left">CENTRAL BERKSHIRE            </td><td class="excelText" align="right">06350000</td><td align="right">2,296.1</td><td align="right">$2,225,639</td><td align="right">$55,000</td><td align="right">$2,280,639</td><td align="right">$1,083</td>
+		</tr><tr>
+			<td align="left">CHATHAM                      </td><td class="excelText" align="right">00550000</td><td align="right">756.6</td><td align="right">$268,739</td><td align="right">$846,849</td><td align="right">$1,115,588</td><td align="right">$1,573</td>
+		</tr><tr class="eee">
+			<td align="left">CHELMSFORD                   </td><td class="excelText" align="right">00560000</td><td align="right">5,815.7</td><td align="right">$3,737,185</td><td align="right">$147,111</td><td align="right">$3,884,296</td><td align="right">$696</td>
+		</tr><tr>
+			<td align="left">CHELSEA                      </td><td class="excelText" align="right">00570000</td><td align="right">5,768.4</td><td align="right">$6,110,925</td><td align="right">$50,336</td><td align="right">$6,161,261</td><td align="right">$1,129</td>
+		</tr><tr class="eee">
+			<td align="left">CHESTERFIELD GOSHEN</td><td class="excelText" align="right">06320000</td><td align="right">199.3</td><td align="right">$200,763</td><td align="right">$10,151</td><td align="right">$210,914</td><td align="right">$1,190</td>
+		</tr><tr>
+			<td align="left">CHICOPEE                     </td><td class="excelText" align="right">00610000</td><td align="right">7,828.5</td><td align="right">$6,923,727</td><td align="right">$186,982</td><td align="right">$7,110,709</td><td align="right">$928</td>
+		</tr><tr class="eee">
+			<td align="left">CLARKSBURG                   </td><td class="excelText" align="right">00630000</td><td align="right">272.3</td><td align="right">$153,004</td><td align="right">$0</td><td align="right">$153,004</td><td align="right">$741</td>
+		</tr><tr>
+			<td align="left">CLINTON                      </td><td class="excelText" align="right">00640000</td><td align="right">2,246.5</td><td align="right">$1,833,143</td><td align="right">$1,466</td><td align="right">$1,834,609</td><td align="right">$900</td>
+		</tr><tr class="eee">
+			<td align="left">COHASSET                     </td><td class="excelText" align="right">00650000</td><td align="right">1,464.5</td><td align="right">$1,613,350</td><td align="right">$0</td><td align="right">$1,613,350</td><td align="right">$1,126</td>
+		</tr><tr>
+			<td align="left">CONCORD                      </td><td class="excelText" align="right">00670000</td><td align="right">1,905.6</td><td align="right">$2,356,701</td><td align="right">$0</td><td align="right">$2,356,701</td><td align="right">$1,278</td>
+		</tr><tr class="eee">
+			<td align="left">CONCORD CARLISLE             </td><td class="excelText" align="right">06400000</td><td align="right">1,288.8</td><td align="right">$1,493,470</td><td align="right">$3,608</td><td align="right">$1,497,078</td><td align="right">$1,204</td>
+		</tr><tr>
+			<td align="left">CONWAY                       </td><td class="excelText" align="right">00680000</td><td align="right">186.5</td><td align="right">$200,587</td><td align="right">$0</td><td align="right">$200,587</td><td align="right">$1,167</td>
+		</tr><tr class="eee">
+			<td align="left">DANVERS                      </td><td class="excelText" align="right">00710000</td><td align="right">3,673.1</td><td align="right">$5,144,377</td><td align="right">$0</td><td align="right">$5,144,377</td><td align="right">$1,444</td>
+		</tr><tr>
+			<td align="left">DARTMOUTH                    </td><td class="excelText" align="right">00720000</td><td align="right">4,270.9</td><td align="right">$3,237,844</td><td align="right">$31,863</td><td align="right">$3,269,707</td><td align="right">$774</td>
+		</tr><tr class="eee">
+			<td align="left">DEDHAM                       </td><td class="excelText" align="right">00730000</td><td align="right">2,945.9</td><td align="right">$2,937,925</td><td align="right">$409,478</td><td align="right">$3,347,403</td><td align="right">$1,174</td>
+		</tr><tr>
+			<td align="left">DEERFIELD                    </td><td class="excelText" align="right">00740000</td><td align="right">505.5</td><td align="right">$328,123</td><td align="right">$23,984</td><td align="right">$352,107</td><td align="right">$721</td>
+		</tr><tr class="eee">
+			<td align="left">DENNIS YARMOUTH              </td><td class="excelText" align="right">06450000</td><td align="right">3,844.6</td><td align="right">$3,844,938</td><td align="right">$64,850</td><td align="right">$3,909,788</td><td align="right">$1,113</td>
+		</tr><tr>
+			<td align="left">DIGHTON REHOBOTH             </td><td class="excelText" align="right">06500000</td><td align="right">3,405.9</td><td align="right">$3,079,371</td><td align="right">$73,650</td><td align="right">$3,153,021</td><td align="right">$937</td>
+		</tr><tr class="eee">
+			<td align="left">DOUGLAS                      </td><td class="excelText" align="right">00770000</td><td align="right">1,802.1</td><td align="right">$1,013,616</td><td align="right">$192,500</td><td align="right">$1,206,116</td><td align="right">$691</td>
+		</tr><tr>
+			<td align="left">DOVER                        </td><td class="excelText" align="right">00780000</td><td align="right">618.1</td><td align="right">$733,561</td><td align="right">$11,430</td><td align="right">$744,991</td><td align="right">$1,245</td>
+		</tr><tr class="eee">
+			<td align="left">DOVER SHERBORN               </td><td class="excelText" align="right">06550000</td><td align="right">1,089.2</td><td align="right">$1,749,905</td><td align="right">$0</td><td align="right">$1,749,905</td><td align="right">$1,614</td>
+		</tr><tr>
+			<td align="left">DRACUT                       </td><td class="excelText" align="right">00790000</td><td align="right">4,314.1</td><td align="right">$3,518,693</td><td align="right">$160,534</td><td align="right">$3,679,227</td><td align="right">$875</td>
+		</tr><tr class="eee">
+			<td align="left">DUDLEY CHARLTON              </td><td class="excelText" align="right">06580000</td><td align="right">4,232.5</td><td align="right">$3,204,890</td><td align="right">$33,301</td><td align="right">$3,238,191</td><td align="right">$780</td>
+		</tr><tr>
+			<td align="left">DUXBURY                      </td><td class="excelText" align="right">00820000</td><td align="right">3,396.9</td><td align="right">$2,407,689</td><td align="right">$0</td><td align="right">$2,407,689</td><td align="right">$715</td>
+		</tr><tr class="eee">
+			<td align="left">EAST BRIDGEWATER             </td><td class="excelText" align="right">00830000</td><td align="right">2,550.7</td><td align="right">$1,316,058</td><td align="right">$24,365</td><td align="right">$1,340,423</td><td align="right">$539</td>
+		</tr><tr>
+			<td align="left">EAST LONGMEADOW              </td><td class="excelText" align="right">00870000</td><td align="right">2,959.0</td><td align="right">$1,893,532</td><td align="right">$74,773</td><td align="right">$1,968,305</td><td align="right">$688</td>
+		</tr><tr class="eee">
+			<td align="left">EASTHAM                      </td><td class="excelText" align="right">00850000</td><td align="right">254.5</td><td align="right">$452,602</td><td align="right">$0</td><td align="right">$452,602</td><td align="right">$1,936</td>
+		</tr><tr>
+			<td align="left">EASTHAMPTON                  </td><td class="excelText" align="right">00860000</td><td align="right">2,047.8</td><td align="right">$1,675,964</td><td align="right">$9,156</td><td align="right">$1,685,120</td><td align="right">$970</td>
+		</tr><tr class="eee">
+			<td align="left">EASTON                       </td><td class="excelText" align="right">00880000</td><td align="right">3,974.9</td><td align="right">$3,128,007</td><td align="right">$29,146</td><td align="right">$3,157,153</td><td align="right">$809</td>
+		</tr><tr>
+			<td align="left">EDGARTOWN                    </td><td class="excelText" align="right">00890000</td><td align="right">400.8</td><td align="right">$750,581</td><td align="right">$0</td><td align="right">$750,581</td><td align="right">$2,218</td>
+		</tr><tr class="eee">
+			<td align="left">ERVING                       </td><td class="excelText" align="right">00910000</td><td align="right">283.9</td><td align="right">$250,756</td><td align="right">$0</td><td align="right">$250,756</td><td align="right">$1,467</td>
+		</tr><tr>
+			<td align="left">ESSEX AGRICULTURAL</td><td class="excelText" align="right">09130000</td><td align="right">436.2</td><td align="right">$1,649,844</td><td align="right">$0</td><td align="right">$1,649,844</td><td align="right">$3,782</td>
+		</tr><tr class="eee">
+			<td align="left">EVERETT                      </td><td class="excelText" align="right">00930000</td><td align="right">6,046.7</td><td align="right">$4,831,590</td><td align="right">$506,372</td><td align="right">$5,337,962</td><td align="right">$958</td>
+		</tr><tr>
+			<td align="left">FAIRHAVEN                    </td><td class="excelText" align="right">00940000</td><td align="right">2,103.3</td><td align="right">$1,916,647</td><td align="right">$0</td><td align="right">$1,916,647</td><td align="right">$921</td>
+		</tr><tr class="eee">
+			<td align="left">FALL RIVER                   </td><td class="excelText" align="right">00950000</td><td align="right">10,779.1</td><td align="right">$10,681,569</td><td align="right">$85,541</td><td align="right">$10,767,110</td><td align="right">$1,081</td>
+		</tr><tr>
+			<td align="left">FALMOUTH                     </td><td class="excelText" align="right">00960000</td><td align="right">3,997.3</td><td align="right">$4,735,310</td><td align="right">$10,064</td><td align="right">$4,745,374</td><td align="right">$1,223</td>
+		</tr><tr class="eee">
+			<td align="left">FARMINGTON RIVER</td><td class="excelText" align="right">06620000</td><td align="right">289.4</td><td align="right">$231,993</td><td align="right">$397,385</td><td align="right">$629,378</td><td align="right">$4,386</td>
+		</tr><tr>
+			<td align="left">FITCHBURG                    </td><td class="excelText" align="right">00970000</td><td align="right">5,773.0</td><td align="right">$4,604,277</td><td align="right">$54,248</td><td align="right">$4,658,525</td><td align="right">$889</td>
+		</tr><tr class="eee">
+			<td align="left">FLORIDA                      </td><td class="excelText" align="right">00980000</td><td align="right">129.3</td><td align="right">$125,665</td><td align="right">$0</td><td align="right">$125,665</td><td align="right">$1,179</td>
+		</tr><tr>
+			<td align="left">FOXBOROUGH                   </td><td class="excelText" align="right">00990000</td><td align="right">3,084.5</td><td align="right">$2,696,199</td><td align="right">$96,900</td><td align="right">$2,793,099</td><td align="right">$961</td>
+		</tr><tr class="eee">
+			<td align="left">FRAMINGHAM                   </td><td class="excelText" align="right">01000000</td><td align="right">8,413.9</td><td align="right">$7,634,564</td><td align="right">$84,437</td><td align="right">$7,719,001</td><td align="right">$966</td>
+		</tr><tr>
+			<td align="left">FRANKLIN                     </td><td class="excelText" align="right">01010000</td><td align="right">6,695.6</td><td align="right">$5,580,331</td><td align="right">$124,595</td><td align="right">$5,704,926</td><td align="right">$912</td>
+		</tr><tr class="eee">
+			<td align="left">FRANKLIN COUNTY              </td><td class="excelText" align="right">08180000</td><td align="right">517.8</td><td align="right">$978,793</td><td align="right">$64,655</td><td align="right">$1,043,448</td><td align="right">$2,031</td>
+		</tr><tr>
+			<td align="left">FREETOWN                     </td><td class="excelText" align="right">01020000</td><td align="right">609.5</td><td align="right">$607,709</td><td align="right">$0</td><td align="right">$607,709</td><td align="right">$1,131</td>
+		</tr><tr class="eee">
+			<td align="left">FREETOWN LAKEVILLE           </td><td class="excelText" align="right">06650000</td><td align="right">1,976.9</td><td align="right">$2,152,797</td><td align="right">$0</td><td align="right">$2,152,797</td><td align="right">$1,107</td>
+		</tr><tr>
+			<td align="left">FRONTIER                     </td><td class="excelText" align="right">06700000</td><td align="right">797.2</td><td align="right">$794,782</td><td align="right">$23,167</td><td align="right">$817,949</td><td align="right">$1,148</td>
+		</tr><tr class="eee">
+			<td align="left">GARDNER                      </td><td class="excelText" align="right">01030000</td><td align="right">2,986.3</td><td align="right">$2,321,175</td><td align="right">$0</td><td align="right">$2,321,175</td><td align="right">$823</td>
+		</tr><tr>
+			<td align="left">GATEWAY                      </td><td class="excelText" align="right">06720000</td><td align="right">1,372.3</td><td align="right">$1,668,751</td><td align="right">$69,115</td><td align="right">$1,737,866</td><td align="right">$1,367</td>
+		</tr><tr class="eee">
+			<td align="left">GEORGETOWN                   </td><td class="excelText" align="right">01050000</td><td align="right">1,752.2</td><td align="right">$839,855</td><td align="right">$33,266</td><td align="right">$873,121</td><td align="right">$516</td>
+		</tr><tr>
+			<td align="left">GILL MONTAGUE                </td><td class="excelText" align="right">06740000</td><td align="right">1,321.5</td><td align="right">$1,496,181</td><td align="right">$0</td><td align="right">$1,496,181</td><td align="right">$1,345</td>
+		</tr><tr class="eee">
+			<td align="left">GLOUCESTER                   </td><td class="excelText" align="right">01070000</td><td align="right">3,769.3</td><td align="right">$3,239,119</td><td align="right">$200,323</td><td align="right">$3,439,442</td><td align="right">$988</td>
+		</tr><tr>
+			<td align="left">GRAFTON                      </td><td class="excelText" align="right">01100000</td><td align="right">2,858.4</td><td align="right">$2,272,068</td><td align="right">$72,157</td><td align="right">$2,344,225</td><td align="right">$831</td>
+		</tr><tr class="eee">
+			<td align="left">GRANBY                       </td><td class="excelText" align="right">01110000</td><td align="right">1,190.0</td><td align="right">$548,208</td><td align="right">$262,621</td><td align="right">$810,829</td><td align="right">$712</td>
+		</tr><tr>
+			<td align="left">GRANVILLE                    </td><td class="excelText" align="right">01120000</td><td align="right">272.5</td><td align="right">$229,637</td><td align="right">$0</td><td align="right">$229,637</td><td align="right">$1,256</td>
+		</tr><tr class="eee">
+			<td align="left">GREATER FALL RIVER           </td><td class="excelText" align="right">08210000</td><td align="right">1,402.3</td><td align="right">$1,655,816</td><td align="right">$0</td><td align="right">$1,655,816</td><td align="right">$1,181</td>
+		</tr><tr>
+			<td align="left">GREATER LAWRENCE             </td><td class="excelText" align="right">08230000</td><td align="right">1,401.9</td><td align="right">$3,489,707</td><td align="right">$0</td><td align="right">$3,489,707</td><td align="right">$2,867</td>
+		</tr><tr class="eee">
+			<td align="left">GREATER LOWELL               </td><td class="excelText" align="right">08280000</td><td align="right">2,036.0</td><td align="right">$3,267,800</td><td align="right">$85,857</td><td align="right">$3,353,657</td><td align="right">$1,719</td>
+		</tr><tr>
+			<td align="left">GREATER NEW BEDFORD          </td><td class="excelText" align="right">08250000</td><td align="right">1,962.8</td><td align="right">$3,673,191</td><td align="right">$0</td><td align="right">$3,673,191</td><td align="right">$1,871</td>
+		</tr><tr class="eee">
+			<td align="left">GREENFIELD                   </td><td class="excelText" align="right">01140000</td><td align="right">2,065.7</td><td align="right">$1,975,398</td><td align="right">$0</td><td align="right">$1,975,398</td><td align="right">$1,164</td>
+		</tr><tr>
+			<td align="left">GROTON DUNSTABLE             </td><td class="excelText" align="right">06730000</td><td align="right">2,978.3</td><td align="right">$2,849,844</td><td align="right">$525</td><td align="right">$2,850,369</td><td align="right">$986</td>
+		</tr><tr class="eee">
+			<td align="left">HADLEY                       </td><td class="excelText" align="right">01170000</td><td align="right">724.5</td><td align="right">$842,241</td><td align="right">$5,081</td><td align="right">$847,322</td><td align="right">$1,268</td>
+		</tr><tr>
+			<td align="left">HALIFAX                      </td><td class="excelText" align="right">01180000</td><td align="right">743.5</td><td align="right">$490,114</td><td align="right">$0</td><td align="right">$490,114</td><td align="right">$693</td>
+		</tr><tr class="eee">
+			<td align="left">HAMILTON WENHAM              </td><td class="excelText" align="right">06750000</td><td align="right">2,109.6</td><td align="right">$1,711,084</td><td align="right">$44,681</td><td align="right">$1,755,765</td><td align="right">$844</td>
+		</tr><tr>
+			<td align="left">HAMPDEN WILBRAHAM            </td><td class="excelText" align="right">06800000</td><td align="right">3,768.0</td><td align="right">$3,236,404</td><td align="right">$0</td><td align="right">$3,236,404</td><td align="right">$880</td>
+		</tr><tr class="eee">
+			<td align="left">HAMPSHIRE                    </td><td class="excelText" align="right">06830000</td><td align="right">951.8</td><td align="right">$708,088</td><td align="right">$0</td><td align="right">$708,088</td><td align="right">$851</td>
+		</tr><tr>
+			<td align="left">HANCOCK                      </td><td class="excelText" align="right">01210000</td><td align="right">120.3</td><td align="right">$43,985</td><td align="right">$0</td><td align="right">$43,985</td><td align="right">$1,094</td>
+		</tr><tr class="eee">
+			<td align="left">HANOVER                      </td><td class="excelText" align="right">01220000</td><td align="right">2,802.3</td><td align="right">$2,536,648</td><td align="right">$11,432</td><td align="right">$2,548,080</td><td align="right">$924</td>
+		</tr><tr>
+			<td align="left">HARVARD                      </td><td class="excelText" align="right">01250000</td><td align="right">1,359.9</td><td align="right">$1,034,188</td><td align="right">$12,697</td><td align="right">$1,046,885</td><td align="right">$802</td>
+		</tr><tr class="eee">
+			<td align="left">HARWICH                      </td><td class="excelText" align="right">01260000</td><td align="right">1,579.3</td><td align="right">$1,830,207</td><td align="right">$11,204</td><td align="right">$1,841,411</td><td align="right">$1,361</td>
+		</tr><tr>
+			<td align="left">HATFIELD                     </td><td class="excelText" align="right">01270000</td><td align="right">493.7</td><td align="right">$349,902</td><td align="right">$154,219</td><td align="right">$504,121</td><td align="right">$1,214</td>
+		</tr><tr class="eee">
+			<td align="left">HAVERHILL                    </td><td class="excelText" align="right">01280000</td><td align="right">8,015.0</td><td align="right">$4,775,358</td><td align="right">$622,744</td><td align="right">$5,398,102</td><td align="right">$719</td>
+		</tr><tr>
+			<td align="left">HAWLEMONT                    </td><td class="excelText" align="right">06850000</td><td align="right">131.6</td><td align="right">$190,300</td><td align="right">$0</td><td align="right">$190,300</td><td align="right">$1,613</td>
+		</tr><tr class="eee">
+			<td align="left">HINGHAM                      </td><td class="excelText" align="right">01310000</td><td align="right">3,662.6</td><td align="right">$3,420,812</td><td align="right">$24,973</td><td align="right">$3,445,785</td><td align="right">$960</td>
+		</tr><tr>
+			<td align="left">HOLBROOK                     </td><td class="excelText" align="right">01330000</td><td align="right">1,356.3</td><td align="right">$753,645</td><td align="right">$88,406</td><td align="right">$842,051</td><td align="right">$654</td>
+		</tr><tr class="eee">
+			<td align="left">HOLLAND                      </td><td class="excelText" align="right">01350000</td><td align="right">270.7</td><td align="right">$170,148</td><td align="right">$24,520</td><td align="right">$194,668</td><td align="right">$725</td>
+		</tr><tr>
+			<td align="left">HOLLISTON                    </td><td class="excelText" align="right">01360000</td><td align="right">3,043.9</td><td align="right">$2,546,158</td><td align="right">$255,188</td><td align="right">$2,801,346</td><td align="right">$945</td>
+		</tr><tr class="eee">
+			<td align="left">HOLYOKE                      </td><td class="excelText" align="right">01370000</td><td align="right">7,000.8</td><td align="right">$7,104,848</td><td align="right">$44,483</td><td align="right">$7,149,331</td><td align="right">$1,184</td>
+		</tr><tr>
+			<td align="left">HOPEDALE                     </td><td class="excelText" align="right">01380000</td><td align="right">1,397.9</td><td align="right">$1,009,167</td><td align="right">$1,885</td><td align="right">$1,011,052</td><td align="right">$765</td>
+		</tr><tr class="eee">
+			<td align="left">HOPKINTON                    </td><td class="excelText" align="right">01390000</td><td align="right">3,481.3</td><td align="right">$2,912,317</td><td align="right">$0</td><td align="right">$2,912,317</td><td align="right">$851</td>
+		</tr><tr>
+			<td align="left">HUDSON                       </td><td class="excelText" align="right">01410000</td><td align="right">3,006.4</td><td align="right">$2,214,418</td><td align="right">$640,948</td><td align="right">$2,855,366</td><td align="right">$979</td>
+		</tr><tr class="eee">
+			<td align="left">HULL                         </td><td class="excelText" align="right">01420000</td><td align="right">1,359.4</td><td align="right">$1,360,514</td><td align="right">$0</td><td align="right">$1,360,514</td><td align="right">$1,108</td>
+		</tr><tr>
+			<td align="left">IPSWICH                      </td><td class="excelText" align="right">01440000</td><td align="right">2,125.9</td><td align="right">$1,144,557</td><td align="right">$370,166</td><td align="right">$1,514,723</td><td align="right">$725</td>
+		</tr><tr class="eee">
+			<td align="left">KING PHILIP                  </td><td class="excelText" align="right">06900000</td><td align="right">2,163.6</td><td align="right">$2,127,312</td><td align="right">$22,057</td><td align="right">$2,149,369</td><td align="right">$1,045</td>
+		</tr><tr>
+			<td align="left">KINGSTON                     </td><td class="excelText" align="right">01450000</td><td align="right">1,208.5</td><td align="right">$1,204,951</td><td align="right">$153,307</td><td align="right">$1,358,258</td><td align="right">$1,167</td>
+		</tr><tr class="eee">
+			<td align="left">LAKEVILLE                    </td><td class="excelText" align="right">01460000</td><td align="right">801.4</td><td align="right">$587,067</td><td align="right">$2,654</td><td align="right">$589,721</td><td align="right">$750</td>
+		</tr><tr>
+			<td align="left">LANESBOROUGH                 </td><td class="excelText" align="right">01480000</td><td align="right">332.7</td><td align="right">$292,043</td><td align="right">$0</td><td align="right">$292,043</td><td align="right">$992</td>
+		</tr><tr class="eee">
+			<td align="left">LAWRENCE                     </td><td class="excelText" align="right">01490000</td><td align="right">13,389.1</td><td align="right">$10,227,141</td><td align="right">$12,925</td><td align="right">$10,240,066</td><td align="right">$843</td>
+		</tr><tr>
+			<td align="left">LEE                          </td><td class="excelText" align="right">01500000</td><td align="right">980.5</td><td align="right">$906,325</td><td align="right">$13,353</td><td align="right">$919,678</td><td align="right">$1,022</td>
+		</tr><tr class="eee">
+			<td align="left">LEICESTER                    </td><td class="excelText" align="right">01510000</td><td align="right">2,017.1</td><td align="right">$1,536,655</td><td align="right">$12,994</td><td align="right">$1,549,649</td><td align="right">$812</td>
+		</tr><tr>
+			<td align="left">LENOX                        </td><td class="excelText" align="right">01520000</td><td align="right">854.2</td><td align="right">$1,023,087</td><td align="right">$19,263</td><td align="right">$1,042,350</td><td align="right">$1,287</td>
+		</tr><tr class="eee">
+			<td align="left">LEOMINSTER                   </td><td class="excelText" align="right">01530000</td><td align="right">6,596.0</td><td align="right">$5,715,140</td><td align="right">$97,168</td><td align="right">$5,812,308</td><td align="right">$934</td>
+		</tr><tr>
+			<td align="left">LEVERETT                     </td><td class="excelText" align="right">01540000</td><td align="right">161.1</td><td align="right">$250,803</td><td align="right">$2,023</td><td align="right">$252,826</td><td align="right">$1,589</td>
+		</tr><tr class="eee">
+			<td align="left">LEXINGTON                    </td><td class="excelText" align="right">01550000</td><td align="right">6,329.5</td><td align="right">$7,715,832</td><td align="right">$48,513</td><td align="right">$7,764,345</td><td align="right">$1,241</td>
+		</tr><tr>
+			<td align="left">LINCOLN                      </td><td class="excelText" align="right">01570000</td><td align="right">1,233.3</td><td align="right">$1,226,242</td><td align="right">$958,244</td><td align="right">$2,184,486</td><td align="right">$1,781</td>
+		</tr><tr class="eee">
+			<td align="left">LINCOLN SUDBURY              </td><td class="excelText" align="right">06950000</td><td align="right">1,623.4</td><td align="right">$1,829,237</td><td align="right">$24,740</td><td align="right">$1,853,977</td><td align="right">$1,163</td>
+		</tr><tr>
+			<td align="left">LITTLETON                    </td><td class="excelText" align="right">01580000</td><td align="right">1,753.5</td><td align="right">$1,404,424</td><td align="right">$271,342</td><td align="right">$1,675,766</td><td align="right">$1,043</td>
+		</tr><tr class="eee">
+			<td align="left">LONGMEADOW                   </td><td class="excelText" align="right">01590000</td><td align="right">3,227.6</td><td align="right">$3,616,207</td><td align="right">$93,011</td><td align="right">$3,709,218</td><td align="right">$1,169</td>
+		</tr><tr>
+			<td align="left">LOWELL                       </td><td class="excelText" align="right">01600000</td><td align="right">14,685.4</td><td align="right">$12,778,642</td><td align="right">$0</td><td align="right">$12,778,642</td><td align="right">$945</td>
+		</tr><tr class="eee">
+			<td align="left">LUDLOW                       </td><td class="excelText" align="right">01610000</td><td align="right">3,165.6</td><td align="right">$1,388,746</td><td align="right">$751,549</td><td align="right">$2,140,295</td><td align="right">$696</td>
+		</tr><tr>
+			<td align="left">LUNENBURG                    </td><td class="excelText" align="right">01620000</td><td align="right">1,925.2</td><td align="right">$1,523,327</td><td align="right">$20,916</td><td align="right">$1,544,243</td><td align="right">$843</td>
+		</tr><tr class="eee">
+			<td align="left">LYNN                         </td><td class="excelText" align="right">01630000</td><td align="right">14,064.8</td><td align="right">$15,461,482</td><td align="right">$112,147</td><td align="right">$15,573,629</td><td align="right">$1,164</td>
+		</tr><tr>
+			<td align="left">LYNNFIELD                    </td><td class="excelText" align="right">01640000</td><td align="right">2,348.8</td><td align="right">$1,877,260</td><td align="right">$0</td><td align="right">$1,877,260</td><td align="right">$810</td>
+		</tr><tr class="eee">
+			<td align="left">MALDEN                       </td><td class="excelText" align="right">01650000</td><td align="right">7,056.4</td><td align="right">$6,733,250</td><td align="right">$0</td><td align="right">$6,733,250</td><td align="right">$1,047</td>
+		</tr><tr>
+			<td align="left">MANCHESTER ESSEX</td><td class="excelText" align="right">06980000</td><td align="right">1,408.4</td><td align="right">$1,334,389</td><td align="right">$19,568</td><td align="right">$1,353,957</td><td align="right">$992</td>
+		</tr><tr class="eee">
+			<td align="left">MANSFIELD                    </td><td class="excelText" align="right">01670000</td><td align="right">5,070.3</td><td align="right">$2,851,911</td><td align="right">$476,718</td><td align="right">$3,328,629</td><td align="right">$679</td>
+		</tr><tr>
+			<td align="left">MARBLEHEAD                   </td><td class="excelText" align="right">01680000</td><td align="right">3,353.8</td><td align="right">$3,288,219</td><td align="right">$85,278</td><td align="right">$3,373,497</td><td align="right">$1,038</td>
+		</tr><tr class="eee">
+			<td align="left">MARION                       </td><td class="excelText" align="right">01690000</td><td align="right">440.7</td><td align="right">$521,740</td><td align="right">$0</td><td align="right">$521,740</td><td align="right">$1,193</td>
+		</tr><tr>
+			<td align="left">MARLBOROUGH                  </td><td class="excelText" align="right">01700000</td><td align="right">4,936.4</td><td align="right">$4,917,961</td><td align="right">$415,390</td><td align="right">$5,333,351</td><td align="right">$1,164</td>
+		</tr><tr class="eee">
+			<td align="left">MARSHFIELD                   </td><td class="excelText" align="right">01710000</td><td align="right">4,816.5</td><td align="right">$3,629,701</td><td align="right">$78,637</td><td align="right">$3,708,338</td><td align="right">$785</td>
+		</tr><tr>
+			<td align="left">MARTHAS VINEYARD             </td><td class="excelText" align="right">07000000</td><td align="right">790.8</td><td align="right">$1,189,980</td><td align="right">$0</td><td align="right">$1,189,980</td><td align="right">$1,589</td>
+		</tr><tr class="eee">
+			<td align="left">MASCONOMET                   </td><td class="excelText" align="right">07050000</td><td align="right">2,139.2</td><td align="right">$2,074,129</td><td align="right">$350,567</td><td align="right">$2,424,696</td><td align="right">$1,156</td>
+		</tr><tr>
+			<td align="left">MASHPEE                      </td><td class="excelText" align="right">01720000</td><td align="right">1,970.8</td><td align="right">$2,193,816</td><td align="right">$63,165</td><td align="right">$2,256,981</td><td align="right">$1,187</td>
+		</tr><tr class="eee">
+			<td align="left">MATTAPOISETT                 </td><td class="excelText" align="right">01730000</td><td align="right">504.3</td><td align="right">$569,174</td><td align="right">$0</td><td align="right">$569,174</td><td align="right">$1,140</td>
+		</tr><tr>
+			<td align="left">MAYNARD                      </td><td class="excelText" align="right">01740000</td><td align="right">1,416.8</td><td align="right">$1,365,281</td><td align="right">$118,280</td><td align="right">$1,483,561</td><td align="right">$1,109</td>
+		</tr><tr class="eee">
+			<td align="left">MEDFIELD                     </td><td class="excelText" align="right">01750000</td><td align="right">3,060.7</td><td align="right">$2,848,957</td><td align="right">$151,755</td><td align="right">$3,000,712</td><td align="right">$993</td>
+		</tr><tr>
+			<td align="left">MEDFORD                      </td><td class="excelText" align="right">01760000</td><td align="right">5,225.4</td><td align="right">$6,464,232</td><td align="right">$26,000</td><td align="right">$6,490,232</td><td align="right">$1,350</td>
+		</tr><tr class="eee">
+			<td align="left">MEDWAY                       </td><td class="excelText" align="right">01770000</td><td align="right">2,838.8</td><td align="right">$2,732,865</td><td align="right">$116,606</td><td align="right">$2,849,471</td><td align="right">$1,029</td>
+		</tr><tr>
+			<td align="left">MELROSE                      </td><td class="excelText" align="right">01780000</td><td align="right">3,860.0</td><td align="right">$2,755,100</td><td align="right">$509,651</td><td align="right">$3,264,751</td><td align="right">$913</td>
+		</tr><tr class="eee">
+			<td align="left">MENDON UPTON                 </td><td class="excelText" align="right">07100000</td><td align="right">2,940.6</td><td align="right">$2,669,190</td><td align="right">$0</td><td align="right">$2,669,190</td><td align="right">$934</td>
+		</tr><tr>
+			<td align="left">METHUEN                      </td><td class="excelText" align="right">01810000</td><td align="right">7,622.9</td><td align="right">$7,008,662</td><td align="right">$235,059</td><td align="right">$7,243,721</td><td align="right">$972</td>
+		</tr><tr class="eee">
+			<td align="left">MIDDLEBOROUGH                </td><td class="excelText" align="right">01820000</td><td align="right">3,604.9</td><td align="right">$2,722,090</td><td align="right">$231,511</td><td align="right">$2,953,601</td><td align="right">$843</td>
+		</tr><tr>
+			<td align="left">MIDDLETON                    </td><td class="excelText" align="right">01840000</td><td align="right">887.7</td><td align="right">$815,382</td><td align="right">$4,353</td><td align="right">$819,735</td><td align="right">$936</td>
+		</tr><tr class="eee">
+			<td align="left">MILFORD                      </td><td class="excelText" align="right">01850000</td><td align="right">4,326.9</td><td align="right">$3,386,769</td><td align="right">$51,386</td><td align="right">$3,438,155</td><td align="right">$835</td>
+		</tr><tr>
+			<td align="left">MILLBURY                     </td><td class="excelText" align="right">01860000</td><td align="right">1,975.8</td><td align="right">$1,993,702</td><td align="right">$66,071</td><td align="right">$2,059,773</td><td align="right">$1,070</td>
+		</tr><tr class="eee">
+			<td align="left">MILLIS                       </td><td class="excelText" align="right">01870000</td><td align="right">1,393.2</td><td align="right">$1,130,907</td><td align="right">$23,226</td><td align="right">$1,154,133</td><td align="right">$871</td>
+		</tr><tr>
+			<td align="left">MILTON                       </td><td class="excelText" align="right">01890000</td><td align="right">3,860.1</td><td align="right">$3,513,517</td><td align="right">$352,608</td><td align="right">$3,866,125</td><td align="right">$1,020</td>
+		</tr><tr class="eee">
+			<td align="left">MINUTEMAN                    </td><td class="excelText" align="right">08300000</td><td align="right">675.4</td><td align="right">$2,091,099</td><td align="right">$7,951</td><td align="right">$2,099,050</td><td align="right">$3,125</td>
+		</tr><tr>
+			<td align="left">MOHAWK TRAIL                 </td><td class="excelText" align="right">07170000</td><td align="right">1,211.2</td><td align="right">$1,278,230</td><td align="right">$23,753</td><td align="right">$1,301,983</td><td align="right">$1,202</td>
+		</tr><tr class="eee">
+			<td align="left">MONSON                       </td><td class="excelText" align="right">01910000</td><td align="right">1,544.7</td><td align="right">$1,194,466</td><td align="right">$28,201</td><td align="right">$1,222,667</td><td align="right">$803</td>
+		</tr><tr>
+			<td align="left">MONTACHUSETT                 </td><td class="excelText" align="right">08320000</td><td align="right">1,306.0</td><td align="right">$2,694,560</td><td align="right">$29,905</td><td align="right">$2,724,465</td><td align="right">$2,135</td>
+		</tr><tr class="eee">
+			<td align="left">MOUNT GREYLOCK               </td><td class="excelText" align="right">07150000</td><td align="right">653.9</td><td align="right">$860,441</td><td align="right">$14,500</td><td align="right">$874,941</td><td align="right">$1,409</td>
+		</tr><tr>
+			<td align="left">NAHANT                       </td><td class="excelText" align="right">01960000</td><td align="right">423.0</td><td align="right">$286,144</td><td align="right">$23,979</td><td align="right">$310,123</td><td align="right">$1,287</td>
+		</tr><tr class="eee">
+			<td align="left">NANTUCKET                    </td><td class="excelText" align="right">01970000</td><td align="right">1,286.6</td><td align="right">$1,944,504</td><td align="right">$117,363</td><td align="right">$2,061,867</td><td align="right">$1,607</td>
+		</tr><tr>
+			<td align="left">NARRAGANSETT                 </td><td class="excelText" align="right">07200000</td><td align="right">1,811.7</td><td align="right">$1,469,300</td><td align="right">$0</td><td align="right">$1,469,300</td><td align="right">$868</td>
+		</tr><tr class="eee">
+			<td align="left">NASHOBA                      </td><td class="excelText" align="right">07250000</td><td align="right">3,407.7</td><td align="right">$3,240,704</td><td align="right">$0</td><td align="right">$3,240,704</td><td align="right">$989</td>
+		</tr><tr>
+			<td align="left">NASHOBA VALLEY               </td><td class="excelText" align="right">08520000</td><td align="right">623.8</td><td align="right">$1,160,547</td><td align="right">$0</td><td align="right">$1,160,547</td><td align="right">$1,870</td>
+		</tr><tr class="eee">
+			<td align="left">NATICK                       </td><td class="excelText" align="right">01980000</td><td align="right">4,813.7</td><td align="right">$4,920,321</td><td align="right">$78,191</td><td align="right">$4,998,512</td><td align="right">$1,079</td>
+		</tr><tr>
+			<td align="left">NAUSET                       </td><td class="excelText" align="right">06600000</td><td align="right">1,698.6</td><td align="right">$1,557,524</td><td align="right">$131,491</td><td align="right">$1,689,015</td><td align="right">$1,106</td>
+		</tr><tr class="eee">
+			<td align="left">NEEDHAM                      </td><td class="excelText" align="right">01990000</td><td align="right">5,115.4</td><td align="right">$5,852,371</td><td align="right">$56,057</td><td align="right">$5,908,428</td><td align="right">$1,172</td>
+		</tr><tr>
+			<td align="left">NEW BEDFORD                  </td><td class="excelText" align="right">02010000</td><td align="right">13,323.3</td><td align="right">$13,979,932</td><td align="right">$39,794</td><td align="right">$14,019,726</td><td align="right">$1,094</td>
+		</tr><tr class="eee">
+			<td align="left">NEW SALEM WENDELL            </td><td class="excelText" align="right">07280000</td><td align="right">155.9</td><td align="right">$204,972</td><td align="right">$199</td><td align="right">$205,171</td><td align="right">$1,436</td>
+		</tr><tr>
+			<td align="left">NEWBURYPORT                  </td><td class="excelText" align="right">02040000</td><td align="right">2,538.3</td><td align="right">$2,185,490</td><td align="right">$61,544</td><td align="right">$2,247,034</td><td align="right">$976</td>
+		</tr><tr class="eee">
+			<td align="left">NEWTON                       </td><td class="excelText" align="right">02070000</td><td align="right">11,782.5</td><td align="right">$13,010,668</td><td align="right">$637,610</td><td align="right">$13,648,278</td><td align="right">$1,174</td>
+		</tr><tr>
+			<td align="left">NORFOLK                      </td><td class="excelText" align="right">02080000</td><td align="right">1,117.4</td><td align="right">$788,538</td><td align="right">$80,933</td><td align="right">$869,471</td><td align="right">$797</td>
+		</tr><tr class="eee">
+			<td align="left">NORFOLK COUNTY               </td><td class="excelText" align="right">09150000</td><td align="right">446.3</td><td align="right">$1,123,938</td><td align="right">$0</td><td align="right">$1,123,938</td><td align="right">$2,518</td>
+		</tr><tr>
+			<td align="left">NORTH ADAMS                  </td><td class="excelText" align="right">02090000</td><td align="right">1,847.6</td><td align="right">$1,899,937</td><td align="right">$0</td><td align="right">$1,899,937</td><td align="right">$1,153</td>
+		</tr><tr class="eee">
+			<td align="left">NORTH ANDOVER                </td><td class="excelText" align="right">02110000</td><td align="right">4,649.8</td><td align="right">$4,440,061</td><td align="right">$0</td><td align="right">$4,440,061</td><td align="right">$974</td>
+		</tr><tr>
+			<td align="left">NORTH ATTLEBOROUGH           </td><td class="excelText" align="right">02120000</td><td align="right">4,912.2</td><td align="right">$3,218,920</td><td align="right">$25,784</td><td align="right">$3,244,704</td><td align="right">$683</td>
+		</tr><tr class="eee">
+			<td align="left">NORTH BROOKFIELD             </td><td class="excelText" align="right">02150000</td><td align="right">824.3</td><td align="right">$610,315</td><td align="right">$5,840</td><td align="right">$616,155</td><td align="right">$888</td>
+		</tr><tr>
+			<td align="left">NORTH MIDDLESEX              </td><td class="excelText" align="right">07350000</td><td align="right">4,583.1</td><td align="right">$3,187,542</td><td align="right">$0</td><td align="right">$3,187,542</td><td align="right">$727</td>
+		</tr><tr class="eee">
+			<td align="left">NORTH READING                </td><td class="excelText" align="right">02170000</td><td align="right">2,869.7</td><td align="right">$2,160,311</td><td align="right">$88,408</td><td align="right">$2,248,719</td><td align="right">$799</td>
+		</tr><tr>
+			<td align="left">NORTH SHORE                  </td><td class="excelText" align="right">08540000</td><td align="right">441.5</td><td align="right">$742,005</td><td align="right">$719</td><td align="right">$742,724</td><td align="right">$1,702</td>
+		</tr><tr class="eee">
+			<td align="left">NORTHAMPTON                  </td><td class="excelText" align="right">02100000</td><td align="right">3,048.1</td><td align="right">$2,723,556</td><td align="right">$367,107</td><td align="right">$3,090,663</td><td align="right">$1,101</td>
+		</tr><tr>
+			<td align="left">NORTHAMPTON SMITH            </td><td class="excelText" align="right">04060000</td><td align="right">448.5</td><td align="right">$788,062</td><td align="right">$59,737</td><td align="right">$847,799</td><td align="right">$1,890</td>
+		</tr><tr class="eee">
+			<td align="left">NORTHBORO SOUTHBORO          </td><td class="excelText" align="right">07300000</td><td align="right">1,417.6</td><td align="right">$1,833,323</td><td align="right">$87,205</td><td align="right">$1,920,528</td><td align="right">$1,380</td>
+		</tr><tr>
+			<td align="left">NORTHBOROUGH                 </td><td class="excelText" align="right">02130000</td><td align="right">1,905.2</td><td align="right">$1,498,610</td><td align="right">$0</td><td align="right">$1,498,610</td><td align="right">$808</td>
+		</tr><tr class="eee">
+			<td align="left">NORTHBRIDGE                  </td><td class="excelText" align="right">02140000</td><td align="right">2,624.3</td><td align="right">$2,805,546</td><td align="right">$52,732</td><td align="right">$2,858,278</td><td align="right">$1,147</td>
+		</tr><tr>
+			<td align="left">NORTHEAST METROPOLITAN       </td><td class="excelText" align="right">08530000</td><td align="right">1,231.4</td><td align="right">$1,688,981</td><td align="right">$0</td><td align="right">$1,688,981</td><td align="right">$1,372</td>
+		</tr><tr class="eee">
+			<td align="left">NORTHERN BERKSHIRE           </td><td class="excelText" align="right">08510000</td><td align="right">497.7</td><td align="right">$1,083,970</td><td align="right">$0</td><td align="right">$1,083,970</td><td align="right">$2,191</td>
+		</tr><tr>
+			<td align="left">NORTON                       </td><td class="excelText" align="right">02180000</td><td align="right">3,239.0</td><td align="right">$3,142,382</td><td align="right">$152,839</td><td align="right">$3,295,221</td><td align="right">$1,099</td>
+		</tr><tr class="eee">
+			<td align="left">NORWELL                      </td><td class="excelText" align="right">02190000</td><td align="right">2,333.2</td><td align="right">$2,774,952</td><td align="right">$44,191</td><td align="right">$2,819,143</td><td align="right">$1,224</td>
+		</tr><tr>
+			<td align="left">NORWOOD                      </td><td class="excelText" align="right">02200000</td><td align="right">3,576.5</td><td align="right">$3,925,805</td><td align="right">$413,389</td><td align="right">$4,339,194</td><td align="right">$1,243</td>
+		</tr><tr class="eee">
+			<td align="left">OAK BLUFFS                   </td><td class="excelText" align="right">02210000</td><td align="right">481.5</td><td align="right">$412,418</td><td align="right">$178,098</td><td align="right">$590,516</td><td align="right">$1,417</td>
+		</tr><tr>
+			<td align="left">OLD COLONY                   </td><td class="excelText" align="right">08550000</td><td align="right">556.5</td><td align="right">$1,136,912</td><td align="right">$0</td><td align="right">$1,136,912</td><td align="right">$2,043</td>
+		</tr><tr class="eee">
+			<td align="left">OLD ROCHESTER                </td><td class="excelText" align="right">07400000</td><td align="right">1,200.1</td><td align="right">$1,654,775</td><td align="right">$0</td><td align="right">$1,654,775</td><td align="right">$1,395</td>
+		</tr><tr>
+			<td align="left">ORANGE                       </td><td class="excelText" align="right">02230000</td><td align="right">828.0</td><td align="right">$596,588</td><td align="right">$281</td><td align="right">$596,869</td><td align="right">$740</td>
+		</tr><tr class="eee">
+			<td align="left">ORLEANS                      </td><td class="excelText" align="right">02240000</td><td align="right">200.8</td><td align="right">$335,444</td><td align="right">$0</td><td align="right">$335,444</td><td align="right">$1,704</td>
+		</tr><tr>
+			<td align="left">OXFORD                       </td><td class="excelText" align="right">02260000</td><td align="right">2,158.8</td><td align="right">$1,809,988</td><td align="right">$36,368</td><td align="right">$1,846,356</td><td align="right">$899</td>
+		</tr><tr class="eee">
+			<td align="left">PALMER                       </td><td class="excelText" align="right">02270000</td><td align="right">1,944.1</td><td align="right">$1,192,714</td><td align="right">$463</td><td align="right">$1,193,177</td><td align="right">$639</td>
+		</tr><tr>
+			<td align="left">PATHFINDER                   </td><td class="excelText" align="right">08600000</td><td align="right">655.5</td><td align="right">$1,282,517</td><td align="right">$0</td><td align="right">$1,282,517</td><td align="right">$1,969</td>
+		</tr><tr class="eee">
+			<td align="left">PEABODY                      </td><td class="excelText" align="right">02290000</td><td align="right">6,492.0</td><td align="right">$7,780,765</td><td align="right">$0</td><td align="right">$7,780,765</td><td align="right">$1,238</td>
+		</tr><tr>
+			<td align="left">PELHAM                       </td><td class="excelText" align="right">02300000</td><td align="right">118.4</td><td align="right">$117,470</td><td align="right">$0</td><td align="right">$117,470</td><td align="right">$1,004</td>
+		</tr><tr class="eee">
+			<td align="left">PEMBROKE                     </td><td class="excelText" align="right">02310000</td><td align="right">3,518.2</td><td align="right">$2,405,854</td><td align="right">$153,620</td><td align="right">$2,559,474</td><td align="right">$747</td>
+		</tr><tr>
+			<td align="left">PENTUCKET                    </td><td class="excelText" align="right">07450000</td><td align="right">3,469.0</td><td align="right">$2,307,780</td><td align="right">$241,646</td><td align="right">$2,549,426</td><td align="right">$761</td>
+		</tr><tr class="eee">
+			<td align="left">PETERSHAM                    </td><td class="excelText" align="right">02340000</td><td align="right">129.7</td><td align="right">$116,302</td><td align="right">$5,286</td><td align="right">$121,588</td><td align="right">$1,042</td>
+		</tr><tr>
+			<td align="left">PIONEER                      </td><td class="excelText" align="right">07500000</td><td align="right">1,097.9</td><td align="right">$1,200,853</td><td align="right">$352,389</td><td align="right">$1,553,242</td><td align="right">$1,495</td>
+		</tr><tr class="eee">
+			<td align="left">PITTSFIELD                   </td><td class="excelText" align="right">02360000</td><td align="right">6,698.7</td><td align="right">$6,744,697</td><td align="right">$2,196</td><td align="right">$6,746,893</td><td align="right">$1,067</td>
+		</tr><tr>
+			<td align="left">PLAINVILLE                   </td><td class="excelText" align="right">02380000</td><td align="right">818.6</td><td align="right">$760,529</td><td align="right">$26,108</td><td align="right">$786,637</td><td align="right">$985</td>
+		</tr><tr class="eee">
+			<td align="left">PLYMOUTH                     </td><td class="excelText" align="right">02390000</td><td align="right">8,723.8</td><td align="right">$7,706,380</td><td align="right">$27,836</td><td align="right">$7,734,216</td><td align="right">$933</td>
+		</tr><tr>
+			<td align="left">PLYMPTON                     </td><td class="excelText" align="right">02400000</td><td align="right">237.1</td><td align="right">$333,658</td><td align="right">$0</td><td align="right">$333,658</td><td align="right">$1,453</td>
+		</tr><tr class="eee">
+			<td align="left">PROVINCETOWN                 </td><td class="excelText" align="right">02420000</td><td align="right">237.3</td><td align="right">$585,165</td><td align="right">$11,812</td><td align="right">$596,977</td><td align="right">$3,049</td>
+		</tr><tr>
+			<td align="left">QUABBIN                      </td><td class="excelText" align="right">07530000</td><td align="right">3,312.2</td><td align="right">$2,903,207</td><td align="right">$9,833</td><td align="right">$2,913,040</td><td align="right">$916</td>
+		</tr><tr class="eee">
+			<td align="left">QUABOAG</td><td class="excelText" align="right">07780000</td><td align="right">1,569.9</td><td align="right">$1,287,142</td><td align="right">$52,152</td><td align="right">$1,339,294</td><td align="right">$927</td>
+		</tr><tr>
+			<td align="left">QUINCY                       </td><td class="excelText" align="right">02430000</td><td align="right">9,034.4</td><td align="right">$7,995,781</td><td align="right">$0</td><td align="right">$7,995,781</td><td align="right">$900</td>
+		</tr><tr class="eee">
+			<td align="left">RALPH C MAHAR                </td><td class="excelText" align="right">07550000</td><td align="right">904.8</td><td align="right">$976,360</td><td align="right">$2,781</td><td align="right">$979,141</td><td align="right">$1,311</td>
+		</tr><tr>
+			<td align="left">RANDOLPH                     </td><td class="excelText" align="right">02440000</td><td align="right">3,421.8</td><td align="right">$3,298,754</td><td align="right">$388,239</td><td align="right">$3,686,993</td><td align="right">$1,181</td>
+		</tr><tr class="eee">
+			<td align="left">READING                      </td><td class="excelText" align="right">02460000</td><td align="right">4,476.8</td><td align="right">$4,456,548</td><td align="right">$170,817</td><td align="right">$4,627,365</td><td align="right">$1,053</td>
+		</tr><tr>
+			<td align="left">REVERE                       </td><td class="excelText" align="right">02480000</td><td align="right">6,112.7</td><td align="right">$6,444,153</td><td align="right">$0</td><td align="right">$6,444,153</td><td align="right">$1,093</td>
+		</tr><tr class="eee">
+			<td align="left">RICHMOND                     </td><td class="excelText" align="right">02490000</td><td align="right">274.3</td><td align="right">$231,214</td><td align="right">$0</td><td align="right">$231,214</td><td align="right">$1,237</td>
+		</tr><tr>
+			<td align="left">ROCHESTER                    </td><td class="excelText" align="right">02500000</td><td align="right">601.9</td><td align="right">$370,544</td><td align="right">$0</td><td align="right">$370,544</td><td align="right">$626</td>
+		</tr><tr class="eee">
+			<td align="left">ROCKLAND                     </td><td class="excelText" align="right">02510000</td><td align="right">2,583.1</td><td align="right">$2,327,179</td><td align="right">$262,637</td><td align="right">$2,589,816</td><td align="right">$1,045</td>
+		</tr><tr>
+			<td align="left">ROCKPORT                     </td><td class="excelText" align="right">02520000</td><td align="right">1,109.4</td><td align="right">$877,039</td><td align="right">$0</td><td align="right">$877,039</td><td align="right">$836</td>
+		</tr><tr class="eee">
+			<td align="left">ROWE                         </td><td class="excelText" align="right">02530000</td><td align="right">79.5</td><td align="right">$112,924</td><td align="right">$24,627</td><td align="right">$137,551</td><td align="right">$2,304</td>
+		</tr><tr>
+			<td align="left">SALEM                        </td><td class="excelText" align="right">02580000</td><td align="right">4,800.7</td><td align="right">$3,939,993</td><td align="right">$98,401</td><td align="right">$4,038,394</td><td align="right">$920</td>
+		</tr><tr class="eee">
+			<td align="left">SANDWICH                     </td><td class="excelText" align="right">02610000</td><td align="right">3,758.0</td><td align="right">$3,287,848</td><td align="right">$0</td><td align="right">$3,287,848</td><td align="right">$905</td>
+		</tr><tr>
+			<td align="left">SAUGUS                       </td><td class="excelText" align="right">02620000</td><td align="right">3,121.4</td><td align="right">$2,837,619</td><td align="right">$0</td><td align="right">$2,837,619</td><td align="right">$951</td>
+		</tr><tr class="eee">
+			<td align="left">SAVOY                        </td><td class="excelText" align="right">02630000</td><td align="right">115.4</td><td align="right">$37,460</td><td align="right">$5,718</td><td align="right">$43,178</td><td align="right">$786</td>
+		</tr><tr>
+			<td align="left">SCITUATE                     </td><td class="excelText" align="right">02640000</td><td align="right">3,285.7</td><td align="right">$2,788,800</td><td align="right">$7,636</td><td align="right">$2,796,436</td><td align="right">$866</td>
+		</tr><tr class="eee">
+			<td align="left">SEEKONK                      </td><td class="excelText" align="right">02650000</td><td align="right">2,198.8</td><td align="right">$2,362,738</td><td align="right">$39,546</td><td align="right">$2,402,284</td><td align="right">$1,114</td>
+		</tr><tr>
+			<td align="left">SHARON                       </td><td class="excelText" align="right">02660000</td><td align="right">3,483.4</td><td align="right">$3,206,212</td><td align="right">$71,642</td><td align="right">$3,277,854</td><td align="right">$961</td>
+		</tr><tr class="eee">
+			<td align="left">SHAWSHEEN VALLEY             </td><td class="excelText" align="right">08710000</td><td align="right">1,252.3</td><td align="right">$1,434,223</td><td align="right">$0</td><td align="right">$1,434,223</td><td align="right">$1,152</td>
+		</tr><tr>
+			<td align="left">SHERBORN                     </td><td class="excelText" align="right">02690000</td><td align="right">503.2</td><td align="right">$429,256</td><td align="right">$0</td><td align="right">$429,256</td><td align="right">$879</td>
+		</tr><tr class="eee">
+			<td align="left">SHIRLEY                      </td><td class="excelText" align="right">02700000</td><td align="right">1,015.8</td><td align="right">$615,755</td><td align="right">$158,936</td><td align="right">$774,691</td><td align="right">$1,223</td>
+		</tr><tr>
+			<td align="left">SHREWSBURY                   </td><td class="excelText" align="right">02710000</td><td align="right">6,135.5</td><td align="right">$4,239,279</td><td align="right">$2,150</td><td align="right">$4,241,429</td><td align="right">$723</td>
+		</tr><tr class="eee">
+			<td align="left">SHUTESBURY                   </td><td class="excelText" align="right">02720000</td><td align="right">174.8</td><td align="right">$192,107</td><td align="right">$0</td><td align="right">$192,107</td><td align="right">$1,152</td>
+		</tr><tr>
+			<td align="left">SILVER LAKE                  </td><td class="excelText" align="right">07600000</td><td align="right">1,909.4</td><td align="right">$2,482,321</td><td align="right">$0</td><td align="right">$2,482,321</td><td align="right">$1,321</td>
+		</tr><tr class="eee">
+			<td align="left">SOMERSET                     </td><td class="excelText" align="right">02730000</td><td align="right">2,847.5</td><td align="right">$2,927,957</td><td align="right">$0</td><td align="right">$2,927,957</td><td align="right">$1,042</td>
+		</tr><tr>
+			<td align="left">SOMERVILLE                   </td><td class="excelText" align="right">02740000</td><td align="right">5,313.2</td><td align="right">$7,896,441</td><td align="right">$8,860</td><td align="right">$7,905,301</td><td align="right">$1,611</td>
+		</tr><tr class="eee">
+			<td align="left">SOUTH HADLEY                 </td><td class="excelText" align="right">02780000</td><td align="right">2,403.9</td><td align="right">$1,989,878</td><td align="right">$57,157</td><td align="right">$2,047,035</td><td align="right">$900</td>
+		</tr><tr>
+			<td align="left">SOUTH MIDDLESEX              </td><td class="excelText" align="right">08290000</td><td align="right">631.5</td><td align="right">$2,469,418</td><td align="right">$0</td><td align="right">$2,469,418</td><td align="right">$3,910</td>
+		</tr><tr class="eee">
+			<td align="left">SOUTH SHORE                  </td><td class="excelText" align="right">08730000</td><td align="right">578.3</td><td align="right">$1,075,140</td><td align="right">$0</td><td align="right">$1,075,140</td><td align="right">$1,859</td>
+		</tr><tr>
+			<td align="left">SOUTHAMPTON                  </td><td class="excelText" align="right">02750000</td><td align="right">609.7</td><td align="right">$379,713</td><td align="right">$1,480</td><td align="right">$381,193</td><td align="right">$677</td>
+		</tr><tr class="eee">
+			<td align="left">SOUTHBOROUGH                 </td><td class="excelText" align="right">02760000</td><td align="right">1,652.7</td><td align="right">$1,582,618</td><td align="right">$0</td><td align="right">$1,582,618</td><td align="right">$980</td>
+		</tr><tr>
+			<td align="left">SOUTHBRIDGE                  </td><td class="excelText" align="right">02770000</td><td align="right">2,316.2</td><td align="right">$2,087,233</td><td align="right">$18,804</td><td align="right">$2,106,037</td><td align="right">$989</td>
+		</tr><tr class="eee">
+			<td align="left">SOUTHEASTERN                 </td><td class="excelText" align="right">08720000</td><td align="right">1,287.2</td><td align="right">$2,539,961</td><td align="right">$26,543</td><td align="right">$2,566,504</td><td align="right">$1,997</td>
+		</tr><tr>
+			<td align="left">SOUTHERN BERKSHIRE           </td><td class="excelText" align="right">07650000</td><td align="right">1,048.0</td><td align="right">$1,008,696</td><td align="right">$42,855</td><td align="right">$1,051,551</td><td align="right">$1,192</td>
+		</tr><tr class="eee">
+			<td align="left">SOUTHERN WORCESTER           </td><td class="excelText" align="right">08760000</td><td align="right">1,149.2</td><td align="right">$1,420,226</td><td align="right">$4,500</td><td align="right">$1,424,726</td><td align="right">$1,261</td>
+		</tr><tr>
+			<td align="left">SOUTHWICK TOLLAND</td><td class="excelText" align="right">07660000</td><td align="right">1,888.1</td><td align="right">$1,172,542</td><td align="right">$4,038</td><td align="right">$1,176,580</td><td align="right">$648</td>
+		</tr><tr class="eee">
+			<td align="left">SPENCER EAST BROOKFIELD      </td><td class="excelText" align="right">07670000</td><td align="right">2,232.8</td><td align="right">$2,012,954</td><td align="right">$1,635</td><td align="right">$2,014,589</td><td align="right">$955</td>
+		</tr><tr>
+			<td align="left">SPRINGFIELD                  </td><td class="excelText" align="right">02810000</td><td align="right">28,908.0</td><td align="right">$27,787,167</td><td align="right">$51,071</td><td align="right">$27,838,238</td><td align="right">$1,100</td>
+		</tr><tr class="eee">
+			<td align="left">STONEHAM                     </td><td class="excelText" align="right">02840000</td><td align="right">2,858.6</td><td align="right">$2,265,496</td><td align="right">$503,761</td><td align="right">$2,769,257</td><td align="right">$1,009</td>
+		</tr><tr>
+			<td align="left">STOUGHTON                    </td><td class="excelText" align="right">02850000</td><td align="right">4,000.4</td><td align="right">$3,225,317</td><td align="right">$226,787</td><td align="right">$3,452,104</td><td align="right">$881</td>
+		</tr><tr class="eee">
+			<td align="left">STURBRIDGE                   </td><td class="excelText" align="right">02870000</td><td align="right">869.7</td><td align="right">$504,692</td><td align="right">$0</td><td align="right">$504,692</td><td align="right">$590</td>
+		</tr><tr>
+			<td align="left">SUDBURY                      </td><td class="excelText" align="right">02880000</td><td align="right">3,311.1</td><td align="right">$2,828,847</td><td align="right">$94,217</td><td align="right">$2,923,064</td><td align="right">$896</td>
+		</tr><tr class="eee">
+			<td align="left">SUNDERLAND                   </td><td class="excelText" align="right">02890000</td><td align="right">238.4</td><td align="right">$236,199</td><td align="right">$2,180</td><td align="right">$238,379</td><td align="right">$1,115</td>
+		</tr><tr>
+			<td align="left">SUTTON                       </td><td class="excelText" align="right">02900000</td><td align="right">1,734.5</td><td align="right">$1,543,276</td><td align="right">$157,086</td><td align="right">$1,700,362</td><td align="right">$1,004</td>
+		</tr><tr class="eee">
+			<td align="left">SWAMPSCOTT                   </td><td class="excelText" align="right">02910000</td><td align="right">2,459.9</td><td align="right">$2,094,849</td><td align="right">$307,568</td><td align="right">$2,402,417</td><td align="right">$1,008</td>
+		</tr><tr>
+			<td align="left">SWANSEA                      </td><td class="excelText" align="right">02920000</td><td align="right">2,117.5</td><td align="right">$1,964,187</td><td align="right">$0</td><td align="right">$1,964,187</td><td align="right">$937</td>
+		</tr><tr class="eee">
+			<td align="left">TANTASQUA                    </td><td class="excelText" align="right">07700000</td><td align="right">1,905.3</td><td align="right">$2,335,279</td><td align="right">$55,008</td><td align="right">$2,390,287</td><td align="right">$1,300</td>
+		</tr><tr>
+			<td align="left">TAUNTON                      </td><td class="excelText" align="right">02930000</td><td align="right">8,224.2</td><td align="right">$6,582,550</td><td align="right">$67,501</td><td align="right">$6,650,051</td><td align="right">$834</td>
+		</tr><tr class="eee">
+			<td align="left">TEWKSBURY                    </td><td class="excelText" align="right">02950000</td><td align="right">4,678.4</td><td align="right">$3,111,542</td><td align="right">$39,712</td><td align="right">$3,151,254</td><td align="right">$689</td>
+		</tr><tr>
+			<td align="left">TISBURY                      </td><td class="excelText" align="right">02960000</td><td align="right">385.0</td><td align="right">$449,489</td><td align="right">$0</td><td align="right">$449,489</td><td align="right">$1,464</td>
+		</tr><tr class="eee">
+			<td align="left">TOPSFIELD                    </td><td class="excelText" align="right">02980000</td><td align="right">709.4</td><td align="right">$788,272</td><td align="right">$12,648</td><td align="right">$800,920</td><td align="right">$1,148</td>
+		</tr><tr>
+			<td align="left">TRI COUNTY                   </td><td class="excelText" align="right">08780000</td><td align="right">928.3</td><td align="right">$1,390,965</td><td align="right">$0</td><td align="right">$1,390,965</td><td align="right">$1,498</td>
+		</tr><tr class="eee">
+			<td align="left">TRITON                       </td><td class="excelText" align="right">07730000</td><td align="right">3,592.4</td><td align="right">$2,350,214</td><td align="right">$234,175</td><td align="right">$2,584,389</td><td align="right">$803</td>
+		</tr><tr>
+			<td align="left">TRURO                        </td><td class="excelText" align="right">03000000</td><td align="right">240.8</td><td align="right">$357,594</td><td align="right">$3,500</td><td align="right">$361,094</td><td align="right">$2,651</td>
+		</tr><tr class="eee">
+			<td align="left">TYNGSBOROUGH                 </td><td class="excelText" align="right">03010000</td><td align="right">2,206.7</td><td align="right">$1,884,168</td><td align="right">$88,126</td><td align="right">$1,972,294</td><td align="right">$914</td>
+		</tr><tr>
+			<td align="left">UPISLAND</td><td class="excelText" align="right">07740000</td><td align="right">391.4</td><td align="right">$701,459</td><td align="right">$0</td><td align="right">$701,459</td><td align="right">$2,115</td>
+		</tr><tr class="eee">
+			<td align="left">UPPER CAPE COD               </td><td class="excelText" align="right">08790000</td><td align="right">660.8</td><td align="right">$1,164,145</td><td align="right">$0</td><td align="right">$1,164,145</td><td align="right">$1,762</td>
+		</tr><tr>
+			<td align="left">UXBRIDGE                     </td><td class="excelText" align="right">03040000</td><td align="right">2,271.8</td><td align="right">$1,500,935</td><td align="right">$0</td><td align="right">$1,500,935</td><td align="right">$746</td>
+		</tr><tr class="eee">
+			<td align="left">WACHUSETT                    </td><td class="excelText" align="right">07750000</td><td align="right">7,556.2</td><td align="right">$5,827,164</td><td align="right">$312,039</td><td align="right">$6,139,203</td><td align="right">$843</td>
+		</tr><tr>
+			<td align="left">WAKEFIELD                    </td><td class="excelText" align="right">03050000</td><td align="right">3,564.7</td><td align="right">$3,339,370</td><td align="right">$85,975</td><td align="right">$3,425,345</td><td align="right">$990</td>
+		</tr><tr class="eee">
+			<td align="left">WALES                        </td><td class="excelText" align="right">03060000</td><td align="right">162.3</td><td align="right">$127,382</td><td align="right">$0</td><td align="right">$127,382</td><td align="right">$798</td>
+		</tr><tr>
+			<td align="left">WALPOLE                      </td><td class="excelText" align="right">03070000</td><td align="right">3,999.4</td><td align="right">$3,739,669</td><td align="right">$0</td><td align="right">$3,739,669</td><td align="right">$955</td>
+		</tr><tr class="eee">
+			<td align="left">WALTHAM                      </td><td class="excelText" align="right">03080000</td><td align="right">4,903.4</td><td align="right">$7,352,169</td><td align="right">$323,311</td><td align="right">$7,675,480</td><td align="right">$1,602</td>
+		</tr><tr>
+			<td align="left">WARE                         </td><td class="excelText" align="right">03090000</td><td align="right">1,359.9</td><td align="right">$1,072,045</td><td align="right">$68,539</td><td align="right">$1,140,584</td><td align="right">$982</td>
+		</tr><tr class="eee">
+			<td align="left">WAREHAM                      </td><td class="excelText" align="right">03100000</td><td align="right">3,370.4</td><td align="right">$2,898,461</td><td align="right">$59,441</td><td align="right">$2,957,902</td><td align="right">$896</td>
+		</tr><tr>
+			<td align="left">WATERTOWN                    </td><td class="excelText" align="right">03140000</td><td align="right">2,634.0</td><td align="right">$3,000,778</td><td align="right">$141,182</td><td align="right">$3,141,960</td><td align="right">$1,260</td>
+		</tr><tr class="eee">
+			<td align="left">WAYLAND                      </td><td class="excelText" align="right">03150000</td><td align="right">2,850.6</td><td align="right">$4,609,055</td><td align="right">$11,371</td><td align="right">$4,620,426</td><td align="right">$1,643</td>
+		</tr><tr>
+			<td align="left">WEBSTER                      </td><td class="excelText" align="right">03160000</td><td align="right">2,030.0</td><td align="right">$1,855,607</td><td align="right">$23,419</td><td align="right">$1,879,026</td><td align="right">$988</td>
+		</tr><tr class="eee">
+			<td align="left">WELLESLEY                    </td><td class="excelText" align="right">03170000</td><td align="right">4,848.3</td><td align="right">$4,384,420</td><td align="right">$368,216</td><td align="right">$4,752,636</td><td align="right">$998</td>
+		</tr><tr>
+			<td align="left">WELLFLEET                    </td><td class="excelText" align="right">03180000</td><td align="right">151.4</td><td align="right">$261,642</td><td align="right">$0</td><td align="right">$261,642</td><td align="right">$1,843</td>
+		</tr><tr class="eee">
+			<td align="left">WEST BOYLSTON                </td><td class="excelText" align="right">03220000</td><td align="right">1,158.4</td><td align="right">$463,386</td><td align="right">$316,684</td><td align="right">$780,070</td><td align="right">$720</td>
+		</tr><tr>
+			<td align="left">WEST BRIDGEWATER             </td><td class="excelText" align="right">03230000</td><td align="right">1,293.9</td><td align="right">$1,057,562</td><td align="right">$6,562</td><td align="right">$1,064,124</td><td align="right">$840</td>
+		</tr><tr class="eee">
+			<td align="left">WEST SPRINGFIELD             </td><td class="excelText" align="right">03320000</td><td align="right">4,035.1</td><td align="right">$3,502,434</td><td align="right">$118,408</td><td align="right">$3,620,842</td><td align="right">$921</td>
+		</tr><tr>
+			<td align="left">WESTBOROUGH                  </td><td class="excelText" align="right">03210000</td><td align="right">3,591.0</td><td align="right">$3,414,650</td><td align="right">$0</td><td align="right">$3,414,650</td><td align="right">$963</td>
+		</tr><tr class="eee">
+			<td align="left">WESTFIELD                    </td><td class="excelText" align="right">03250000</td><td align="right">6,406.4</td><td align="right">$4,877,737</td><td align="right">$22,846</td><td align="right">$4,900,583</td><td align="right">$781</td>
+		</tr><tr>
+			<td align="left">WESTFORD                     </td><td class="excelText" align="right">03260000</td><td align="right">5,328.6</td><td align="right">$5,214,067</td><td align="right">$130,698</td><td align="right">$5,344,765</td><td align="right">$1,012</td>
+		</tr><tr class="eee">
+			<td align="left">WESTHAMPTON                  </td><td class="excelText" align="right">03270000</td><td align="right">157.3</td><td align="right">$105,637</td><td align="right">$2,099</td><td align="right">$107,736</td><td align="right">$768</td>
+		</tr><tr>
+			<td align="left">WESTON                       </td><td class="excelText" align="right">03300000</td><td align="right">2,437.8</td><td align="right">$3,824,139</td><td align="right">$80,017</td><td align="right">$3,904,156</td><td align="right">$1,614</td>
+		</tr><tr class="eee">
+			<td align="left">WESTPORT                     </td><td class="excelText" align="right">03310000</td><td align="right">1,961.0</td><td align="right">$1,295,721</td><td align="right">$29,215</td><td align="right">$1,324,936</td><td align="right">$688</td>
+		</tr><tr>
+			<td align="left">WESTWOOD                     </td><td class="excelText" align="right">03350000</td><td align="right">3,049.1</td><td align="right">$5,122,505</td><td align="right">$342,866</td><td align="right">$5,465,371</td><td align="right">$1,816</td>
+		</tr><tr class="eee">
+			<td align="left">WEYMOUTH                     </td><td class="excelText" align="right">03360000</td><td align="right">6,917.0</td><td align="right">$5,849,153</td><td align="right">$289,011</td><td align="right">$6,138,164</td><td align="right">$911</td>
+		</tr><tr>
+			<td align="left">WHATELY                      </td><td class="excelText" align="right">03370000</td><td align="right">144.1</td><td align="right">$145,109</td><td align="right">$0</td><td align="right">$145,109</td><td align="right">$1,148</td>
+		</tr><tr class="eee">
+			<td align="left">WHITMAN HANSON               </td><td class="excelText" align="right">07800000</td><td align="right">4,500.8</td><td align="right">$4,152,597</td><td align="right">$100,705</td><td align="right">$4,253,302</td><td align="right">$960</td>
+		</tr><tr>
+			<td align="left">WHITTIER                     </td><td class="excelText" align="right">08850000</td><td align="right">1,062.1</td><td align="right">$1,493,349</td><td align="right">$0</td><td align="right">$1,493,349</td><td align="right">$1,413</td>
+		</tr><tr class="eee">
+			<td align="left">WILLIAMSBURG                 </td><td class="excelText" align="right">03400000</td><td align="right">198.8</td><td align="right">$216,052</td><td align="right">$21,712</td><td align="right">$237,764</td><td align="right">$1,452</td>
+		</tr><tr>
+			<td align="left">WILLIAMSTOWN                 </td><td class="excelText" align="right">03410000</td><td align="right">447.0</td><td align="right">$385,622</td><td align="right">$14,608</td><td align="right">$400,230</td><td align="right">$904</td>
+		</tr><tr class="eee">
+			<td align="left">WILMINGTON                   </td><td class="excelText" align="right">03420000</td><td align="right">3,937.7</td><td align="right">$3,655,034</td><td align="right">$25,797</td><td align="right">$3,680,831</td><td align="right">$949</td>
+		</tr><tr>
+			<td align="left">WINCHENDON                   </td><td class="excelText" align="right">03430000</td><td align="right">1,801.5</td><td align="right">$1,363,170</td><td align="right">$25,421</td><td align="right">$1,388,591</td><td align="right">$855</td>
+		</tr><tr class="eee">
+			<td align="left">WINCHESTER                   </td><td class="excelText" align="right">03440000</td><td align="right">4,063.8</td><td align="right">$3,314,256</td><td align="right">$95,254</td><td align="right">$3,409,510</td><td align="right">$849</td>
+		</tr><tr>
+			<td align="left">WINTHROP                     </td><td class="excelText" align="right">03460000</td><td align="right">1,999.5</td><td align="right">$1,996,153</td><td align="right">$55,124</td><td align="right">$2,051,277</td><td align="right">$1,042</td>
+		</tr><tr class="eee">
+			<td align="left">WOBURN</td><td class="excelText" align="right">03470000</td><td align="right">4,840.5</td><td align="right">$6,898,450</td><td align="right">$112,564</td><td align="right">$7,011,014</td><td align="right">$1,469</td>
+		</tr><tr>
+			<td align="left">WORCESTER                    </td><td class="excelText" align="right">03480000</td><td align="right">25,748.0</td><td align="right">$19,813,960</td><td align="right">$102,027</td><td align="right">$19,915,987</td><td align="right">$864</td>
+		</tr><tr class="eee">
+			<td align="left">WRENTHAM                     </td><td class="excelText" align="right">03500000</td><td align="right">1,289.4</td><td align="right">$931,980</td><td align="right">$25,449</td><td align="right">$957,429</td><td align="right">$760</td>
+		</tr>
+	</table>
+</div>
+
+                    
+                </td></tr>
+                </table>
+
+            <input type="hidden" name="export_excel" id="export_excel" />
+            </form>
+            <!--End Page Content-->
+        </div><!--close whiteboxright-->
+        <div class="clear"></div>
+    </div><!--close whitebox-->
+</div><!--close onecolumn-->
+
+
