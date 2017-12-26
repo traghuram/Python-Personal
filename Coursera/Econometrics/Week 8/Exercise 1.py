@@ -30,4 +30,6 @@ def problem_1():
         print('e2 is smaller: \n', e2)
         
         
-# problem
+# problem 3 = 1x1
+
+# problem 4 = 
