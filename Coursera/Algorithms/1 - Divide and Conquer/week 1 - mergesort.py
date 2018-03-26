@@ -106,7 +106,6 @@ def mergesort(n):
     
     elif len(n)<=1:
         
-        print(n)
         return n
     
     else:
@@ -134,16 +133,77 @@ def mergesort(n):
 def mergesort_k(n, k):
     '''
     k is number of subdivisions per level of mergesort
-    
+
+    if base case:
+        blah
+        
     if not base case:
         for each in k:
             recursive mergesort call, pass down 1/kth piece of input
             merge k pieces
-    
-    if base case:
         
     '''
+    if len(n) < k:
+        
+        n.sort()
+        return(n)
     
+    test = {}
+    size = len(n)//k #length of each part
+    for i in range(k): 
+        test["n"+str(i)] = mergesort_k(n[i*size:(i+1)*size],k) # Get k slices of len(n)//k length
+    
+    if len(n) % k != 0:
+        test["n"+str(k)] = mergesort_k(n[len(n)-(len(n) % k):],k) # add a slice for the remainder length
+    
+    result = []
+    for i in test.values(): #replace with merge code - should merge the sorted arrays (not ints, arrays)
+        for elem in i:
+            if result == []:
+                result.append(elem) # worked
+            else:
+                if elem > result[-1]:
+                    result.append(elem)
+                else:
+                    for j in result: #this part is wonky
+                        if j > elem:
+                            result.insert(result.index(j), elem)
+                            break
+        
+    return result
+    
+    '''
+    test = {}
+    size = len(n)//k #length of each part
+    for i in range(k): 
+        test["n"+str(i)] = n[i*size:(i+1)*size] # Get k slices of len(n)//k length
+    
+    if len(n) % k != 0:
+        test["n"+str(k)] = n[len(n)-(len(n) % k):] # add a slice for the remainder length
+    
+    result = []
+    for i in test.values(): #replace with merge code - should merge the sorted arrays in a dictionary of arrays
+        i.sort()
+        print(i)
+        #result += test(i)
+    
+    '''    
+    
+
+    
+def test_sort(n):
+    if len(n)<2:
+        
+        return n
+    
+    n1 = test_sort(n[:len(n)//2])
+    n2 = test_sort(n[len(n)//2:])
+    
+    result = n1 + n2
+    result.sort() #replace with merge code
+    return result
+
+
     
 def msort3(x):
     result = []
