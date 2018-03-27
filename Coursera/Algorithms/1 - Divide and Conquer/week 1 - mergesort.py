@@ -29,10 +29,22 @@ For k arrays, (2n + c + 3n + c + 4n + c +... (k-1)n + c) + kn + c = (k+2)(k-1)n/
 
 
 """
+import time
+
+def week_1(n, k):
+    for i in range(k):
+        start = time.time()
+        mergesort_k(n,i+2)
+        end = time.time()
+        print("mergesort", i+2, end - start)
+    
+    start = time.time()
+    mergesort(n)
+    end = time.time()
+    print("mergesort", end - start)
 
 
-
-def karatsuba(n):
+def karatsuba(n, m):
     
     '''
     
@@ -68,33 +80,6 @@ def mergesort(n):
         recursive mergesort call, pass down first half of input
         recurvsive mergesort call, pass down second half of input
         merge
-        
-    '''
-    '''
-    def merge(n1, n2):
-        #print(n1,n2)
-        c = []
-        i = 0
-        j = 0
-        n1_checker = True
-        n2_checker = True
-        
-        for k in range(len(n1) + len(n2)):
-            if n1[i] < n2[j] & n1_checker == True:
-                c.append(n1[i])
-                i += 1
-                if i == len(n1):
-                    i -= 1
-                    n1_checker = False
-            
-            elif n2_checker == True:
-                c.append(n2[j])
-                j += 1
-                if j == len(n2):
-                    j -= 1
-                    n2_checker = False
-        #print(c)
-        return c
         
     '''
     
@@ -143,6 +128,11 @@ def mergesort_k(n, k):
             merge k pieces
         
     '''
+    #print(n)
+    if k < 2:
+        return "Pick another k dumbass"
+    
+    
     if len(n) < k:
         
         n.sort()
@@ -156,38 +146,39 @@ def mergesort_k(n, k):
     if len(n) % k != 0:
         test["n"+str(k)] = mergesort_k(n[len(n)-(len(n) % k):],k) # add a slice for the remainder length
     
-    result = []
+    '''
+    result = [] #result = test.pop("n0")
+    print(test.values())
     for i in test.values(): #replace with merge code - should merge the sorted arrays (not ints, arrays)
+        #print(i)
         for elem in i:
             if result == []:
                 result.append(elem) # worked
             else:
-                if elem > result[-1]:
+                if elem >= result[-1]:
                     result.append(elem)
                 else:
                     for j in result: #this part is wonky
                         if j > elem:
                             result.insert(result.index(j), elem)
                             break
-        
-    return result
-    
     '''
-    test = {}
-    size = len(n)//k #length of each part
-    for i in range(k): 
-        test["n"+str(i)] = n[i*size:(i+1)*size] # Get k slices of len(n)//k length
     
-    if len(n) % k != 0:
-        test["n"+str(k)] = n[len(n)-(len(n) % k):] # add a slice for the remainder length
+    result = test.pop("n0")
+    for i in test.values():
+    i = 0
+    j = 0
+    while i < len(y) and j < len(z):
+        if y[i] > z[j]:
+            result.append(z[j])
+            j += 1
+        else:
+            result.append(y[i])
+            i += 1
+    result += y[i:]
+    result += z[j:]
     
-    result = []
-    for i in test.values(): #replace with merge code - should merge the sorted arrays in a dictionary of arrays
-        i.sort()
-        print(i)
-        #result += test(i)
-    
-    '''    
+    return result
     
 
     
