@@ -41,7 +41,7 @@ def week_1(n, k):
     start = time.time()
     mergesort(n)
     end = time.time()
-    print("mergesort", end - start)
+    print("mergesort normal", end - start)
 
 
 def karatsuba(n, m):
@@ -165,18 +165,22 @@ def mergesort_k(n, k):
     '''
     
     result = test.pop("n0")
-    for i in test.values():
-    i = 0
-    j = 0
-    while i < len(y) and j < len(z):
-        if y[i] > z[j]:
-            result.append(z[j])
-            j += 1
-        else:
-            result.append(y[i])
-            i += 1
-    result += y[i:]
-    result += z[j:]
+    for array in test.values():
+        holder = []
+        i = 0
+        j = 0
+            
+        while i < len(result) and j < len(array):
+            if result[i] > array[j]:
+                holder.append(array[j])
+                j += 1
+            else:
+                holder.append(result[i])
+                i += 1
+                
+        holder += result[i:]
+        holder += array[j:]
+        result = holder[:]
     
     return result
     
