@@ -44,7 +44,7 @@ def week_1(n, k):
     print("mergesort normal", end - start)
 
 
-def recurmult(x, y):
+def recurmult_old(x, y):
     '''
     Recursive calculation, not karatsuba
     Assumes inputs are the same size
@@ -53,20 +53,55 @@ def recurmult(x, y):
     if x < 10 or y < 10:
         return x*y
     
-    a = int(str(x)[:len(str(x))//2])
-    b = int(str(x)[len(str(x))//2:])
-    c = int(str(y)[:len(str(y))//2])
-    d = int(str(y)[len(str(y))//2:])
+    x_half = len(str(x))//2
+    y_half = len(str(y))//2
+    x_power = len(str(x)) - x_half
+    y_power = len(str(y)) - y_half
     
-    print (x,y,a,b,c,d)
+    a = int(str(x)[:x_half])
+    b = int(str(x)[x_half:])
+    c = int(str(y)[:y_half])
+    d = int(str(y)[y_half:])
+            
+    print (a, b, c, d)
     
     ac = recurmult(a,c)
     ad_bc = recurmult(a,d) + recurmult(b,c)
     bd = recurmult(b,d)
     
-    print(10**(((len(str(x)) + 2 - 1)//2)*2)*ac, 10**((len(str(x)) + 2 - 1)//2)*ad_bc, bd)
-    return 10**(((len(str(x)) + 2 - 1)//2)*2)*ac + 10**((len(str(x)) + 2 - 1)//2)*ad_bc + bd
+    print (ac, ad_bc, bd)
     
+    print(10**(x_power*2)*ac, 10**(x_power)*ad_bc, bd)
+    return 10**(x_power*2)*ac + 10**(x_power)*ad_bc + bd
+    #return 10**(len(str(x)))*ac + 10**(len(str(x))//2)*ad_bc + bd
+    
+
+def recurmult(x, y):
+    '''
+    Recursive calculation, not karatsuba
+    Assumes inputs are integers
+    '''
+        
+    if x < 10 or y < 10:
+        return x*y
+    
+    x_half = len(str(x))//2
+    y_half = len(str(y))//2
+    x_power = len(str(x)) - x_half
+    y_power = len(str(y)) - y_half
+    
+    a = int(str(x)[:x_half])
+    b = int(str(x)[x_half:])
+    c = int(str(y)[:y_half])
+    d = int(str(y)[y_half:])
+                
+    ac = recurmult(a,c)
+    ad = recurmult(a,d)
+    bc = recurmult(b,c)
+    bd = recurmult(b,d)
+        
+    return 10**(x_power+y_power)*ac + 10**(x_power)*ad + 10**(y_power)*bc + bd
+
 
 def karatsuba(x, y):
     '''
