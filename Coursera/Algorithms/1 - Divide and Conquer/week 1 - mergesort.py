@@ -44,12 +44,52 @@ def week_1(n, k):
     print("mergesort normal", end - start)
 
 
-def karatsuba(n, m):
-    
+def recurmult(x, y):
     '''
+    Recursive calculation, not karatsuba
+    Assumes inputs are the same size
+    '''
+        
+    if x < 10 or y < 10:
+        return x*y
+    
+    a = int(str(x)[:len(str(x))//2])
+    b = int(str(x)[len(str(x))//2:])
+    c = int(str(y)[:len(str(y))//2])
+    d = int(str(y)[len(str(y))//2:])
+    
+    print (x,y,a,b,c,d)
+    
+    ac = recurmult(a,c)
+    ad_bc = recurmult(a,d) + recurmult(b,c)
+    bd = recurmult(b,d)
+    
+    print(10**(((len(str(x)) + 2 - 1)//2)*2)*ac, 10**((len(str(x)) + 2 - 1)//2)*ad_bc, bd)
+    return 10**(((len(str(x)) + 2 - 1)//2)*2)*ac + 10**((len(str(x)) + 2 - 1)//2)*ad_bc + bd
     
 
+def karatsuba(x, y):
     '''
+    Recursive calculation, karatsuba
+    '''
+        
+    if x < 10 or y < 10:
+        return x*y
+    
+    a = int(str(x)[:len(str(x))//2])
+    b = int(str(x)[len(str(x))//2:])
+    c = int(str(y)[:len(str(y))//2])
+    d = int(str(y)[len(str(y))//2:])
+    
+    ac = karatsuba(a,c)
+    bd = karatsuba(b,d)
+    a_b = a + b
+    c_d = c + d
+    ad_bc = karatsuba(a_b,c_d) - ac - bd
+    
+    print(a,b,c,d)
+        
+    return 10**(len(str(x)))*ac +  10**(len(str(x))//2)*ad_bc + bd
 
 
 
@@ -128,7 +168,7 @@ def mergesort_k(n, k):
             merge k pieces
         
     '''
-    #print(n)
+    
     if k < 2:
         return "Pick another k dumbass"
     
@@ -146,23 +186,6 @@ def mergesort_k(n, k):
     if len(n) % k != 0:
         test["n"+str(k)] = mergesort_k(n[len(n)-(len(n) % k):],k) # add a slice for the remainder length
     
-    '''
-    result = [] #result = test.pop("n0")
-    print(test.values())
-    for i in test.values(): #replace with merge code - should merge the sorted arrays (not ints, arrays)
-        #print(i)
-        for elem in i:
-            if result == []:
-                result.append(elem) # worked
-            else:
-                if elem >= result[-1]:
-                    result.append(elem)
-                else:
-                    for j in result: #this part is wonky
-                        if j > elem:
-                            result.insert(result.index(j), elem)
-                            break
-    '''
     
     result = test.pop("n0")
     for array in test.values():
