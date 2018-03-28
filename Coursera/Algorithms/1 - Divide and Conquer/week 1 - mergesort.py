@@ -44,38 +44,6 @@ def week_1(n, k):
     print("mergesort normal", end - start)
 
 
-def recurmult_old(x, y):
-    '''
-    Recursive calculation, not karatsuba
-    Assumes inputs are the same size
-    '''
-        
-    if x < 10 or y < 10:
-        return x*y
-    
-    x_half = len(str(x))//2
-    y_half = len(str(y))//2
-    x_power = len(str(x)) - x_half
-    y_power = len(str(y)) - y_half
-    
-    a = int(str(x)[:x_half])
-    b = int(str(x)[x_half:])
-    c = int(str(y)[:y_half])
-    d = int(str(y)[y_half:])
-            
-    print (a, b, c, d)
-    
-    ac = recurmult(a,c)
-    ad_bc = recurmult(a,d) + recurmult(b,c)
-    bd = recurmult(b,d)
-    
-    print (ac, ad_bc, bd)
-    
-    print(10**(x_power*2)*ac, 10**(x_power)*ad_bc, bd)
-    return 10**(x_power*2)*ac + 10**(x_power)*ad_bc + bd
-    #return 10**(len(str(x)))*ac + 10**(len(str(x))//2)*ad_bc + bd
-    
-
 def recurmult(x, y):
     '''
     Recursive calculation, not karatsuba
@@ -106,6 +74,7 @@ def recurmult(x, y):
 def karatsuba(x, y):
     '''
     Recursive calculation, karatsuba
+    Assumes inputs are even number of digits
     '''
         
     if x < 10 or y < 10:
