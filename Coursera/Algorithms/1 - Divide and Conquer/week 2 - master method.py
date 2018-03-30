@@ -6,10 +6,15 @@ Created on Wed Mar 28 21:32:26 2018
 @author: taranraghuram
 """
 
-"""
-with open("integer_array.txt") as f:
-    lines = f.read().splitlines()
-"""
+def week_2():
+    int_array = []
+    with open("integer_array.txt") as f:
+        lines = f.read().splitlines()
+    
+    for i in lines:
+        int_array.append(int(i))
+        
+    print(inversion_sort(int_array))
 
 
 def inversion_sort(n):
@@ -27,9 +32,7 @@ def inversion_sort(n):
     
     n1 = inversion_sort(n[:len(n)//2])
     n2 = inversion_sort(n[len(n)//2:])
-    
-    print(n1)
-    
+        
     i = 0
     j = 0
     inversions = 0
