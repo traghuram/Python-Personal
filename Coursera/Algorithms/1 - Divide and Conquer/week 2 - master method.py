@@ -14,7 +14,7 @@ def week_2():
     for i in lines:
         int_array.append(int(i))
         
-    print(inversion_sort(int_array))
+    print(inversion_sort(int_array)[1])
 
 
 def inversion_sort(n):
