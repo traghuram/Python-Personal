@@ -31,7 +31,7 @@ For k arrays, (2n + c + 3n + c + 4n + c +... (k-1)n + c) + kn + c = (k+2)(k-1)n/
 """
 import time
 
-def week_1(n, k):
+def week_1(n = [7,6,5,4,3,2,1]*5000, k=4, x = 13579, y=24680):
     for i in range(k):
         start = time.time()
         mergesort_k(n,i+2)
@@ -42,11 +42,43 @@ def week_1(n, k):
     mergesort(n)
     end = time.time()
     print("mergesort normal", end - start)
+    
+    print("Karatsuba: ", karatsuba(x,y))
+    print("Normal: ", x*y)
 
 
 def karatsuba(x, y):
     '''
-    Recursive multiplication, not exactly karatsuba but close enough
+    Recursive multiplication, but with three recursive calls
+    Assumes inputs are integers
+    '''
+        
+    if x < 10 or y < 10:
+        return x*y
+    
+    max_len = max(len(str(x)), len(str(y)))
+    half = max_len//2
+    power = max_len - half
+    
+    #if x or y has fewer than the power number, do something (return answer?)
+    if len(str(x)) <= power or len(str(y)) <= power:
+        return x*y
+    
+    a = int(str(x)[:-power])
+    b = int(str(x)[-power:])
+    c = int(str(y)[:-power])
+    d = int(str(y)[-power:])
+    
+    ac = karatsuba(a,c)
+    bd = karatsuba(b,d)
+    ad_bc = karatsuba((a+b),(c+d))
+        
+    return 10**(2*power)*ac + 10**power*(ad_bc - ac - bd) + bd
+
+
+def karatsuba_lite(x, y):
+    '''
+    Recursive multiplication, but with four recursive calls
     Assumes inputs are integers
     '''
         
@@ -63,10 +95,10 @@ def karatsuba(x, y):
     c = int(str(y)[:y_half])
     d = int(str(y)[y_half:])
                 
-    ac = karatsuba(a,c)
-    ad = karatsuba(a,d)
-    bc = karatsuba(b,c)
-    bd = karatsuba(b,d)
+    ac = karatsuba_lite(a,c)
+    ad = karatsuba_lite(a,d)
+    bc = karatsuba_lite(b,c)
+    bd = karatsuba_lite(b,d)
         
     return 10**(x_power+y_power)*ac + 10**(x_power)*ad + 10**(y_power)*bc + bd
 
