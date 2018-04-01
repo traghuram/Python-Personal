@@ -152,7 +152,7 @@ def matrix_recur(x = np.arange(1,5).reshape(2,2), y = np.arange(5,9).reshape(2,2
         stop = "Stop dumbass - fix your matrices, the columns in x need to match rows in y"
         return stop
     
-    if x.size < 16 or y.size < 16:
+    if x.size < 16 or y.size < 16 or y_cols == 1 or x_rows == 1:
         return np.dot(x,y)
     
     # if not using numpy, then need for loop to get n/2 elements for n/2 rows
@@ -176,12 +176,11 @@ def matrix_recur(x = np.arange(1,5).reshape(2,2), y = np.arange(5,9).reshape(2,2
     CF = matrix_recur(C,F)
     DH = matrix_recur(D,H)
     
-    # add line that creates the new array, with all of the elements on the same "level"
     array1 = np.append(AE+BG, CE+DG, axis = 0)
     array2 = np.append(AF+BH, CF+DH, axis = 0)
     array = np.append(array1, array2, axis = 1)
     
-    return array #change to append or smthg
+    return array
 
 
 def matrix_strassen(x,y):
@@ -190,4 +189,40 @@ def matrix_strassen(x,y):
     
     If matrices cannot be multiplied, calls you on your BS
     '''
+
+    x_rows = x.shape[0]
+    x_cols = x.shape[1]
     
+    y_rows = y.shape[0]
+    y_cols = y.shape[1]  
+    
+    if x_cols != y_rows:
+        stop = "Stop dumbass - fix your matrices, the columns in x need to match rows in y"
+        return stop
+    
+    if x.size < 16 or y.size < 16 or y_cols == 1 or x_rows == 1:
+        return np.dot(x,y)
+            
+    A = x[:(x_rows//2),:(x_cols//2)]
+    B = x[:(x_rows//2),(x_cols//2):]
+    C = x[(x_rows//2):,:(x_cols//2)]
+    D = x[(x_rows//2):,(x_cols//2):]
+    
+    E = y[:(y_rows//2),:(y_cols//2)]
+    F = y[:(y_rows//2),(y_cols//2):]
+    G = y[(y_rows//2):,:(y_cols//2)]
+    H = y[(y_rows//2):,(y_cols//2):]
+    
+    P1 = matrix_strassen(A,F-H)
+    P2 = matrix_strassen(A+B,H)
+    P3 = matrix_strassen(C+D,E)
+    P4 = matrix_strassen(D,G-E)
+    P5 = matrix_strassen(A+D,E+H)
+    P6 = matrix_strassen(B-D,G+H)
+    P7 = matrix_strassen(A-C,E+F)
+    
+    array1 = np.append(P5+P4-P2+P6, P3+P4, axis = 0)
+    array2 = np.append(P1+P2, P1+P5-P3-P7, axis = 0)
+    array = np.append(array1, array2, axis = 1)
+    
+    return array    
