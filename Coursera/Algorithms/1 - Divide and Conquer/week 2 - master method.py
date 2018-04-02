@@ -7,8 +7,9 @@ Created on Wed Mar 28 21:32:26 2018
 """
 
 import numpy as np
+import time
 
-def week_2():
+def week_2(n = 2**7):
     int_array = []
     with open("integer_array.txt") as f:
         lines = f.read().splitlines()
@@ -16,7 +17,27 @@ def week_2():
     for i in lines:
         int_array.append(int(i))
         
-    print(inversion_sort(int_array)[1])
+    print("Number of inversions:", inversion_sort(int_array)[1])
+    
+    x = np.arange(0,n**2).reshape(n,n)
+    y = np.arange(0,n**2).reshape(n,n)
+    
+    start = time.time()
+    matrix_mult(x,y)
+    end = time.time()
+    print("Brute force matrix multiplication:", end - start)
+    
+    start = time.time()
+    matrix_recur(x,y)
+    end = time.time()
+    print("Recursive matrix multiplication:", end - start)
+    
+    start = time.time()
+    matrix_strassen(x,y)
+    end = time.time()
+    print("Strassen matrix multiplication:", end - start)
+
+    
 
 
 def inversion_sort(n):
