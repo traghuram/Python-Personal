@@ -155,7 +155,7 @@ def playGame(wordList):
             lastHand = dealHand(HAND_SIZE)
             
             if rawInputPlayer == 'u':
-                playHand(lastHand, wordList, AND_SIZE)
+                playHand(lastHand, wordList, HAND_SIZE)
             
             elif rawInputPlayer == 'c':
                 compPlayHand(lastHand, wordList, HAND_SIZE)

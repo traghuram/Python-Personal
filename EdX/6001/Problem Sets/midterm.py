@@ -4,7 +4,46 @@ Created on Sat Jul 15 17:51:26 2017
 
 @author: traghuram
 """
-#hi
+
+# new class
+
+def sumDigits(N):
+    if len(str(N)) == 1:
+        return N
+    
+    else:
+        return sumDigits(N//10) + (N % 10)
+
+
+def keysWithValue(aDict, target):
+    '''
+    aDict: a dictionary
+    target: an integer
+    '''
+    # Your code here  
+    
+    container = []
+    
+    for i in aDict.keys():
+        if aDict[i] == target:
+            container.append(i)
+    
+    container.sort()
+    return container
+
+
+def deep_reverse(L):
+    """ assumes L is a list of lists whose elements are ints
+    Mutates L such that it reverses its elements and also 
+    reverses the order of the int elements in every element of L. 
+    It does not return anything.
+    """
+    L.reverse()
+    
+    for i in L:
+        i.reverse()
+
+#old
 def is_triangular(k):
     """
     k, a positive integer

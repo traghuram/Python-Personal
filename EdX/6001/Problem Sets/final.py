@@ -5,6 +5,62 @@ Created on Sat Jul 29 15:56:53 2017
 
 @author: taranraghuram
 """
+
+#New exam
+
+# Problem 1
+
+def print_without_vowels(s):
+    '''
+    s: the string to convert
+    Finds a version of s without vowels and whose characters appear in the 
+    same order they appear in s. Prints this version of s.
+    Does not return anything
+    '''
+    new_text = ''
+    
+    for i in s:
+        if i not in 'aeiouAEIOU':
+            new_text += i
+    
+    print(new_text)
+
+
+def largest_odd_times(L):
+    """ Assumes L is a non-empty list of ints
+        Returns the largest element of L that occurs an odd number 
+        of times in L. If no such element exists, returns None """
+    
+    new = []
+    
+    for i in L:
+        if L.count(i) % 2 == 1:
+            new.append(i)
+    
+    return max(new)
+
+
+def dict_interdiff(d1, d2):
+    '''
+    d1, d2: dicts whose keys and values are integers
+    Returns a tuple of dictionaries according to the instructions above
+    '''
+    intersect = {}
+    difference = {}
+    
+    for i in d1.keys():
+        if i in d2.keys():
+            intersect[i] = f(d1[i],d2[i]) #f defined in exam webpage
+        else:
+            difference[i] = d1[i]
+    
+    for i in d2.keys():
+        if i not in intersect.keys():
+            difference[i] = d2[i]
+    
+    return (intersect, difference)
+        
+
 # Problem 3
 
 def sum_digits(s):
