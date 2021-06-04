@@ -6,8 +6,38 @@ Created on Wed Mar 28 21:32:26 2018
 @author: taranraghuram
 """
 
+"""
+Quiz for week 2
+
+1) O(n^2))
+
+2) O(n^2log(n))
+
+3) O(n^log(5))
+
+4) Theta(log(b))
+
+5) O(logn)
+
+
+"""
+
 import numpy as np
 import time
+
+
+def load_array(file_name="problem3.5test.txt"):
+    with open(file_name,"r") as txt_file:
+        test_data = [int(x) for x in txt_file.read().split()]
+    return test_data
+
+
+
+def week_2_short(int_array="problem3.5.txt"):
+    print("Number of inversions:")
+    return inversion_sort(load_array(int_array))[1]
+
+
 
 def week_2(n = 2**7):
     int_array = []

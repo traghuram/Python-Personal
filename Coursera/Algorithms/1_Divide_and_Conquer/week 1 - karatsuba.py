@@ -171,3 +171,56 @@ def mergesort(n):
         result += n1[i:]
         result += n2[j:]
         return result
+    
+    
+def mergesort_k(n, k):
+    '''
+    k is number of subdivisions per level of mergesort
+
+    if base case:
+        blah
+        
+    if not base case:
+        for each in k:
+            recursive mergesort call, pass down 1/kth piece of input
+            merge k pieces
+        
+    '''
+    
+    if k < 2:
+        return "Pick another k dumbass"
+    
+    
+    if len(n) < k:
+        
+        n.sort()
+        return(n)
+    
+    test = {}
+    size = len(n)//k #length of each part
+    for i in range(k): 
+        test["n"+str(i)] = mergesort_k(n[i*size:(i+1)*size],k) # Get k slices of len(n)//k length
+    
+    if len(n) % k != 0:
+        test["n"+str(k)] = mergesort_k(n[len(n)-(len(n) % k):],k) # add a slice for the remainder length
+    
+    
+    result = test.pop("n0")
+    for array in test.values():
+        holder = []
+        i = 0
+        j = 0
+            
+        while i < len(result) and j < len(array):
+            if result[i] > array[j]:
+                holder.append(array[j])
+                j += 1
+            else:
+                holder.append(result[i])
+                i += 1
+                
+        holder += result[i:]
+        holder += array[j:]
+        result = holder[:]
+    
+    return result
