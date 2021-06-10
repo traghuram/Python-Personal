@@ -12,7 +12,7 @@ Quiz answers
 Pset:
     First element comparisons = 162085
     Last element comparisons = 164123
-    Median element comparisons = (should be 138,382)
+    Median element comparisons = 138382
 
 '''
 
@@ -26,38 +26,6 @@ def load_array(file_name="problem5.6test1.txt"):
     with open(file_name,"r") as txt_file:
         test_data = [int(x) for x in txt_file.read().split()]
     return test_data
-
-
-def quicksort_old(A, l=0, r=0):
-    '''Sorts an array recursively
-        Returns a sorted list
-        Assumes some elements, no repeated elements (for now)
-    '''
-    
-    print(A, l, r)
-    
-    if r==l:
-        return A
-    
-    else:
-        p = A[l]
-        i = l+1
-                
-        for j in range(l+1, r):
-            if A[j] < p:
-                A[i], A[j] = A[j], A[i]
-                i += 1
-        
-        A[l], A[i-1] = A[i-1], A[l]
-                
-        #if there are 1 or fewer elements to the left of the pivot, don't do left quicksort
-        #elif there are no elements to the right of the pivot, do right quicksort
-        #else do both
-
-        quicksort_old(A,0,i-1)
-        quicksort_old(A,i,r)
-                
-        return A
 
 
 
@@ -158,15 +126,51 @@ def ChoosePivot(A,l,r,pivot="first"):
     elif pivot == "last":
         return r - 1
     elif pivot == "median":
-        if (r-l)%2 == 0:
+        #if (r-l)%2 == 0:
             # subtract 1
-            med = np.median([A[l], A[r-1], A[(r-l)//2-1]])
-            return A.index(med)
-        else:
+        med = np.median([A[l], A[r-1], A[(r-1+l)//2]])
+        #print(A.index(med))
+        return A.index(med)
+        '''else:
             # don't subtract 1
             med = np.median([A[l], A[r-1], A[(r-l)//2]])
             #print([A[l], A[r-1], A[len(A)//2-1]])
             #print(l, r, A.index(med))
-            return A.index(med)
+            return A.index(med)'''
     else:
         return l
+    
+
+
+
+
+def quicksort_old(A, l=0, r=0):
+    '''Sorts an array recursively
+        Returns a sorted list
+        Assumes some elements, no repeated elements (for now)
+    '''
+    
+    print(A, l, r)
+    
+    if r==l:
+        return A
+    
+    else:
+        p = A[l]
+        i = l+1
+                
+        for j in range(l+1, r):
+            if A[j] < p:
+                A[i], A[j] = A[j], A[i]
+                i += 1
+        
+        A[l], A[i-1] = A[i-1], A[l]
+                
+        #if there are 1 or fewer elements to the left of the pivot, don't do left quicksort
+        #elif there are no elements to the right of the pivot, do right quicksort
+        #else do both
+
+        quicksort_old(A,0,i-1)
+        quicksort_old(A,i,r)
+                
+        return A
