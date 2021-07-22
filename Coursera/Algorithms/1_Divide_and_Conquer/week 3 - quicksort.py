@@ -21,6 +21,15 @@ import numpy as np
 
 #quicksort - l is starting position, r is end position. For first elem pivot
 
+def week_3(file_name="problem5.6.txt"):
+    test_list = load_array(file_name)
+    sorted_list, comps_1 = QuickSort(A=test_list, l=0, r=len(test_list), comparisons=0, pivot="first")
+    test_list = load_array(file_name)
+    sorted_list, comps_2 = QuickSort(A=test_list, l=0, r=len(test_list), comparisons=0, pivot="last")
+    test_list = load_array(file_name)
+    sorted_list, comps_3 = QuickSort(A=test_list, l=0, r=len(test_list), comparisons=0, pivot="median")
+    return comps_1, comps_2, comps_3
+
 
 def load_array(file_name="problem5.6test1.txt"):
     with open(file_name,"r") as txt_file:
