@@ -8,6 +8,16 @@ Created on Mon Apr  2 18:41:01 2018
 '''
 Quiz answers
 
+1. 1 - alpha
+
+2. 0 <= d <= log base (1/alpha) of k = log(k)/-log(alpha)
+
+3. min = log(n), max = n
+
+4. 27
+
+5. Y and Z are not independent, and E[Y*Z] not= E[Y]*E[Z]
+
 
 Pset:
     First element comparisons = 162085
