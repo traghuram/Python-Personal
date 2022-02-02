@@ -18,9 +18,15 @@ Quiz answers
 
 5. 
 
-
-Pset:
+ 
     
+HW:
+min cuts = 17
+
+
+Final exam:
+
+
 
 '''
 

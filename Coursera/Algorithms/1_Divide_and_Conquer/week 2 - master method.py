@@ -20,6 +20,10 @@ Quiz for week 2
 5) O(logn)
 
 
+HW:
+    
+Number of inversions: 2407905288
+
 """
 
 import numpy as np
