@@ -16,7 +16,7 @@ Quiz answers
 
 4. 27
 
-5. Y and Z are not independent, and E[Y*Z] not= E[Y]*E[Z]
+5. Y and Z are not independent, and E[Y*Z] != E[Y]*E[Z]
 
 
 Pset:
