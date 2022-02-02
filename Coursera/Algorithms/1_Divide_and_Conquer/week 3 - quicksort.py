@@ -8,7 +8,7 @@ Created on Mon Apr  2 18:41:01 2018
 '''
 Quiz answers
 
-1. 1 - alpha
+1. 1 - 2*alpha (can't be 1-alpha, right?)
 
 2. 0 <= d <= log base (1/alpha) of k = log(k)/-log(alpha)
 
