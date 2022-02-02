@@ -58,8 +58,8 @@ def week_4(simuls=100):
         simul_list.append(random_contractions(load_array(file_name="kargerMinCut.txt")))
     
     # x = pd.DataFrame.from_dict(data=load_array(), orient='index')
-    print(simul_list)
-    return min(simul_list)
+    # print(simul_list)
+    return simul_list, min(simul_list)
 
 
 
