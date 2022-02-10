@@ -17,7 +17,7 @@ Quiz answers
 4. log(n)/-log(alpha)
 
 5. nC2 (for a graph with exactly one min cut, there's a 1/nC2 chance that the two vertices 
-        s and t are on opp sides, so need to run nC2 times)
+        s and t are on opp sides, so need to run nC2 times)... or it's n-1
 
  
     
@@ -44,7 +44,7 @@ Final exam:
 # import networkx as nx
 import pandas as pd
 import random
-import itertools as it
+import collections
 
 
 # test network
@@ -59,6 +59,7 @@ def week_4(simuls=100):
     
     # x = pd.DataFrame.from_dict(data=load_array(), orient='index')
     # print(simul_list)
+    print(collections.Counter(sorted(simul_list)))
     return simul_list, min(simul_list)
 
 
